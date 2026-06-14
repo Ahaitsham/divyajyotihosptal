@@ -271,102 +271,108 @@
 
 @media(max-width:560px){
 
+  .carousel {
+    height: 420px;
+  }
 
-  .carousel{
-   
-    height:400px;
+
+  .slide {
+
+    background-size: cover;
+
+    /* keep right side person visible */
+    background-position: 85% center;
+
+  }
+
+
+  .overlay {
+
+    background:
+    linear-gradient(
+      90deg,
+      rgba(3,40,59,.9) 0%,
+      rgba(3,40,59,.55) 55%,
+      rgba(3,40,59,.15) 100%
+    );
 
   }
 
 
 
-  .slide{
+  .content {
 
-    background-size:fill;
-    background-position:center top;
+    position:absolute;
 
-  }
+    left:0;
+    bottom:70px;
 
+    padding:0 25px;
 
-
-  .content{
-
-    padding:
-
-    0 45px 80px 45px;
+    max-width:75%;
 
   }
 
 
 
-  .content h1{
+  .content h1 {
 
-    font-size:26px;
+    font-size:25px;
     line-height:1.2;
 
   }
 
 
 
-  .content p{
+  .content p {
 
     font-size:13px;
-    line-height:1.5;
 
   }
 
 
 
-  .cta{
+  /* arrows bottom corners */
 
-    padding:12px 20px;
-    font-size:13px;
+  .arrow {
+
+    top:auto;
+
+    bottom:20px;
+
+    width:34px;
+    height:34px;
+
+    transform:none;
+
+  }
+
+
+  .arrow:hover {
+
+    transform:scale(1.05);
+
+  }
+
+
+  .arrowLeft {
+
+    left:20px;
+
+  }
+
+
+  .arrowRight {
+
+    right:20px;
 
   }
 
 
 
-  .arrow{
+  .dots {
 
-    width:32px;
-    height:32px;
-
-    bottom:22px;
-
-  }
-
-
-
-  .arrowLeft{
-    left:15px;
-  }
-
-
-  .arrowRight{
-    right:15px;
-  }
-
-
-
-  .dots{
-
-    bottom:30px;
-
-  }
-
-
-
-  .dot{
-
-    width:8px;
-    height:8px;
-
-  }
-
-
-  .activeDot{
-
-    width:22px;
+    bottom:32px;
 
   }
 
