@@ -6,8 +6,6 @@ import {
   Pill, Ambulance, ChevronDown, ChevronUp, ArrowRight, CheckCircle2, MapPin
 } from 'lucide-react';
 import { DOCTORS, SPECIALITIES, BLOGS, FAQS, CONTACT } from '../data/siteData';
-import HeroCarousel from '../components/HeroCarousel';
-import DoctorsCarousel from '../components/DoctorsCarousel';
 import styles from './Home.module.css';
 
 const ICON_MAP = {
@@ -32,26 +30,41 @@ export default function Home() {
   return (
     <div className={styles.home}>
 
-      {/* ── HERO CAROUSEL ── */}
-      <HeroCarousel />
-
-      {/* ── STATS BAR ── */}
-      <div className={styles.statsBarStatic}>
-        {[
-          { icon: <Users size={22}/>, val: '250+', label: 'Specialists' },
-          { icon: <Clock size={22}/>, val: '24×7', label: 'Emergency' },
-          { icon: <HeartPulse size={22}/>, val: '10,000+', label: 'Patients Yearly' },
-          { icon: <Star size={22}/>, val: '4.8★', label: 'Patient Rating' },
-        ].map(s => (
-          <div key={s.label} className={styles.statItem}>
-            <div className={styles.statIcon}>{s.icon}</div>
-            <div>
-              <div className={styles.statVal}>{s.val}</div>
-              <div className={styles.statLabel}>{s.label}</div>
-            </div>
+      {/* ── HERO ── */}
+      <section className={styles.hero}>
+        <div className={styles.heroOverlay} />
+        <div className={styles.heroContent}>
+          <span className={styles.heroBadge}><CheckCircle2 size={14}/> NABH Accredited Hospital</span>
+          <h1>Your Health,<br/>Our Priority</h1>
+          <p>IVF · NICU · Pediatrics · Gynecology · Emergency Care</p>
+          <div className={styles.heroBtns}>
+            <Link to="/contact" className={`${styles.heroBtn} ${styles.heroBtnPrimary}`}>
+              <CalendarDays size={16}/> Book Appointment
+            </Link>
+            <a href={`tel:${CONTACT.phone}`} className={`${styles.heroBtn} ${styles.heroBtnOutline}`}>
+              <Phone size={16}/> {CONTACT.phone}
+            </a>
           </div>
-        ))}
-      </div>
+        </div>
+
+        {/* STATS BAR */}
+        <div className={styles.statsBar}>
+          {[
+            { icon: <Users size={22}/>, val: '250+', label: 'Specialists' },
+            { icon: <Clock size={22}/>, val: '24×7', label: 'Emergency' },
+            { icon: <HeartPulse size={22}/>, val: '10,000+', label: 'Patients Yearly' },
+            { icon: <Star size={22}/>, val: '4.8★', label: 'Patient Rating' },
+          ].map(s => (
+            <div key={s.label} className={styles.statItem}>
+              <div className={styles.statIcon}>{s.icon}</div>
+              <div>
+                <div className={styles.statVal}>{s.val}</div>
+                <div className={styles.statLabel}>{s.label}</div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
 
       {/* ── QUICK SERVICES ── */}
       <section className={styles.section}>
@@ -62,9 +75,10 @@ export default function Home() {
           </div>
           <div className={styles.quickGrid}>
             {[
-              { icon: <Ambulance size={28}/>, label: 'Emergency & Trauma Care', path: '/services' },
-              { icon: <Stethoscope size={28}/>, label: 'Doctor Consulation', path: '/services' },
-              { icon: <CheckCircle2 size={28}/>, label: 'Preventive Health Checkup', path: '/services' },
+              { icon: <Users size={28}/>, label: 'International Patients', path: '/services' },
+              { icon: <Ambulance size={28}/>, label: 'Emergency & Trauma', path: '/services' },
+              { icon: <Stethoscope size={28}/>, label: 'Second Opinion', path: '/services' },
+              { icon: <CheckCircle2 size={28}/>, label: 'Health Checkup', path: '/services' },
               { icon: <Zap size={28}/>, label: 'Radiology', path: '/services' },
               { icon: <FlaskConical size={28}/>, label: 'Path Lab', path: '/services' },
               { icon: <Pill size={28}/>, label: 'Pharmacy', path: '/services' },
@@ -147,7 +161,20 @@ export default function Home() {
             <h2>Meet Our Doctors</h2>
             <p>Experienced specialists dedicated to your wellbeing</p>
           </div>
-          <DoctorsCarousel />
+          <div className={styles.doctorsGrid}>
+            {DOCTORS.slice(0, 4).map(doc => (
+              <Link to={`/doctors/${doc.id}`} key={doc.id} className={styles.docCard}>
+                <div className={styles.docImg}>
+                  <img src={doc.image} alt={doc.name}/>
+                </div>
+                <div className={styles.docInfo}>
+                  <h4>{doc.name}</h4>
+                  <p className={styles.docDept}>{doc.dept}</p>
+                  <p className={styles.docExp}>{doc.experience}</p>
+                </div>
+              </Link>
+            ))}
+          </div>
           <div className={styles.viewAll}>
             <Link to="/doctors" className="btn-primary">
               View All Doctors <ArrowRight size={16}/>

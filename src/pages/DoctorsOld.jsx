@@ -19,25 +19,20 @@ export default function Doctors() {
 
         <div className={styles.grid}>
           {DOCTORS.map(doc => (
-            <div key={doc.id} className={styles.card}>
-              <Link to={`/doctors/${doc.id}`} className={styles.imgWrap}>
+            <Link to={`/doctors/${doc.id}`} key={doc.id} className={styles.card}>
+              <div className={styles.imgWrap}>
                 <img src={doc.image} alt={doc.name}/>
-              </Link>
+              </div>
               <div className={styles.info}>
                 <span className={styles.dept}>{doc.dept}</span>
                 <h3>{doc.name}</h3>
                 <p className={styles.designation}>{doc.designation}</p>
                 <p className={styles.exp}>{doc.experience}</p>
-                <div className={styles.btnRow}>
-                  <Link to={`/doctors/${doc.id}`} className={styles.viewBtn}>
-                    View Profile <ArrowRight size={14}/>
-                  </Link>
-                  <Link to="/contact" className={styles.bookBtn}>
-                    <CalendarDays size={14}/> Book Appointment
-                  </Link>
+                <div className={styles.viewBtn}>
+                  View Profile <ArrowRight size={14}/>
                 </div>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
       </div>

@@ -64,7 +64,7 @@ input, textarea, select { font-family: var(--font); }
 .fade-up { animation: fadeUp 0.5s ease forwards; }
 
 .whatsapp-fab {
-  position: fixed; right: 22px; bottom: 22px;
+  position: fixed; right: 22px; bottom: 100px;
   background: #25D366; color: white; padding: 13px 20px;
   border-radius: 50px; display: flex; align-items: center;
   gap: 8px; font-size: 14px; font-weight: 600; z-index: 999;

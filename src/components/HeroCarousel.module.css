@@ -1,0 +1,373 @@
+.carousel {
+  position: relative;
+  height: 580px;
+  width: 100%;
+  overflow: hidden;
+  background: #03283b;
+}
+
+.slide {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center top;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  display: flex;
+  align-items: center;
+}
+
+.activeSlide {
+  opacity: 1;
+  z-index: 1;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(3,40,59,0.85) 0%,
+    rgba(3,40,59,0.55) 45%,
+    rgba(3,40,59,0.15) 100%
+  );
+}
+
+
+/* CONTENT */
+
+.content {
+  position: relative;
+  z-index: 2;
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 5%;
+  color: white;
+}
+
+.content h1 {
+  font-size: 52px;
+  font-weight: 800;
+  line-height: 1.15;
+  max-width: 700px;
+  margin-bottom: 18px;
+  text-shadow: 0 2px 16px rgba(0,0,0,0.3);
+}
+
+.content p {
+  font-size: 16px;
+  color: rgba(255,255,255,0.9);
+  max-width: 560px;
+  line-height: 1.7;
+  margin-bottom: 28px;
+}
+
+.cta {
+  padding: 14px 30px;
+  font-size: 15px;
+}
+
+
+/* ANIMATION */
+
+@keyframes fadeUpIn {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fadeIn {
+  animation: fadeUpIn 0.8s ease both;
+}
+
+.content p.fadeIn {
+  animation-delay: .15s;
+}
+
+.content a.fadeIn {
+  animation-delay: .3s;
+}
+
+
+
+/* ARROWS */
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 5;
+
+  width: 46px;
+  height: 46px;
+
+  background: rgba(255,255,255,0.15);
+  border: 1px solid rgba(255,255,255,0.35);
+
+  color: white;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+  backdrop-filter: blur(4px);
+
+  transition: .2s;
+}
+
+.arrow:hover {
+  background: rgba(255,255,255,.3);
+  transform: translateY(-50%) scale(1.08);
+}
+
+
+.arrowLeft {
+  left: 24px;
+}
+
+.arrowRight {
+  right: 24px;
+}
+
+
+
+/* DOTS */
+
+.dots {
+  position:absolute;
+  bottom:24px;
+  left:50%;
+  transform:translateX(-50%);
+
+  z-index:5;
+
+  display:flex;
+  gap:10px;
+}
+
+
+.dot {
+  width:10px;
+  height:10px;
+
+  border-radius:50%;
+
+  background:rgba(255,255,255,.4);
+
+  border:none;
+  cursor:pointer;
+
+  transition:.2s;
+}
+
+
+.activeDot {
+  width:28px;
+  border-radius:5px;
+  background:#DE7639;
+}
+
+
+
+/* TABLET */
+
+@media(max-width:900px){
+
+  .carousel{
+    height:520px;
+  }
+
+
+  .slide{
+    background-position:center top;
+  }
+
+
+  .overlay{
+    background:
+    linear-gradient(
+      180deg,
+      rgba(3,40,59,.35),
+      rgba(3,40,59,.9)
+    );
+  }
+
+
+  .content{
+
+    padding:0 60px 70px 60px;
+
+  }
+
+
+  .content h1{
+
+    font-size:32px;
+    max-width:100%;
+
+  }
+
+
+  .content p{
+
+    font-size:14px;
+    max-width:100%;
+
+  }
+
+
+
+  /* move arrows away from text */
+
+  .arrow{
+
+    top:auto;
+    bottom:25px;
+
+    width:36px;
+    height:36px;
+
+    transform:none;
+
+  }
+
+
+  .arrow:hover{
+
+    transform:scale(1.05);
+
+  }
+
+
+  .arrowLeft{
+    left:20px;
+  }
+
+
+  .arrowRight{
+    right:20px;
+  }
+
+
+  .dots{
+
+    bottom:38px;
+
+  }
+
+}
+
+
+
+/* MOBILE */
+
+@media(max-width:560px){
+
+
+  .carousel{
+   
+    height:400px;
+
+  }
+
+
+
+  .slide{
+
+    background-size:fill;
+    background-position:center top;
+
+  }
+
+
+
+  .content{
+
+    padding:
+
+    0 45px 80px 45px;
+
+  }
+
+
+
+  .content h1{
+
+    font-size:26px;
+    line-height:1.2;
+
+  }
+
+
+
+  .content p{
+
+    font-size:13px;
+    line-height:1.5;
+
+  }
+
+
+
+  .cta{
+
+    padding:12px 20px;
+    font-size:13px;
+
+  }
+
+
+
+  .arrow{
+
+    width:32px;
+    height:32px;
+
+    bottom:22px;
+
+  }
+
+
+
+  .arrowLeft{
+    left:15px;
+  }
+
+
+  .arrowRight{
+    right:15px;
+  }
+
+
+
+  .dots{
+
+    bottom:30px;
+
+  }
+
+
+
+  .dot{
+
+    width:8px;
+    height:8px;
+
+  }
+
+
+  .activeDot{
+
+    width:22px;
+
+  }
+
+}

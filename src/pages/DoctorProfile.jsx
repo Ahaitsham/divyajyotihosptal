@@ -51,14 +51,14 @@ export default function DoctorProfile() {
 
             {/* QUALIFICATIONS */}
             <div className={styles.twoCol}>
-              <div className={styles.section}>
+              {/* <div className={styles.section}>
                 <h2>Qualifications</h2>
                 <ul className={styles.list}>
                   {doc.qualifications.map(q => (
                     <li key={q}><Award size={16} color="#DE7639"/>{q}</li>
                   ))}
                 </ul>
-              </div>
+              </div> */}
               <div className={styles.section}>
                 <h2>Specializations</h2>
                 <ul className={styles.list}>
