@@ -7,17 +7,9 @@ export default function Footer() {
   return (
     <>
       {/* MAP */}
-      <div className={styles.mapWrap}>
-        <iframe
-          title="Divya Jyoti Hospital Location"
-          src={CONTACT.mapEmbedUrl}
-          width="100%"
-          height="100%"
-          style={{ border: 0 }}
-          allowFullScreen=""
-          loading="lazy"
-          referrerPolicy="no-referrer-when-downgrade"
-        />
+      <div className="map-placeholder">
+        <MapPin size={28} />
+        Google Map — Divya Jyoti Hospital, {CONTACT.address}
       </div>
 
       <footer className={styles.footer}>
@@ -57,7 +49,9 @@ export default function Footer() {
         </div>
 
         <div className={styles.bottom}>
-          <p>© 2026 Divya Jyoti Hospital. All Rights Reserved.</p>
+          <p>
+            © 2026 Divya Jyoti Hospital. All Rights Reserved. | Website  Developed by <a href="https://ahaitshamkhan.vercel.app" target="_blank" rel="noopener noreferrer">Ahaitsham</a>
+          </p>
         </div>
       </footer>
 

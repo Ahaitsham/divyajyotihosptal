@@ -267,16 +267,6 @@
   font-weight: 600;
 }
 
-.errorMsg {
-  background: #fff3f3;
-  color: #c0392b;
-  padding: 14px 16px;
-  border-radius: 4px;
-  font-size: 14px;
-  line-height: 1.6;
-}
-.errorMsg a { color: #0085A9; font-weight: 700; }
-
 /* ── RESPONSIVE ── */
 @media (max-width: 900px) {
   .hamburger  { display: block; }

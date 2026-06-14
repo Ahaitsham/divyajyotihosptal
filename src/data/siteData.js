@@ -3,6 +3,7 @@ export const CONTACT = {
   whatsapp: '918755768267',
   email: 'ahtshamsaifi345@gmail.com',
   address: 'Jewar, Uttar Pradesh',
+  mapEmbedUrl: '',
 };
 
 export const DOCTORS = [

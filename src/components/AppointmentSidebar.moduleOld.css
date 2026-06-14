@@ -88,13 +88,3 @@
   font-weight: 600;
   font-size: 14px;
 }
-
-.error {
-  background: #fff3f3;
-  color: #c0392b;
-  padding: 14px;
-  border-radius: 4px;
-  font-size: 14px;
-  line-height: 1.6;
-}
-.error a { color: #0085A9; font-weight: 700; }

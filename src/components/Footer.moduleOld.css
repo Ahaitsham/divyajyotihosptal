@@ -4,14 +4,6 @@
   padding: 50px 4%;
 }
 
-.mapWrap {
-  height: 320px;
-  width: 100%;
-}
-.mapWrap iframe {
-  display: block;
-}
-
 .grid {
   display: grid;
   grid-template-columns: 2fr 1fr 1fr 1.5fr;

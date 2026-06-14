@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { CalendarDays, Phone, Send } from 'lucide-react';
 import { CONTACT } from '../data/siteData';
-import { submitForm } from '../hooks/useFormSubmit';
 import styles from './AppointmentSidebar.module.css';
 
 export default function AppointmentSidebar() {
@@ -11,20 +10,23 @@ export default function AppointmentSidebar() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setStatus('loading');
-    try {
-      await submitForm({
-        name: form.name,
-        phone: form.phone,
-        message: form.concern,
-        formType: 'Sidebar Appointment Request',
-      });
-      setStatus('success');
-      setTimeout(() => { setStatus('idle'); setForm({ name: '', phone: '', concern: '' }); }, 3000);
-    } catch (err) {
-      console.error('Sidebar form error:', err);
-      setStatus('error');
-      setTimeout(() => setStatus('idle'), 4000);
-    }
+
+    // ── EmailJS (same credentials as Contact page) ──────────────────────
+    // import emailjs from '@emailjs/browser';
+    // await emailjs.send(
+    //   import.meta.env.VITE_EMAILJS_SERVICE_ID,
+    //   import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+    //   { from_name: form.name, from_phone: form.phone, message: form.concern, department: 'Sidebar Form' },
+    //   import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+    // );
+    // ── WhatsApp ─────────────────────────────────────────────────────────
+    // const waText = encodeURIComponent(`🏥 New Appointment\n👤 ${form.name}\n📞 ${form.phone}\n📝 ${form.concern}`);
+    // window.open(`https://wa.me/919999999999?text=${waText}`, '_blank');
+    // ─────────────────────────────────────────────────────────────────────
+
+    await new Promise(r => setTimeout(r, 1000));
+    setStatus('success');
+    setTimeout(() => { setStatus('idle'); setForm({ name: '', phone: '', concern: '' }); }, 3000);
   };
 
   return (
@@ -56,10 +58,6 @@ export default function AppointmentSidebar() {
         {status === 'success' ? (
           <div className={styles.success}>
             ✓ Thank you! We'll contact you shortly.
-          </div>
-        ) : status === 'error' ? (
-          <div className={styles.error}>
-            Something went wrong. Please call <a href={`tel:${CONTACT.phone}`}>{CONTACT.phone}</a> directly.
           </div>
         ) : (
           <form onSubmit={handleSubmit} className={`sidebar-form ${styles.form}`}>

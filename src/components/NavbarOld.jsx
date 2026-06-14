@@ -2,7 +2,6 @@ import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Phone, Menu, X } from 'lucide-react';
 import { CONTACT } from '../data/siteData';
-import { submitForm } from '../hooks/useFormSubmit';
 import styles from './Navbar.module.css';
 
 const navLinks = [
@@ -19,7 +18,7 @@ export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [callbackOpen, setCallbackOpen] = useState(false);
   const [form, setForm] = useState({ name: '', phone: '' });
-  const [status, setStatus] = useState('idle'); // idle | loading | success | error
+  const [submitted, setSubmitted] = useState(false);
   const location = useLocation();
 
   // Lock body scroll when mobile menu is open
@@ -37,26 +36,10 @@ export default function Navbar() {
     setMenuOpen(false);
   }, [location.pathname]);
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
-    setStatus('loading');
-    try {
-      await submitForm({
-        name: form.name,
-        phone: form.phone,
-        formType: 'Call Back Request',
-      });
-      setStatus('success');
-      // Auto-close modal after showing success for 2.5s
-      setTimeout(() => {
-        setCallbackOpen(false);
-        setStatus('idle');
-        setForm({ name: '', phone: '' });
-      }, 2500);
-    } catch (err) {
-      console.error('Callback form error:', err);
-      setStatus('error');
-    }
+    setSubmitted(true);
+    setTimeout(() => { setCallbackOpen(false); setSubmitted(false); setForm({ name: '', phone: '' }); }, 2500);
   };
 
   return (
@@ -139,37 +122,18 @@ export default function Navbar() {
 
       {/* CALLBACK MODAL */}
       {callbackOpen && (
-        <div className={styles.modalOverlay} onClick={() => { setCallbackOpen(false); setStatus('idle'); }}>
+        <div className={styles.modalOverlay} onClick={() => setCallbackOpen(false)}>
           <div className={styles.modal} onClick={e => e.stopPropagation()}>
-            <button className={styles.modalClose} onClick={() => { setCallbackOpen(false); setStatus('idle'); }}><X size={20}/></button>
+            <button className={styles.modalClose} onClick={() => setCallbackOpen(false)}><X size={20}/></button>
             <h3>Request a Call Back</h3>
             <p>Our team will call you back shortly.</p>
-
-            {status === 'success' ? (
-              <div className={styles.successMsg}>✓ Thank you, {form.name}! We'll call you soon.</div>
-            ) : status === 'error' ? (
-              <div className={styles.errorMsg}>
-                Something went wrong. Please call us directly at <a href={`tel:${CONTACT.phone}`}>{CONTACT.phone}</a>.
-              </div>
+            {submitted ? (
+              <div className={styles.successMsg}>✓ Thank you! We'll call you soon.</div>
             ) : (
               <form onSubmit={handleSubmit} className={styles.callbackForm}>
-                <input
-                  required
-                  placeholder="Your Name"
-                  value={form.name}
-                  onChange={e => setForm({...form, name: e.target.value})}
-                  disabled={status === 'loading'}
-                />
-                <input
-                  required
-                  placeholder="Phone Number"
-                  value={form.phone}
-                  onChange={e => setForm({...form, phone: e.target.value})}
-                  disabled={status === 'loading'}
-                />
-                <button type="submit" className="btn-primary" disabled={status === 'loading'}>
-                  {status === 'loading' ? 'Sending…' : 'Submit Request'}
-                </button>
+                <input required placeholder="Your Name" value={form.name} onChange={e => setForm({...form, name: e.target.value})} />
+                <input required placeholder="Phone Number" value={form.phone} onChange={e => setForm({...form, phone: e.target.value})} />
+                <button type="submit" className="btn-primary">Submit Request</button>
               </form>
             )}
           </div>
