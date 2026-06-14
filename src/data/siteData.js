@@ -3,7 +3,7 @@ export const CONTACT = {
   whatsapp: '918755768267',
   email: 'ahtshamsaifi345@gmail.com',
   address: 'Jewar, Uttar Pradesh',
-  mapEmbedUrl: '',
+  mapEmbedUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d936.0782376509422!2d77.55812514512644!3d28.11959225714227!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ccb44d074c97d%3A0x6b0bf0595e4c985d!2sDIVYA%20JYOTI%20HOSPITAL!5e0!3m2!1sen!2sin!4v1781423639580!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade',
 };
 
 export const DOCTORS = [
