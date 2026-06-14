@@ -9,6 +9,8 @@ import { DOCTORS, SPECIALITIES, BLOGS, FAQS, CONTACT } from '../data/siteData';
 import HeroCarousel from '../components/HeroCarousel';
 import DoctorsCarousel from '../components/DoctorsCarousel';
 import styles from './Home.module.css';
+import { submitForm } from '../hooks/useFormSubmit';
+
 
 const ICON_MAP = {
   HeartPulse, Baby, Stethoscope, Bone, Scissors, Zap,
@@ -21,13 +23,42 @@ export default function Home() {
   const [form, setForm] = useState({ name: '', phone: '', concern: '' });
   const [formStatus, setFormStatus] = useState('idle');
 
-  const handleFormSubmit = async (e) => {
-    e.preventDefault();
-    setFormStatus('loading');
-    await new Promise(r => setTimeout(r, 1000));
+const handleFormSubmit = async (e) => {
+  e.preventDefault();
+
+  setFormStatus('loading');
+
+  try {
+
+    await submitForm({
+      name: form.name,
+      phone: form.phone,
+      department: form.concern,
+      formType: "Homepage Appointment Request"
+    });
+
+
     setFormStatus('success');
-    setTimeout(() => { setFormStatus('idle'); setForm({ name: '', phone: '', concern: '' }); }, 3000);
-  };
+
+    setTimeout(() => {
+      setFormStatus('idle');
+      setForm({
+        name: '',
+        phone: '',
+        concern: ''
+      });
+    },3000);
+
+
+  } catch(error) {
+
+    console.error("Form submission failed:", error);
+    setFormStatus('idle');
+
+    alert("Something went wrong. Please try again.");
+
+  }
+};
 
   return (
     <div className={styles.home}>
