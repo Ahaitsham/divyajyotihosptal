@@ -192,10 +192,10 @@ const handleFormSubmit = async (e) => {
         <div className="container">
           <div className={styles.whyGrid}>
             <div className={styles.whyImg}>
-              <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=700" alt="Hospital"/>
+              <img src="/images/Building.jpg.jpeg" alt="Hospital"/>
               <div className={styles.whyBadge}>
                 <Award size={28}/>
-                <div>
+                <div> 
                   <strong>NABH</strong>
                   <span>Accredited</span>
                 </div>
