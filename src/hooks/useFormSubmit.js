@@ -48,12 +48,12 @@ export async function submitForm({ name, phone, email = '', department = '', mes
   // UNCOMMENT the block below to also ping WhatsApp on every form submit:
   
   const waText = encodeURIComponent(
-    `🏥 *${formType}*\n\n` +
-    `👤 *Name:*       ${name}\n` +
-    `📞 *Phone:*      ${phone}\n` +
-    `📧 *Email:*      ${email      || 'N/A'}\n` +
-    `🏥 *Department:* ${department || 'Not specified'}\n` +
-    `📝 *Message:*    ${message    || 'No message'}`
+    ` *${formType}*\n\n` +
+    ` *Name:*       ${name}\n` +
+    ` *Phone:*      ${phone}\n` +
+    ` *Email:*      ${email      || 'N/A'}\n` +
+    ` *Department:* ${department || 'Not specified'}\n` +
+    ` *Message:*    ${message    || 'No message'}`
   );
   window.open(`https://wa.me/${CONTACT.whatsapp}?text=${waText}`, '_blank');
 
