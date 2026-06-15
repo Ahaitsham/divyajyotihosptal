@@ -143,15 +143,64 @@ export const DOCTORS = [
 ];
 
 export const SPECIALITIES = [
-  { id: 1, name: 'IVF & Fertility', icon: 'Heart', desc: 'Advanced assisted reproductive technologies and fertility treatments.', image: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=500' },
-  { id: 2, name: 'Gynecology', icon: 'Activity', desc: 'Comprehensive women\'s health care, maternal and prenatal services.', image: 'https://images.unsplash.com/photo-1584516150909-3c5ae2e1b7e3?w=500' },
-  { id: 3, name: 'NICU', icon: 'Baby', desc: 'State-of-the-art neonatal intensive care for premature newborns.', image: 'https://images.unsplash.com/photo-1555861496-0666c8981751?w=500' },
-  { id: 4, name: 'Pediatrics', icon: 'Users', desc: 'Expert child healthcare from birth through adolescence.', image: 'https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?w=500' },
-  { id: 5, name: 'Cardiology', icon: 'HeartPulse', desc: 'Advanced cardiac diagnosis, treatment and interventional procedures.', image: 'https://images.unsplash.com/photo-1628348068343-c6a848d2b6dd?w=500' },
-  { id: 6, name: 'General Surgery', icon: 'Scissors', desc: 'Minimally invasive and open surgical procedures by expert surgeons.', image: 'https://images.unsplash.com/photo-1551190822-a9333d879b1f?w=500' },
-  { id: 7, name: 'Orthopedics', icon: 'Bone', desc: 'Joint replacement, spine care and sports medicine solutions.', image: 'https://images.unsplash.com/photo-1530026186672-2cd00ffc50fe?w=500' },
-  { id: 8, name: 'Emergency Care', icon: 'Ambulance', desc: '24×7 emergency trauma care with rapid response teams.', image: 'https://images.unsplash.com/photo-1580281657527-47a8c9d0c6bd?w=500' },
+  {
+    id: 1, name: 'IVF & Fertility', icon: 'Heart',
+    desc: 'Advanced assisted reproductive technologies and fertility treatments.',
+    image: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=500',
+    longDesc: 'Our IVF and Fertility centre offers comprehensive reproductive care guided by experienced fertility specialists. We combine advanced laboratory technology with personalised treatment plans to help couples achieve their dream of parenthood.',
+    points: ['IVF and ICSI procedures', 'IUI (Intrauterine Insemination)', 'Egg and embryo freezing', 'Fertility counselling and support', 'Hormonal evaluation and treatment', 'Male and female infertility workup'],
+  },
+  {
+    id: 2, name: 'Gynecology', icon: 'Activity',
+    desc: 'Comprehensive women\'s health care, maternal and prenatal services.',
+    image: 'https://images.unsplash.com/photo-1584516150909-3c5ae2e1b7e3?w=500',
+    longDesc: 'Our Gynecology department provides complete women\'s healthcare across all life stages — from adolescence through menopause. Our specialists offer compassionate, confidential care for routine check-ups as well as complex gynecological conditions.',
+    points: ['Routine gynecological exams', 'High-risk pregnancy care', 'Menstrual and hormonal disorders', 'Laparoscopic gynecological surgery', 'Prenatal and postnatal care', 'Family planning services'],
+  },
+  {
+    id: 3, name: 'NICU', icon: 'Baby',
+    desc: 'State-of-the-art neonatal intensive care for premature newborns.',
+    image: 'https://images.unsplash.com/photo-1555861496-0666c8981751?w=500',
+    longDesc: 'Our Level III NICU is equipped with advanced monitoring technology and staffed by experienced neonatologists, providing round-the-clock care for premature and critically ill newborns to ensure the best possible start to life.',
+    points: ['Advanced incubators and warmers', 'Ventilator support for preterm babies', 'Phototherapy for jaundice', 'Continuous vital monitoring', 'Infection control protocols', 'Parental guidance and counselling'],
+  },
+  {
+    id: 4, name: 'Pediatrics', icon: 'Users',
+    desc: 'Expert child healthcare from birth through adolescence.',
+    image: 'https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?w=500',
+    longDesc: 'Our Pediatrics department offers comprehensive care for infants, children and adolescents in a warm, child-friendly environment. From routine vaccinations to managing complex childhood illnesses, our team is dedicated to your child\'s wellbeing.',
+    points: ['Routine check-ups and growth monitoring', 'Complete vaccination schedules', 'Newborn care services', 'Management of childhood infections', 'Nutritional counselling', 'Developmental assessments'],
+  },
+  {
+    id: 5, name: 'Cardiology', icon: 'HeartPulse',
+    desc: 'Advanced cardiac diagnosis, treatment and interventional procedures.',
+    image: 'https://images.unsplash.com/photo-1628348068343-c6a848d2b6dd?w=500',
+    longDesc: 'Our Cardiology department offers comprehensive heart care, from preventive screening to advanced interventional procedures. Our cardiologists use the latest diagnostic tools to detect and manage cardiovascular conditions early.',
+    points: ['ECG and Echo cardiography', 'Cardiac stress testing', 'Hypertension management', 'Interventional cardiology procedures', 'Heart failure management', 'Preventive cardiac screening'],
+  },
+  {
+    id: 6, name: 'General Surgery', icon: 'Scissors',
+    desc: 'Minimally invasive and open surgical procedures by expert surgeons.',
+    image: 'https://images.unsplash.com/photo-1551190822-a9333d879b1f?w=500',
+    longDesc: 'Our General Surgery department is equipped to handle a wide range of surgical procedures, from minimally invasive laparoscopic surgeries to complex abdominal operations, performed by experienced surgeons using modern techniques.',
+    points: ['Laparoscopic surgery', 'Hernia repair', 'Gallbladder surgery', 'Appendix surgery', 'Abdominal surgeries', 'Post-operative care and follow-up'],
+  },
+  {
+    id: 7, name: 'Orthopedics', icon: 'Bone',
+    desc: 'Joint replacement, spine care and sports medicine solutions.',
+    image: 'https://images.unsplash.com/photo-1530026186672-2cd00ffc50fe?w=500',
+    longDesc: 'Our Orthopedics department provides comprehensive musculoskeletal care, from conservative management of joint pain to advanced joint replacement surgeries, helping patients regain mobility and improve quality of life.',
+    points: ['Joint replacement surgery', 'Arthroscopic procedures', 'Spine care and treatment', 'Sports injury management', 'Fracture care', 'Physiotherapy and rehabilitation'],
+  },
+  {
+    id: 8, name: 'Emergency Care', icon: 'Ambulance',
+    desc: '24×7 emergency trauma care with rapid response teams.',
+    image: 'https://images.unsplash.com/photo-1580281657527-47a8c9d0c6bd?w=500',
+    longDesc: 'Our Emergency & Trauma department operates round the clock, providing rapid medical care for accident victims, critical illnesses and medical emergencies. Equipped with advanced facilities and a specialised team ready at all times.',
+    points: ['24×7 fast ambulance services', 'Dedicated emergency surgery procedures', 'Specialised ICU and trauma care', 'Advanced monitoring systems', 'Cardiac and neuro emergency support', 'Emergency laboratory and diagnostics'],
+  },
 ];
+
 
 export const SERVICES = [
   { id: 1, name: 'Emergency & Trauma', tag: 'Emergency', desc: '24×7 emergency care with trained trauma specialists and rapid ambulance services.', image: 'https://images.unsplash.com/photo-1538108149393-fbbd81895907?w=500' },
@@ -213,3 +262,74 @@ export const FAQS = [
   { q: 'What insurance plans are accepted?', a: 'We accept most major insurance plans and also offer cashless hospitalisation facilities. Please contact our billing department for specific queries.' },
   { q: 'Is there a pharmacy and diagnostic lab in the hospital?', a: 'Yes, we have an in-house 24×7 pharmacy and a fully equipped pathology and radiology lab for all diagnostic needs.' },
 ];
+
+
+// ── PATIENT REVIEWS (text testimonials) ─────────────────────────────────────
+export const PATIENT_REVIEWS = [
+  {
+    id: 1,
+    name: 'Anjali Sharma',
+    location: 'Jewar, UP',
+    rating: 5,
+    text: 'The IVF team at Divya Jyoti Hospital made our journey to parenthood so much easier. Dr. Rashmi Pilania was incredibly supportive and answered every question with patience. We are forever grateful.',
+  },
+  {
+    id: 2,
+    name: 'Rakesh Yadav',
+    location: 'Greater Noida, UP',
+    rating: 5,
+    text: 'I had severe kidney stone pain and was treated promptly by Dr. Tarun Singh. The entire process from diagnosis to treatment was smooth and the staff was very caring throughout my stay.',
+  },
+  {
+    id: 3,
+    name: 'Priya Verma',
+    location: 'Jewar, UP',
+    rating: 5,
+    text: 'My son was admitted to the NICU after birth and the care provided by Dr. Rahul Rana and the nursing staff was exceptional. They kept us informed at every step. Highly recommend this hospital.',
+  },
+  {
+    id: 4,
+    name: 'Suresh Kumar',
+    location: 'Dadri, UP',
+    rating: 4,
+    text: 'Clean facilities, courteous staff, and the doctors take the time to explain everything clearly. The emergency department was quick to respond when we needed urgent care for my father.',
+  },
+];
+
+// ── PATIENT VIDEO TESTIMONIALS (YouTube) ────────────────────────────────────
+// To use your own videos:
+// 1. Go to your YouTube video → Share → Copy the video ID from the URL
+//    e.g. https://www.youtube.com/watch?v=XXXXXXXXXXX → ID is "XXXXXXXXXXX"
+// 2. Paste that ID below as `youtubeId`
+// 3. `thumbnail` can be left as the auto-generated YouTube thumbnail URL
+export const PATIENT_VIDEOS = [
+  {
+    id: 1,
+    title: 'A Mother\'s IVF Success Story',
+    youtubeId: 'dQw4w9WgXcQ',
+  },
+  {
+    id: 2,
+    title: 'Recovering from Kidney Stone Surgery',
+    youtubeId: 'dQw4w9WgXcQ',
+  },
+  {
+    id: 3,
+    title: 'Our NICU Experience at Divya Jyoti',
+    youtubeId: 'dQw4w9WgXcQ',
+  },
+];
+
+// ── TPA / INSURANCE PARTNERS ────────────────────────────────────────────────
+// Replace `name` and `logo` with your actual TPA / insurance partner logos.
+// Logos can be placed in /public/tpa/ and referenced as '/tpa/yourfile.png'
+export const TPA_PARTNERS = [
+  { id: 1, name: 'Star Health Insurance', logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/c/c1/Star_Health_and_Allied_Insurance_logo.svg/320px-Star_Health_and_Allied_Insurance_logo.svg.png' },
+  { id: 2, name: 'ICICI Lombard', logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/ICICI_Lombard_logo.svg/320px-ICICI_Lombard_logo.svg.png' },
+  { id: 3, name: 'HDFC ERGO', logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/HDFC_Ergo_logo.svg/320px-HDFC_Ergo_logo.svg.png' },
+  { id: 4, name: 'Bajaj Allianz', logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Bajaj_Allianz_Logo.svg/320px-Bajaj_Allianz_Logo.svg.png' },
+  { id: 5, name: 'New India Assurance', logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/New_India_Assurance_logo.svg/320px-New_India_Assurance_logo.svg.png' },
+  { id: 6, name: 'Aditya Birla Health', logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Aditya_Birla_Capital_logo.svg/320px-Aditya_Birla_Capital_logo.svg.png' },
+  { id: 7, name: 'Care Health Insurance', logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Care_Health_Insurance_logo.png/320px-Care_Health_Insurance_logo.png' },
+];
+

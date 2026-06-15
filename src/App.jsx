@@ -8,6 +8,7 @@ import About from './pages/About';
 import Doctors from './pages/Doctors';
 import DoctorProfile from './pages/DoctorProfile';
 import Specialities from './pages/Specialities';
+import SpecialityPage from './pages/SpecialityPage';
 import Services from './pages/Services';
 import ServicePage from './pages/ServicePage';
 import Blogs from './pages/Blogs';
@@ -32,6 +33,7 @@ export default function App() {
         <Route path="/doctors" element={<Doctors />} />
         <Route path="/doctors/:id" element={<DoctorProfile />} />
         <Route path="/specialities" element={<Specialities />} />
+        <Route path="/specialities/:id" element={<SpecialityPage />} />
         <Route path="/services" element={<Services />} />
         <Route path="/services/:id" element={<ServicePage />} />
         <Route path="/blogs" element={<Blogs />} />

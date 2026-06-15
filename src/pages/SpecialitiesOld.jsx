@@ -26,8 +26,8 @@ export default function Specialities() {
               </div>
               <div className={styles.content}>
                 <p>{sp.desc}</p>
-                <Link to={`/specialities/${sp.id}`} className={styles.link}>
-                  Learn More <ArrowRight size={14}/>
+                <Link to="/contact" className={styles.link}>
+                  Book Appointment <ArrowRight size={14}/>
                 </Link>
               </div>
             </div>
