@@ -15,16 +15,44 @@ export default function About() {
         {/* OVERVIEW */}
         <section className={styles.overview}>
           <div className={styles.overviewImg}>
-            <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=700" alt="Divya Jyoti Hospital"/>
+            <img src="/images/dr. ramkishan.png" alt="Divya Jyoti Hospital"/>
           </div>
           <div className={styles.overviewContent}>
-            <h2>Overview</h2>
-            <p>Divya Jyoti Hospital is committed to delivering advanced and compassionate healthcare services. With modern medical infrastructure and experienced specialists, we strive to provide patient-focused treatment and holistic care.</p>
-            <p>Our multidisciplinary team combines technology, expertise and empathy to ensure excellent medical outcomes while maintaining safety and comfort for every patient.</p>
-            <p>We continuously innovate and uphold ethical medical practices to serve our community with trust and excellence.</p>
+            <h2>About Divya Jyoti Hospital</h2>
+            <h3>A Legacy of Trust, Compassion & Excellence Since 2005</h3><br />
+            <p>Founded in 2005 by Dr. Ramkishan Singh, Divya Jyoti Hospital, Jewar was established with a mission to provide high-quality healthcare services to the people of Jewar and nearby communities. Built on the principles of compassion, integrity, and clinical excellence, the hospital has become a trusted name in healthcare for thousands of families across the region</p>
+            <p>As one of the pioneering healthcare institutions in Jewar, Divya Jyoti Hospital introduced advanced medical facilities and reliable emergency care services at a time when quality healthcare access was limited. Over the years, the hospital has continuously evolved, adopting modern medical technologies and expanding its specialties to meet the growing healthcare needs of the community.</p>
+            <p>Today, Divya Jyoti Hospital stands as a comprehensive multi-specialty healthcare centre, offering expert medical care across various disciplines, including Gynaecology & IVF, Paediatrics & NICU, Urology, General Surgery, Internal Medicine, Critical Care, Diagnostics, and Emergency Services. Our team of experienced doctors, skilled nursing staff, and dedicated healthcare professionals work together to ensure every patient receives personalized and compassionate care.</p>
+            <p>We believe that healthcare is not just about treating illnesses—it is about building trust, providing comfort, and improving the quality of life for every patient who walks through our doors. With a patient-first approach and a commitment to excellence, we continue to serve the community with the same dedication and values upon which the hospital was founded.</p>
+
+            
+          </div>
+        </section>
+        
+        <section className={styles.overview}>
+          
+          <div className={styles.overviewContent}>
+            <h2>Why Choose Divya Jyoti Hospital?</h2>
+            
+              <ul>
+                <li>•	<b>Established in 2005</b>  by Dr. Ramkishan Singh</li>
+                <li>•	Over<b>20 years of trusted healthcare service</b> </li>
+                <li>•	Advanced multi-specialty medical care under one roof</li>
+                <li>•	24×7 Emergency & Critical Care Services</li>
+                <li>•	Experienced and qualified medical specialists</li>
+                <li>•	Modern operation theatres and diagnostic facilities</li>
+                <li>•	Advanced NICU and Paediatric care services</li>
+                <li>•	Patient-centric approach with compassionate treatment</li>
+                <li>•	Affordable and accessible healthcare for all</li>
+              </ul>
+            
+            
             <Link to="/contact" className="btn-primary" style={{ marginTop: '8px' }}>
               <CalendarDays size={15}/> Book Appointment
             </Link>
+          </div>
+          <div className={styles.overviewImg}>
+            <img src="/images/Building.jpg.jpeg" alt="Divya Jyoti Hospital"/>
           </div>
         </section>
 
