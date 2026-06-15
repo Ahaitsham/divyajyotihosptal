@@ -94,8 +94,8 @@ export default function About() {
         {/* VALUES */}
         <section className={styles.valuesSection}>
           <div className="section-title">
-            <h2>Our Core Values</h2>
-            <p>The foundation of Divya Jyoti Hospital lies in core values that guide every decision and action.</p>
+            <h2>"Healing with Compassion, Serving with Excellence."</h2>
+            <p>Divya Jyoti Hospital, Jewar – Trusted Healthcare for Every Generation Since 2005.</p>
           </div>
           <div className={styles.valuesGrid}>
             {[
