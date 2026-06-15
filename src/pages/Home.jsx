@@ -8,9 +8,9 @@ import {
 import { DOCTORS, SPECIALITIES, BLOGS, FAQS, CONTACT } from '../data/siteData';
 import HeroCarousel from '../components/HeroCarousel';
 import DoctorsCarousel from '../components/DoctorsCarousel';
+import PatientReviews from '../components/PatientReviews';
+import TPACarousel from '../components/TPACarousel';
 import styles from './Home.module.css';
-import { submitForm } from '../hooks/useFormSubmit';
-
 
 const ICON_MAP = {
   HeartPulse, Baby, Stethoscope, Bone, Scissors, Zap,
@@ -23,42 +23,13 @@ export default function Home() {
   const [form, setForm] = useState({ name: '', phone: '', concern: '' });
   const [formStatus, setFormStatus] = useState('idle');
 
-const handleFormSubmit = async (e) => {
-  e.preventDefault();
-
-  setFormStatus('loading');
-
-  try {
-
-    await submitForm({
-      name: form.name,
-      phone: form.phone,
-      department: form.concern,
-      formType: "Homepage Appointment Request"
-    });
-
-
+  const handleFormSubmit = async (e) => {
+    e.preventDefault();
+    setFormStatus('loading');
+    await new Promise(r => setTimeout(r, 1000));
     setFormStatus('success');
-
-    setTimeout(() => {
-      setFormStatus('idle');
-      setForm({
-        name: '',
-        phone: '',
-        concern: ''
-      });
-    },3000);
-
-
-  } catch(error) {
-
-    console.error("Form submission failed:", error);
-    setFormStatus('idle');
-
-    alert("Something went wrong. Please try again.");
-
-  }
-};
+    setTimeout(() => { setFormStatus('idle'); setForm({ name: '', phone: '', concern: '' }); }, 3000);
+  };
 
   return (
     <div className={styles.home}>
@@ -93,9 +64,10 @@ const handleFormSubmit = async (e) => {
           </div>
           <div className={styles.quickGrid}>
             {[
-              { icon: <Ambulance size={28}/>, label: 'Emergency & Trauma Care', path: '/services' },
-              { icon: <Stethoscope size={28}/>, label: 'Doctor Consulation', path: '/services' },
-              { icon: <CheckCircle2 size={28}/>, label: 'Preventive Health Checkup', path: '/services' },
+              { icon: <Users size={28}/>, label: 'International Patients', path: '/services' },
+              { icon: <Ambulance size={28}/>, label: 'Emergency & Trauma', path: '/services' },
+              { icon: <Stethoscope size={28}/>, label: 'Second Opinion', path: '/services' },
+              { icon: <CheckCircle2 size={28}/>, label: 'Health Checkup', path: '/services' },
               { icon: <Zap size={28}/>, label: 'Radiology', path: '/services' },
               { icon: <FlaskConical size={28}/>, label: 'Path Lab', path: '/services' },
               { icon: <Pill size={28}/>, label: 'Pharmacy', path: '/services' },
@@ -119,7 +91,7 @@ const handleFormSubmit = async (e) => {
           </div>
           <div className={styles.specialitiesGrid}>
             {SPECIALITIES.map(sp => (
-              <Link to="/specialities" key={sp.id} className={styles.spCard}>
+              <Link to={`/specialities/${sp.id}`} key={sp.id} className={styles.spCard}>
                 <div className={styles.spImg} style={{ backgroundImage: `url(${sp.image})` }} />
                 <div className={styles.spContent}>
                   <h4>{sp.name}</h4>
@@ -192,10 +164,10 @@ const handleFormSubmit = async (e) => {
         <div className="container">
           <div className={styles.whyGrid}>
             <div className={styles.whyImg}>
-              <img src="/images/dr. ramkishan.png" alt="Hospital"/>
+              <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=700" alt="Hospital"/>
               <div className={styles.whyBadge}>
                 <Award size={28}/>
-                <div> 
+                <div>
                   <strong>NABH</strong>
                   <span>Accredited</span>
                 </div>
@@ -225,6 +197,17 @@ const handleFormSubmit = async (e) => {
         </div>
       </section>
 
+      {/* ── PATIENT REVIEWS & VIDEOS ── */}
+      <section className={styles.section}>
+        <div className="container">
+          <div className="section-title">
+            <h2>What Our Patients Say</h2>
+            <p>Real stories and experiences shared by our patients</p>
+          </div>
+          <PatientReviews />
+        </div>
+      </section>
+
       {/* ── BLOGS ── */}
       <section className={`${styles.section} ${styles.sectionGray}`}>
         <div className="container">
@@ -247,6 +230,17 @@ const handleFormSubmit = async (e) => {
               </Link>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* ── TPA AVAILABLE ── */}
+      <section className={`${styles.section} ${styles.sectionGray}`}>
+        <div className="container">
+          <div className="section-title">
+            <h2>TPA Available</h2>
+            <p>We accept cashless treatment from the following insurance and TPA partners</p>
+          </div>
+          <TPACarousel />
         </div>
       </section>
 

@@ -305,19 +305,15 @@ export const PATIENT_REVIEWS = [
 export const PATIENT_VIDEOS = [
   {
     id: 1,
-    title: 'A Mother\'s IVF Success Story',
-    youtubeId: 'dQw4w9WgXcQ',
+    title: 'Dr. Tarun Singh Consult the Patient for the Urine Problem',
+    youtubeId: '4wVIC4-9a9U',
   },
   {
     id: 2,
-    title: 'Recovering from Kidney Stone Surgery',
-    youtubeId: 'dQw4w9WgXcQ',
+    title: 'White Discharge Problem in Females | सफ़ेद पानी के कारण, लक्षण और बचाव || Dr. Rashmi Pilania',
+    youtubeId: 'wGfheZrjbpo',
   },
-  {
-    id: 3,
-    title: 'Our NICU Experience at Divya Jyoti',
-    youtubeId: 'dQw4w9WgXcQ',
-  },
+  
 ];
 
 // ── TPA / INSURANCE PARTNERS ────────────────────────────────────────────────
