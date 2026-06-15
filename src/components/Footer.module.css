@@ -12,6 +12,10 @@
   display: block;
 }
 
+.salutation{
+  color: white;
+}
+
 .grid {
   display: grid;
   grid-template-columns: 2fr 1fr 1fr 1.5fr;
