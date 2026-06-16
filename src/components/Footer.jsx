@@ -58,7 +58,7 @@ export default function Footer() {
 
         <div className={styles.bottom}>
           <p>© 2026 Divya Jyoti Hospital. All Rights Reserved.</p>
-          <p>Made by <a className='salutation' target='blank' href="https://ahaitshamkhan.vercel.app" style={{color:"white"}}>Ahaitsham</a></p>
+          <p>Made by <a className='salutation' target='_blank' href="https://ahaitshamkhan.vercel.app" style={{color:"white"}}>Ahaitsham</a></p>
         </div>
       </footer>
 
