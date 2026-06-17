@@ -149,7 +149,7 @@ export default function Contact() {
 
             {status === 'success' ? (
               <div className={styles.success}>
-                <CheckCircle2 size={48} color="#18b956"/>
+                <CheckCircle2 size={48} color="#de7639"/>
                 <h3>Appointment Request Sent!</h3>
                 <p>Thank you, {savedName || 'there'}! We've received your request and will call you shortly.</p>
               </div>

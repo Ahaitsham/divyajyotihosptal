@@ -36,7 +36,7 @@
 }
 .quickBtn:hover { opacity: 0.9; transform: translateY(-1px); }
 
-.greenBtn { background: #18b956; }
+.greenBtn { background: #de7639; }
 .waBtn { background: #25D366; }
 
 .form {
@@ -65,7 +65,7 @@
   align-items: center;
   justify-content: center;
   gap: 8px;
-  background: #18b956;
+  background: #de7639;
   color: white;
   border: none;
   padding: 13px;

@@ -46,7 +46,7 @@ export default function SpecialityPage() {
               <h3>What We Offer</h3>
               <ul className={styles.pointList}>
                 {sp.points.map(pt => (
-                  <li key={pt}><CheckCircle2 size={16} color="#18b956"/>{pt}</li>
+                  <li key={pt}><CheckCircle2 size={16} color="#de7639"/>{pt}</li>
                 ))}
               </ul>
             </div>

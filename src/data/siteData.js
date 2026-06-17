@@ -158,7 +158,7 @@ export const SPECIALITIES = [
     points: ['Routine gynecological exams', 'High-risk pregnancy care', 'Menstrual and hormonal disorders', 'Laparoscopic gynecological surgery', 'Prenatal and postnatal care', 'Family planning services'],
   },
   {
-    id: 3, name: 'NICU', icon: 'Baby',
+    id: 3, name: 'General Physician', icon: 'Baby',
     desc: 'State-of-the-art neonatal intensive care for premature newborns.',
     image: 'https://images.unsplash.com/photo-1555861496-0666c8981751?w=500',
     longDesc: 'Our Level III NICU is equipped with advanced monitoring technology and staffed by experienced neonatologists, providing round-the-clock care for premature and critically ill newborns to ensure the best possible start to life.',
@@ -172,7 +172,7 @@ export const SPECIALITIES = [
     points: ['Routine check-ups and growth monitoring', 'Complete vaccination schedules', 'Newborn care services', 'Management of childhood infections', 'Nutritional counselling', 'Developmental assessments'],
   },
   {
-    id: 5, name: 'Cardiology', icon: 'HeartPulse',
+    id: 5, name: 'ENT\' Ear, Nose, Throat', icon: 'HeartPulse',
     desc: 'Advanced cardiac diagnosis, treatment and interventional procedures.',
     image: 'https://images.unsplash.com/photo-1628348068343-c6a848d2b6dd?w=500',
     longDesc: 'Our Cardiology department offers comprehensive heart care, from preventive screening to advanced interventional procedures. Our cardiologists use the latest diagnostic tools to detect and manage cardiovascular conditions early.',
@@ -193,7 +193,28 @@ export const SPECIALITIES = [
     points: ['Joint replacement surgery', 'Arthroscopic procedures', 'Spine care and treatment', 'Sports injury management', 'Fracture care', 'Physiotherapy and rehabilitation'],
   },
   {
-    id: 8, name: 'Emergency Care', icon: 'Ambulance',
+    id: 8, name: 'Urology', icon: 'Ambulance',
+    desc: '24×7 emergency trauma care with rapid response teams.',
+    image: 'https://images.unsplash.com/photo-1580281657527-47a8c9d0c6bd?w=500',
+    longDesc: 'Our Emergency & Trauma department operates round the clock, providing rapid medical care for accident victims, critical illnesses and medical emergencies. Equipped with advanced facilities and a specialised team ready at all times.',
+    points: ['24×7 fast ambulance services', 'Dedicated emergency surgery procedures', 'Specialised ICU and trauma care', 'Advanced monitoring systems', 'Cardiac and neuro emergency support', 'Emergency laboratory and diagnostics'],
+  },
+  {
+    id: 9, name: 'Medical Oncology', icon: 'Ambulance',
+    desc: '24×7 emergency trauma care with rapid response teams.',
+    image: 'https://images.unsplash.com/photo-1580281657527-47a8c9d0c6bd?w=500',
+    longDesc: 'Our Emergency & Trauma department operates round the clock, providing rapid medical care for accident victims, critical illnesses and medical emergencies. Equipped with advanced facilities and a specialised team ready at all times.',
+    points: ['24×7 fast ambulance services', 'Dedicated emergency surgery procedures', 'Specialised ICU and trauma care', 'Advanced monitoring systems', 'Cardiac and neuro emergency support', 'Emergency laboratory and diagnostics'],
+  },
+  {
+    id: 10, name: 'Surgical Oncology', icon: 'Ambulance',
+    desc: '24×7 emergency trauma care with rapid response teams.',
+    image: 'https://images.unsplash.com/photo-1580281657527-47a8c9d0c6bd?w=500',
+    longDesc: 'Our Emergency & Trauma department operates round the clock, providing rapid medical care for accident victims, critical illnesses and medical emergencies. Equipped with advanced facilities and a specialised team ready at all times.',
+    points: ['24×7 fast ambulance services', 'Dedicated emergency surgery procedures', 'Specialised ICU and trauma care', 'Advanced monitoring systems', 'Cardiac and neuro emergency support', 'Emergency laboratory and diagnostics'],
+  },
+  {
+    id: 11, name: 'Nephrology', icon: 'Ambulance',
     desc: '24×7 emergency trauma care with rapid response teams.',
     image: 'https://images.unsplash.com/photo-1580281657527-47a8c9d0c6bd?w=500',
     longDesc: 'Our Emergency & Trauma department operates round the clock, providing rapid medical care for accident victims, critical illnesses and medical emergencies. Equipped with advanced facilities and a specialised team ready at all times.',

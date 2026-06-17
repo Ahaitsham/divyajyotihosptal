@@ -177,7 +177,7 @@
   font-size: 14px;
 }
 
-.apptFeatures li svg { color: #18b956; flex-shrink: 0; }
+.apptFeatures li svg { color: #de7639; flex-shrink: 0; }
 
 .apptRight {
   background: white;
@@ -408,6 +408,12 @@
   transition: border-color 0.2s;
 }
 .faqOpen { border-left-color: #0085A9; }
+
+/* .quickGrid{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+} */
 
 .faqQ {
   width: 100%;

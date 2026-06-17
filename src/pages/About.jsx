@@ -71,6 +71,39 @@ export default function About() {
           ))}
         </div>
 
+        <section className={styles.overview}>
+          <div className={styles.overviewImg}>
+            <img src="/images/Dr.Tarun.jpeg" alt="Divya Jyoti Hospital"/>
+          </div>
+          <div className={styles.overviewContent}>
+            <h2>Director's Message</h2>
+            {/* <h3>A Legacy of Trust, Compassion & Excellence Since 2005</h3><br /> */}
+            <p>Founded in 2005 by Dr. Ramkishan Singh, Divya Jyoti Hospital, Jewar was established with a mission to provide high-quality healthcare services to the people of Jewar and nearby communities. Built on the principles of compassion, integrity, and clinical excellence, the hospital has become a trusted name in healthcare for thousands of families across the region</p>
+            <p>As one of the pioneering healthcare institutions in Jewar, Divya Jyoti Hospital introduced advanced medical facilities and reliable emergency care services at a time when quality healthcare access was limited. Over the years, the hospital has continuously evolved, adopting modern medical technologies and expanding its specialties to meet the growing healthcare needs of the community.</p>
+            <p>Today, Divya Jyoti Hospital stands as a comprehensive multi-specialty healthcare centre, offering expert medical care across various disciplines, including Gynaecology & IVF, Paediatrics & NICU, Urology, General Surgery, Internal Medicine, Critical Care, Diagnostics, and Emergency Services. Our team of experienced doctors, skilled nursing staff, and dedicated healthcare professionals work together to ensure every patient receives personalized and compassionate care.</p>
+            <p>We believe that healthcare is not just about treating illnesses—it is about building trust, providing comfort, and improving the quality of life for every patient who walks through our doors. With a patient-first approach and a commitment to excellence, we continue to serve the community with the same dedication and values upon which the hospital was founded.</p>
+
+            
+          </div>
+        </section>
+
+
+        <section className={styles.overview}>
+         
+          <div className={styles.overviewContent}>
+            <h2>Director's Message</h2>
+            {/* <h3>A Legacy of Trust, Compassion & Excellence Since 2005</h3><br /> */}
+            <p>Founded in 2005 by Dr. Ramkishan Singh, Divya Jyoti Hospital, Jewar was established with a mission to provide high-quality healthcare services to the people of Jewar and nearby communities. Built on the principles of compassion, integrity, and clinical excellence, the hospital has become a trusted name in healthcare for thousands of families across the region</p>
+            <p>As one of the pioneering healthcare institutions in Jewar, Divya Jyoti Hospital introduced advanced medical facilities and reliable emergency care services at a time when quality healthcare access was limited. Over the years, the hospital has continuously evolved, adopting modern medical technologies and expanding its specialties to meet the growing healthcare needs of the community.</p>
+            <p>Today, Divya Jyoti Hospital stands as a comprehensive multi-specialty healthcare centre, offering expert medical care across various disciplines, including Gynaecology & IVF, Paediatrics & NICU, Urology, General Surgery, Internal Medicine, Critical Care, Diagnostics, and Emergency Services. Our team of experienced doctors, skilled nursing staff, and dedicated healthcare professionals work together to ensure every patient receives personalized and compassionate care.</p>
+            <p>We believe that healthcare is not just about treating illnesses—it is about building trust, providing comfort, and improving the quality of life for every patient who walks through our doors. With a patient-first approach and a commitment to excellence, we continue to serve the community with the same dedication and values upon which the hospital was founded.</p>
+          </div>
+
+           <div className={styles.overviewImg}>
+            <img src="/images/Dr.Rashmi.jpeg" alt="Divya Jyoti Hospital"/>
+          </div>
+        </section>
+
         {/* MISSION & VISION */}
         <div className={styles.mvGrid}>
           <div className={styles.mvCard}>

@@ -64,14 +64,14 @@ export default function Home() {
           </div>
           <div className={styles.quickGrid}>
             {[
-              { icon: <Users size={28}/>, label: 'International Patients', path: '/services' },
+            
               { icon: <Ambulance size={28}/>, label: 'Emergency & Trauma', path: '/services' },
-              { icon: <Stethoscope size={28}/>, label: 'Second Opinion', path: '/services' },
+              { icon: <Stethoscope size={28}/>, label: 'Doctor Consultation', path: '/services' },
               { icon: <CheckCircle2 size={28}/>, label: 'Health Checkup', path: '/services' },
               { icon: <Zap size={28}/>, label: 'Radiology', path: '/services' },
               { icon: <FlaskConical size={28}/>, label: 'Path Lab', path: '/services' },
               { icon: <Pill size={28}/>, label: 'Pharmacy', path: '/services' },
-              { icon: <HeartPulse size={28}/>, label: 'Home Care', path: '/services' },
+              { icon: <HeartPulse size={28}/>, label: 'Dialysis', path: '/services' },
             ].map(item => (
               <Link to={item.path} key={item.label} className={styles.quickCard}>
                 <div className={styles.quickIcon}>{item.icon}</div>
@@ -120,7 +120,7 @@ export default function Home() {
             <div className={styles.apptRight}>
               {formStatus === 'success' ? (
                 <div className={styles.formSuccess}>
-                  <CheckCircle2 size={40} color="#18b956"/>
+                  <CheckCircle2 size={40} color="#de7639"/>
                   <h3>Thank You!</h3>
                   <p>We've received your request and will call you shortly.</p>
                 </div>
@@ -164,7 +164,7 @@ export default function Home() {
         <div className="container">
           <div className={styles.whyGrid}>
             <div className={styles.whyImg}>
-              <img src="/images/dr. ramkishan.png" alt="Hospital"/>
+              <img src="/images/Building.jpg.jpeg" alt="Hospital"/>
               <div className={styles.whyBadge}>
                 <Award size={28}/>
                 <div>

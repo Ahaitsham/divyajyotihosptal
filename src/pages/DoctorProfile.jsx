@@ -63,7 +63,7 @@ export default function DoctorProfile() {
                 <h2>Specializations</h2>
                 <ul className={styles.list}>
                   {doc.specializations.map(s => (
-                    <li key={s}><CheckCircle2 size={16} color="#18b956"/>{s}</li>
+                    <li key={s}><CheckCircle2 size={16} color="#de7639"/>{s}</li>
                   ))}
                 </ul>
               </div>

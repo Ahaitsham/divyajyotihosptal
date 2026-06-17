@@ -16,10 +16,10 @@
   margin: 0 auto;
 }
 
-.logo { display: flex; align-items: center; }
+.logo { display: flex; agn-items: center; }
 
 .logoImg {
-  height: 52px;
+  height: 90px;
   width: auto;
   object-fit: contain;
 }

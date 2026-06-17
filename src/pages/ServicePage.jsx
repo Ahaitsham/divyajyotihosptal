@@ -83,7 +83,7 @@ export default function ServicePage() {
               <h3>Facilities at Divya Jyoti Hospital</h3>
               <ul className={styles.pointList}>
                 {details.points.map(pt => (
-                  <li key={pt}><CheckCircle2 size={16} color="#18b956"/>{pt}</li>
+                  <li key={pt}><CheckCircle2 size={16} color="#de7639"/>{pt}</li>
                 ))}
               </ul>
             </div>
