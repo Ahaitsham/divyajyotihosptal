@@ -23,9 +23,19 @@
 }
 .arrowBtn:hover { background: #0085A9; color: white; border-color: #0085A9; }
 
+.viewport {
+  overflow: hidden;
+}
+
 .track {
-  display: grid;
-  gap: 20px;
+  display: flex;
+  transition: transform 0.6s ease;
+}
+
+.slideItem {
+  flex-shrink: 0;
+  padding: 0 10px;
+  box-sizing: border-box;
 }
 
 .card {

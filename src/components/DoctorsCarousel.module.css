@@ -3,11 +3,24 @@
   padding: 0 50px;
 }
 
+.viewport {
+  overflow: hidden;
+}
+
 .track {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 22px;
-  transition: opacity 0.2s;
+  display: flex;
+  transition: transform 0.6s ease;
+}
+
+.slideItem {
+  flex-shrink: 0;
+  padding: 0 11px;
+  box-sizing: border-box;
+}
+
+@keyframes fadeSlide {
+  from { opacity: 0; transform: translateY(6px); }
+  to   { opacity: 1; transform: translateY(0); }
 }
 
 .card {
