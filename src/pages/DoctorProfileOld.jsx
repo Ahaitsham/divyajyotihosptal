@@ -1,5 +1,5 @@
 import { useParams, Link } from 'react-router-dom';
-import { CalendarDays, Award, Clock, CheckCircle2, ArrowLeft, BookOpen, Users, GraduationCap, Stethoscope } from 'lucide-react';
+import { CalendarDays, Award, Clock, CheckCircle2, ArrowLeft } from 'lucide-react';
 import { DOCTORS } from '../data/siteData';
 import AppointmentSidebar from '../components/AppointmentSidebar';
 import styles from './DoctorProfile.module.css';
@@ -60,74 +60,23 @@ export default function DoctorProfile() {
                 </ul>
               </div>
               <div className={styles.section}>
-                <h2>Areas of Special Interest</h2>
+                <h2>Area of Special Interest</h2>
                 <ul className={styles.list}>
                   {doc.specializations.map(s => (
-                    <li key={s}><CheckCircle2 size={16} color="#18b956"/>{s}</li>
+                    <li key={s}><CheckCircle2 size={16} color="#de7639"/>{s}</li>
+                  ))}
+                </ul>
+              </div>
+
+              <div className={styles.section}>
+                <h2>Area of Special Interest</h2>
+                <ul className={styles.list}>
+                  {doc.specializations.map(s => (
+                    <li key={s}><CheckCircle2 size={16} color="#de7639"/>{s}</li>
                   ))}
                 </ul>
               </div>
             </div>
-
-            {/* EXPERIENCE DETAILS (optional) */}
-            {doc.experienceDetails && (
-              <div className={styles.section}>
-                <h2><Stethoscope size={20} color="#0085A9" style={{ marginRight: '8px', verticalAlign: 'middle' }}/>Experience</h2>
-                <ul className={styles.list}>
-                  {doc.experienceDetails.map(e => (
-                    <li key={e}><Clock size={16} color="#0085A9"/>{e}</li>
-                  ))}
-                </ul>
-              </div>
-            )}
-
-            {/* CLINICAL FOCUS (optional) */}
-            {doc.clinicalFocus && (
-              <div className={styles.section}>
-                <h2>Clinical Focus</h2>
-                <ul className={styles.list}>
-                  {doc.clinicalFocus.map(c => (
-                    <li key={c}><CheckCircle2 size={16} color="#18b956"/>{c}</li>
-                  ))}
-                </ul>
-              </div>
-            )}
-
-            {/* TRAINING & CERTIFICATIONS (optional) */}
-            {doc.training && (
-              <div className={styles.section}>
-                <h2><GraduationCap size={20} color="#0085A9" style={{ marginRight: '8px', verticalAlign: 'middle' }}/>Advanced Training & Certifications</h2>
-                <ul className={styles.list}>
-                  {doc.training.map(t => (
-                    <li key={t}><Award size={16} color="#DE7639"/>{t}</li>
-                  ))}
-                </ul>
-              </div>
-            )}
-
-            {/* RESEARCH (optional) */}
-            {doc.research && (
-              <div className={styles.section}>
-                <h2><BookOpen size={20} color="#0085A9" style={{ marginRight: '8px', verticalAlign: 'middle' }}/>Research & Academic Contributions</h2>
-                <ul className={styles.list}>
-                  {doc.research.map(r => (
-                    <li key={r}><BookOpen size={16} color="#0085A9"/>{r}</li>
-                  ))}
-                </ul>
-              </div>
-            )}
-
-            {/* MEMBERSHIPS (optional) */}
-            {doc.memberships && (
-              <div className={styles.section}>
-                <h2><Users size={20} color="#0085A9" style={{ marginRight: '8px', verticalAlign: 'middle' }}/>Professional Memberships</h2>
-                <ul className={styles.list}>
-                  {doc.memberships.map(m => (
-                    <li key={m}><CheckCircle2 size={16} color="#18b956"/>{m}</li>
-                  ))}
-                </ul>
-              </div>
-            )}
           </main>
 
           {/* SIDEBAR */}
