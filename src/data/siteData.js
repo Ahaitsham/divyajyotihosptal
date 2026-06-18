@@ -13,7 +13,7 @@ export const CAROUSEL_SLIDES = [
     heading: 'Advanced Healthcare. Compassionate Care.',
     subheading: 'State-of-the-art facilities, modern patient rooms, and expert medical care designed for your comfort and recovery.',
     cta: 'Book Now',
-  },  
+  },
   {
     id: 2,
     image: '/images/1.jpg.jpeg', // Dr. Rashmi Pilania - IVF
@@ -154,81 +154,81 @@ export const DOCTORS = [
 
 export const SPECIALITIES = [
   {
-    id: 1, name: 'IVF & Fertility', icon: 'Heart',
+    id: 1, name: 'IVF & Fertility Center', icon: 'Heart',
     desc: 'Advanced assisted reproductive technologies and fertility treatments.',
-    image: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=500',
-    longDesc: 'Our IVF and Fertility centre offers comprehensive reproductive care guided by experienced fertility specialists. We combine advanced laboratory technology with personalised treatment plans to help couples achieve their dream of parenthood.',
-    points: ['IVF and ICSI procedures', 'IUI (Intrauterine Insemination)', 'Egg and embryo freezing', 'Fertility counselling and support', 'Hormonal evaluation and treatment', 'Male and female infertility workup'],
+    image: '/images/IVF.jpg.jpeg',
+    longDesc: 'At Divya Jyoti Hospital\'s IVF   & Fertility Centre, we understand that the journey to parenthood can be emotional and challenging.Our experienced fertility specialists combine advanced reproductive technology with compassionate care to help couples fulfill their dream of having a baby.Every treatment plan is personalized based on your medical history, fertility needs, and family goals.',
+   points: ['IVF and ICSI procedures', 'IUI (Intrauterine Insemination)', 'Egg and embryo freezing', 'Fertility counselling and support', 'Hormonal evaluation and treatment', 'Male and female infertility workup'],
   },
-  {
-    id: 2, name: 'Gynecology', icon: 'Activity',
+{
+  id: 2, name: 'Gynecology', icon: 'Activity',
     desc: 'Comprehensive women\'s health care, maternal and prenatal services.',
-    image: 'https://images.unsplash.com/photo-1584516150909-3c5ae2e1b7e3?w=500',
-    longDesc: 'Our Gynecology department provides complete women\'s healthcare across all life stages — from adolescence through menopause. Our specialists offer compassionate, confidential care for routine check-ups as well as complex gynecological conditions.',
-    points: ['Routine gynecological exams', 'High-risk pregnancy care', 'Menstrual and hormonal disorders', 'Laparoscopic gynecological surgery', 'Prenatal and postnatal care', 'Family planning services'],
+      image: '/images/Gynee.jpg.jpeg',
+        longDesc: 'Our Gynecology department provides complete women\'s healthcare across all life stages — from adolescence through menopause. Our specialists offer compassionate, confidential care for routine check-ups as well as complex gynecological conditions.',
+          points: ['Routine gynecological exams', 'High-risk pregnancy care', 'Menstrual and hormonal disorders', 'Laparoscopic gynecological surgery', 'Prenatal and postnatal care', 'Family planning services'],
   },
-  {
-    id: 3, name: 'General Physician', icon: 'Baby',
+{
+  id: 3, name: 'General Physician', icon: 'Baby',
     desc: 'State-of-the-art neonatal intensive care for premature newborns.',
-    image: 'https://images.unsplash.com/photo-1555861496-0666c8981751?w=500',
-    longDesc: 'Our Level III NICU is equipped with advanced monitoring technology and staffed by experienced neonatologists, providing round-the-clock care for premature and critically ill newborns to ensure the best possible start to life.',
-    points: ['Advanced incubators and warmers', 'Ventilator support for preterm babies', 'Phototherapy for jaundice', 'Continuous vital monitoring', 'Infection control protocols', 'Parental guidance and counselling'],
+      image: '/images/Physician.jpg.jpeg',
+        longDesc: 'Our Level III NICU is equipped with advanced monitoring technology and staffed by experienced neonatologists, providing round-the-clock care for premature and critically ill newborns to ensure the best possible start to life.',
+          points: ['Advanced incubators and warmers', 'Ventilator support for preterm babies', 'Phototherapy for jaundice', 'Continuous vital monitoring', 'Infection control protocols', 'Parental guidance and counselling'],
   },
-  {
-    id: 4, name: 'Pediatrics', icon: 'Users',
+{
+  id: 4, name: 'Pediatrics', icon: 'Users',
     desc: 'Expert child healthcare from birth through adolescence.',
-    image: 'https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?w=500',
-    longDesc: 'Our Pediatrics department offers comprehensive care for infants, children and adolescents in a warm, child-friendly environment. From routine vaccinations to managing complex childhood illnesses, our team is dedicated to your child\'s wellbeing.',
-    points: ['Routine check-ups and growth monitoring', 'Complete vaccination schedules', 'Newborn care services', 'Management of childhood infections', 'Nutritional counselling', 'Developmental assessments'],
+      image: '/images/Pedia.jpg.jpeg',
+        longDesc: 'Our Pediatrics department offers comprehensive care for infants, children and adolescents in a warm, child-friendly environment. From routine vaccinations to managing complex childhood illnesses, our team is dedicated to your child\'s wellbeing.',
+          points: ['Routine check-ups and growth monitoring', 'Complete vaccination schedules', 'Newborn care services', 'Management of childhood infections', 'Nutritional counselling', 'Developmental assessments'],
   },
-  {
-    id: 5, name: 'ENT\' Ear, Nose, Throat', icon: 'HeartPulse',
+{
+  id: 5, name: 'ENT\' Ear, Nose, Throat', icon: 'HeartPulse',
     desc: 'Advanced cardiac diagnosis, treatment and interventional procedures.',
-    image: 'https://images.unsplash.com/photo-1628348068343-c6a848d2b6dd?w=500',
-    longDesc: 'Our Cardiology department offers comprehensive heart care, from preventive screening to advanced interventional procedures. Our cardiologists use the latest diagnostic tools to detect and manage cardiovascular conditions early.',
-    points: ['ECG and Echo cardiography', 'Cardiac stress testing', 'Hypertension management', 'Interventional cardiology procedures', 'Heart failure management', 'Preventive cardiac screening'],
+      image: '/images/ENT.jpg.jpeg',
+        longDesc: 'Our Cardiology department offers comprehensive heart care, from preventive screening to advanced interventional procedures. Our cardiologists use the latest diagnostic tools to detect and manage cardiovascular conditions early.',
+          points: ['ECG and Echo cardiography', 'Cardiac stress testing', 'Hypertension management', 'Interventional cardiology procedures', 'Heart failure management', 'Preventive cardiac screening'],
   },
-  {
-    id: 6, name: 'General Surgery', icon: 'Scissors',
+{
+  id: 6, name: 'General Surgery', icon: 'Scissors',
     desc: 'Minimally invasive and open surgical procedures by expert surgeons.',
-    image: 'https://images.unsplash.com/photo-1551190822-a9333d879b1f?w=500',
-    longDesc: 'Our General Surgery department is equipped to handle a wide range of surgical procedures, from minimally invasive laparoscopic surgeries to complex abdominal operations, performed by experienced surgeons using modern techniques.',
-    points: ['Laparoscopic surgery', 'Hernia repair', 'Gallbladder surgery', 'Appendix surgery', 'Abdominal surgeries', 'Post-operative care and follow-up'],
+      image: '/images/GeneralSurgery.jpg.jpeg',
+        longDesc: 'Our General Surgery department is equipped to handle a wide range of surgical procedures, from minimally invasive laparoscopic surgeries to complex abdominal operations, performed by experienced surgeons using modern techniques.',
+          points: ['Laparoscopic surgery', 'Hernia repair', 'Gallbladder surgery', 'Appendix surgery', 'Abdominal surgeries', 'Post-operative care and follow-up'],
   },
-  {
-    id: 7, name: 'Orthopedics', icon: 'Bone',
+{
+  id: 7, name: 'Orthopedics', icon: 'Bone',
     desc: 'Joint replacement, spine care and sports medicine solutions.',
-    image: 'https://images.unsplash.com/photo-1530026186672-2cd00ffc50fe?w=500',
-    longDesc: 'Our Orthopedics department provides comprehensive musculoskeletal care, from conservative management of joint pain to advanced joint replacement surgeries, helping patients regain mobility and improve quality of life.',
-    points: ['Joint replacement surgery', 'Arthroscopic procedures', 'Spine care and treatment', 'Sports injury management', 'Fracture care', 'Physiotherapy and rehabilitation'],
+      image: '/images/Orthopedic.jpg.jpeg',
+        longDesc: 'Our Orthopedics department provides comprehensive musculoskeletal care, from conservative management of joint pain to advanced joint replacement surgeries, helping patients regain mobility and improve quality of life.',
+          points: ['Joint replacement surgery', 'Arthroscopic procedures', 'Spine care and treatment', 'Sports injury management', 'Fracture care', 'Physiotherapy and rehabilitation'],
   },
-  {
-    id: 8, name: 'Urology', icon: 'Ambulance',
+{
+  id: 8, name: 'Urology', icon: 'Ambulance',
     desc: '24×7 emergency trauma care with rapid response teams.',
-    image: 'https://images.unsplash.com/photo-1580281657527-47a8c9d0c6bd?w=500',
-    longDesc: 'Our Emergency & Trauma department operates round the clock, providing rapid medical care for accident victims, critical illnesses and medical emergencies. Equipped with advanced facilities and a specialised team ready at all times.',
-    points: ['24×7 fast ambulance services', 'Dedicated emergency surgery procedures', 'Specialised ICU and trauma care', 'Advanced monitoring systems', 'Cardiac and neuro emergency support', 'Emergency laboratory and diagnostics'],
+      image: '/images/Urology.jpg.jpeg',
+        longDesc: 'Our Emergency & Trauma department operates round the clock, providing rapid medical care for accident victims, critical illnesses and medical emergencies. Equipped with advanced facilities and a specialised team ready at all times.',
+          points: ['24×7 fast ambulance services', 'Dedicated emergency surgery procedures', 'Specialised ICU and trauma care', 'Advanced monitoring systems', 'Cardiac and neuro emergency support', 'Emergency laboratory and diagnostics'],
   },
-  {
-    id: 9, name: 'Medical Oncology', icon: 'Ambulance',
+{
+  id: 9, name: 'Medical Oncology', icon: 'Ambulance',
     desc: '24×7 emergency trauma care with rapid response teams.',
-    image: 'https://images.unsplash.com/photo-1580281657527-47a8c9d0c6bd?w=500',
-    longDesc: 'Our Emergency & Trauma department operates round the clock, providing rapid medical care for accident victims, critical illnesses and medical emergencies. Equipped with advanced facilities and a specialised team ready at all times.',
-    points: ['24×7 fast ambulance services', 'Dedicated emergency surgery procedures', 'Specialised ICU and trauma care', 'Advanced monitoring systems', 'Cardiac and neuro emergency support', 'Emergency laboratory and diagnostics'],
+      image: '/images/MedicalOncology.jpg.jpeg',
+        longDesc: 'Our Emergency & Trauma department operates round the clock, providing rapid medical care for accident victims, critical illnesses and medical emergencies. Equipped with advanced facilities and a specialised team ready at all times.',
+          points: ['24×7 fast ambulance services', 'Dedicated emergency surgery procedures', 'Specialised ICU and trauma care', 'Advanced monitoring systems', 'Cardiac and neuro emergency support', 'Emergency laboratory and diagnostics'],
   },
-  {
-    id: 10, name: 'Surgical Oncology', icon: 'Ambulance',
+{
+  id: 10, name: 'Surgical Oncology', icon: 'Ambulance',
     desc: '24×7 emergency trauma care with rapid response teams.',
-    image: 'https://images.unsplash.com/photo-1580281657527-47a8c9d0c6bd?w=500',
-    longDesc: 'Our Emergency & Trauma department operates round the clock, providing rapid medical care for accident victims, critical illnesses and medical emergencies. Equipped with advanced facilities and a specialised team ready at all times.',
-    points: ['24×7 fast ambulance services', 'Dedicated emergency surgery procedures', 'Specialised ICU and trauma care', 'Advanced monitoring systems', 'Cardiac and neuro emergency support', 'Emergency laboratory and diagnostics'],
+      image: '/images/oncology.jpg.jpeg',
+        longDesc: 'Our Emergency & Trauma department operates round the clock, providing rapid medical care for accident victims, critical illnesses and medical emergencies. Equipped with advanced facilities and a specialised team ready at all times.',
+          points: ['24×7 fast ambulance services', 'Dedicated emergency surgery procedures', 'Specialised ICU and trauma care', 'Advanced monitoring systems', 'Cardiac and neuro emergency support', 'Emergency laboratory and diagnostics'],
   },
-  {
-    id: 11, name: 'Nephrology', icon: 'Ambulance',
+{
+  id: 11, name: 'Nephrology', icon: 'Ambulance',
     desc: '24×7 emergency trauma care with rapid response teams.',
-    image: 'https://images.unsplash.com/photo-1580281657527-47a8c9d0c6bd?w=500',
-    longDesc: 'Our Emergency & Trauma department operates round the clock, providing rapid medical care for accident victims, critical illnesses and medical emergencies. Equipped with advanced facilities and a specialised team ready at all times.',
-    points: ['24×7 fast ambulance services', 'Dedicated emergency surgery procedures', 'Specialised ICU and trauma care', 'Advanced monitoring systems', 'Cardiac and neuro emergency support', 'Emergency laboratory and diagnostics'],
+      image: '/images/Nephrology.jpg.jpeg',
+        longDesc: 'Our Emergency & Trauma department operates round the clock, providing rapid medical care for accident victims, critical illnesses and medical emergencies. Equipped with advanced facilities and a specialised team ready at all times.',
+          points: ['24×7 fast ambulance services', 'Dedicated emergency surgery procedures', 'Specialised ICU and trauma care', 'Advanced monitoring systems', 'Cardiac and neuro emergency support', 'Emergency laboratory and diagnostics'],
   },
 ];
 
@@ -395,7 +395,7 @@ export const PATIENT_VIDEOS = [
     youtubeId: 'WN_hWcm9Mdg',
   },
   {
-    id:13,
+    id: 13,
     title: 'Advanced NICU tour | specialised newborn care at DJH',
     youtubeId: 'gkMESqSI1Lw',
   },
@@ -474,8 +474,8 @@ export const PATIENT_VIDEOS = [
     title: 'IVF success story | Dr. Rashmi Pilania',
     youtubeId: 'UbWkFw6NprY',
   },
-  
-  
+
+
 ];
 
 // ── TPA / INSURANCE PARTNERS ────────────────────────────────────────────────
