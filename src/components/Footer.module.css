@@ -83,6 +83,13 @@
   color: #0085A9;
   flex-shrink: 0;
 }
+.logo { display: flex; agn-items: center; }
+
+.logoImg {
+  height: 90px;
+  width: auto;
+  object-fit: contain;
+}
 
 .bottom {
   max-width: 1300px;

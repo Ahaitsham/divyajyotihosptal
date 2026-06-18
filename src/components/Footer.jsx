@@ -3,6 +3,7 @@ import { Phone, Mail, MapPin, MessageCircle } from 'lucide-react';
 import { CONTACT } from '../data/siteData';
 import styles from './Footer.module.css';
 
+
 export default function Footer() {
   return (
     <>
@@ -23,7 +24,10 @@ export default function Footer() {
       <footer className={styles.footer}>
         <div className={styles.grid}>
           <div className={styles.brand}>
-            <h3>Divya Jyoti Hospital</h3>
+            {/* <h3>Divya Jyoti Hospital</h3> */}
+            <a href = "/" className={styles.logo}>
+              <img src="/images/white-logo.png" alt="Divya Jyoti Hospital" className={styles.logoImg} />
+            </a>
             <p>Your Health, Our Priority</p>
             <p className={styles.tagline}>Providing compassionate and advanced healthcare with experienced specialists since 2005.</p>
           </div>
