@@ -157,7 +157,7 @@ export default function Home() {
           </div>
           <DoctorsCarousel />
           <div className={styles.viewAll}>
-            <Link to="/doctors" className="btn-primary">
+            <Link to="/doctors" className="btn-green" style={{ backgroundColor: '#0085a9' }}>
               View All Doctors <ArrowRight size={16}/>
             </Link>
           </div>

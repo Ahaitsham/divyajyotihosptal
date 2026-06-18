@@ -157,8 +157,9 @@ export const SPECIALITIES = [
     id: 1, name: 'IVF & Fertility Center', icon: 'Heart',
     desc: 'Advanced assisted reproductive technologies and fertility treatments.',
     image: '/images/IVF.jpg.jpeg',
-    longDesc: 'At Divya Jyoti Hospital\'s IVF   & Fertility Centre, we understand that the journey to parenthood can be emotional and challenging.Our experienced fertility specialists combine advanced reproductive technology with compassionate care to help couples fulfill their dream of having a baby.Every treatment plan is personalized based on your medical history, fertility needs, and family goals.',
+    longDesc: ['At Divya Jyoti Hospital\'s IVF   & Fertility Centre, we understand that the journey to parenthood can be emotional and challenging.Our experienced fertility specialists combine advanced reproductive technology with compassionate care to help couples fulfill their dream of having a baby.Every treatment plan is personalized based on your medical history, fertility needs, and family goals.'],
    points: ['IVF and ICSI procedures', 'IUI (Intrauterine Insemination)', 'Egg and embryo freezing', 'Fertility counselling and support', 'Hormonal evaluation and treatment', 'Male and female infertility workup'],
+   
   },
 {
   id: 2, name: 'Gynecology', icon: 'Activity',
