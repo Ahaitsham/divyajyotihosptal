@@ -62,6 +62,11 @@ export default function Home() {
             <h2>Quick Services</h2>
             <p>Comprehensive healthcare services designed around your needs</p>
           </div>
+          <div className="container-grid">
+
+
+            
+          </div>
           <div className={styles.quickGrid}>
             {[
             

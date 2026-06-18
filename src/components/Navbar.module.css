@@ -34,7 +34,7 @@
   display: flex;
   align-items: center;
   gap: 6px;
-  font-size: 13px;
+  font-size: 16px;
   color: #444;
   font-weight: 500;
   text-decoration: none;
@@ -46,7 +46,7 @@
   border: none;
   padding: 10px 18px;
   border-radius: 4px;
-  font-size: 13px;
+  font-size: 18px;
   font-weight: 600;
   cursor: pointer;
   font-family: var(--font);
@@ -85,7 +85,7 @@
 
 .navLink {
   color: rgba(255,255,255,0.9);
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   padding: 14px 16px;
   display: block;

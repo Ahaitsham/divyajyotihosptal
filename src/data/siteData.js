@@ -289,31 +289,31 @@ export const FAQS = [
 export const PATIENT_REVIEWS = [
   {
     id: 1,
-    name: 'Anjali Sharma',
+    name: 'Shuban Saifi',
     location: 'Jewar, UP',
     rating: 5,
-    text: 'The IVF team at Divya Jyoti Hospital made our journey to parenthood so much easier. Dr. Rashmi Pilania was incredibly supportive and answered every question with patience. We are forever grateful.',
+    text: 'I had a very good experience at Divya Jyoti Hospital. The staff if very cooperative and professional. The Hospital is kept clean and hygienic, which is very important.Special thanks to their detailed consultation.',
   },
   {
     id: 2,
-    name: 'Rakesh Yadav',
+    name: 'Somveer kumar',
     location: 'Greater Noida, UP',
-    rating: 5,
-    text: 'I had severe kidney stone pain and was treated promptly by Dr. Tarun Singh. The entire process from diagnosis to treatment was smooth and the staff was very caring throughout my stay.',
+    rating: 2,
+    text: 'Gynecologist Doctor is good but their management is very poor, you guys have to wait at least 2h because I saw the order of patients is not maintained some patient are consulted without order, reports are checked which will delay ultrascopic ets. thats not good way. You will be told 4 patients are just there. But wait is created by others.',
   },
   {
     id: 3,
-    name: 'Priya Verma',
+    name: 'Satendra Singh',
     location: 'Jewar, UP',
     rating: 5,
-    text: 'My son was admitted to the NICU after birth and the care provided by Dr. Rahul Rana and the nursing staff was exceptional. They kept us informed at every step. Highly recommend this hospital.',
+    text: 'Very good service and very nice behaviour br Dr. Rashmi Pilania. All services top level compare delhi ncr level in Divya Jyoti Hospital Jewar',
   },
   {
     id: 4,
-    name: 'Suresh Kumar',
+    name: 'Subash Mast',
     location: 'Dadri, UP',
     rating: 4,
-    text: 'Clean facilities, courteous staff, and the doctors take the time to explain everything clearly. The emergency department was quick to respond when we needed urgent care for my father.',
+    text: 'Best Hospital gyencology & urologist kidney stone jewar tappal road.',
   },
 ];
 
@@ -334,6 +334,137 @@ export const PATIENT_VIDEOS = [
     title: 'White Discharge Problem in Females | सफ़ेद पानी के कारण, लक्षण और बचाव || Dr. Rashmi Pilania',
     youtubeId: 'wGfheZrjbpo',
   },
+  {
+    id: 3,
+    title: 'Papay in pregnancy | Safe or not ? || Dr. Rashmi Pilania',
+    youtubeId: 'OhtAWt1FSlE',
+  },
+  {
+    id: 4,
+    title: 'Male fertility check : Semen analysis | Dr. Rashmi Pilania',
+    youtubeId: 'Eytwx72gf-E',
+  },
+  {
+    id: 5,
+    title: 'Why an advanced NICU can save a Newborn\'s life | Dr. Rahul Pana',
+    youtubeId: 'qHYENaxOtI0',
+  },
+  {
+    id: 6,
+    title: 'Paediatric success story | Parent Testimonial',
+    youtubeId: 'naFfOcB4KDY',
+  },
+  {
+    id: 7,
+    title: 'Pleural effusion | Procedure successfull || Dr. Vinay Gupta',
+    youtubeId: 'naFfOcB4KDY',
+  },
+  {
+    id: 8,
+    title: 'Available medical care | Availabe in Jewar',
+    youtubeId: 'CoLXRUXzIgU',
+  },
+  {
+    id: 9,
+    title: 'OPD consultation with Dr. Tarun Singh',
+    youtubeId: 'jHusyFPnSBU',
+  },
+  {
+    id: 10,
+    title: 'Baby recovered from severe lung infection | Dr. Rahul Pana',
+    youtubeId: 'cV2jm6eDKOI',
+  },
+  {
+    id: 11,
+    title: 'Emergency ? we\'re ready 24x7 ',
+    youtubeId: 'OZIOhBOfRD4',
+  },
+  {
+    id: 12,
+    title: 'Basic NRP training program at Divya Jyoti Hospital',
+    youtubeId: 'WN_hWcm9Mdg',
+  },
+  {
+    id:13,
+    title: 'Advanced NICU tour | specialised newborn care at DJH',
+    youtubeId: 'gkMESqSI1Lw',
+  },
+  {
+    id: 14,
+    title: 'Free Breast cancer health checkup camp',
+    youtubeId: 'Q2QQ_mb4Kpc',
+  },
+  {
+    id: 15,
+    title: 'Live-saving Kidney surgery | Dr. Tarun Singh',
+    youtubeId: '96VcjHpOe9M',
+  },
+  {
+    id: 16,
+    title: 'IVF success story | 7 years of hope',
+    youtubeId: '5nwwuhB8Y1M',
+  },
+  {
+    id: 17,
+    title: 'Kanta\'s Recovery Journey | successfull ovarian cyst (Rasoli ) || Dr. Rashmi Pilania',
+    youtubeId: 'pbWST151gwE',
+  },
+  {
+    id: 18,
+    title: 'Ovarian cyst (Rasoli) | Treatment process || Dr. Rashmi Pilania',
+    youtubeId: 'VSVXyZqB8j8',
+  },
+  {
+    id: 19,
+    title: 'White Discharge Problem in Females | सफ़ेद पानी के कारण, लक्षण और बचाव || Dr. Rashmi Pilania',
+    youtubeId: 'wGfheZrjbpo',
+  },
+  {
+    id: 20,
+    title: 'Critical delivery success story || Dr. Rashmi Pilania',
+    youtubeId: '7PlNG7DqVd8',
+  },
+  {
+    id: 21,
+    title: 'Kidney stone pain | Dr. Tarun Singh',
+    youtubeId: 'meAEsWxiIQg',
+  },
+  {
+    id: 22,
+    title: 'Kindey stone success treatment',
+    youtubeId: 'OFtR6JjvnTg',
+  },
+  {
+    id: 23,
+    title: 'From leg swelling and pain to relief',
+    youtubeId: 'vDWV_yiIpGk',
+  },
+  {
+    id: 24,
+    title: 'Dr. Tarun Singh Consult the patient for the urine problem',
+    youtubeId: 'G6GkXB8RxSA',
+  },
+  {
+    id: 25,
+    title: 'Parenthood success story in DJH',
+    youtubeId: 'xzk_Tc9posw',
+  },
+  {
+    id: 26,
+    title: 'Looking for trusted urology care in your area ? Meet Dr. Tarun Singh',
+    youtubeId: 'wUwRvR-xYVY ',
+  },
+  {
+    id: 27,
+    title: 'A story of Strength, New Born care and new life',
+    youtubeId: 'OAmSbxKavp8',
+  },
+  {
+    id: 28,
+    title: 'IVF success story | Dr. Rashmi Pilania',
+    youtubeId: 'UbWkFw6NprY',
+  },
+  
   
 ];
 

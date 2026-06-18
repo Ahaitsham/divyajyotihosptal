@@ -71,7 +71,7 @@ export default function Navbar() {
 
           <div className={styles.topRight}>
             <a href={`tel:${CONTACT.phone}`} className={styles.emergency}>
-              <Phone size={14} />
+              <Phone size={15} />
               <span>Emergency: {CONTACT.phone}</span>
             </a>
             <button className={styles.callbackBtn} onClick={() => setCallbackOpen(true)}>
