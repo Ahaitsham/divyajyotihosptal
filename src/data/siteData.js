@@ -482,12 +482,13 @@ export const PATIENT_VIDEOS = [
 // Replace `name` and `logo` with your actual TPA / insurance partner logos.
 // Logos can be placed in /public/tpa/ and referenced as '/tpa/yourfile.png'
 export const TPA_PARTNERS = [
-  { id: 1, name: 'Star Health Insurance', logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/c/c1/Star_Health_and_Allied_Insurance_logo.svg/320px-Star_Health_and_Allied_Insurance_logo.svg.png' },
-  { id: 2, name: 'ICICI Lombard', logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/ICICI_Lombard_logo.svg/320px-ICICI_Lombard_logo.svg.png' },
-  { id: 3, name: 'HDFC ERGO', logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/HDFC_Ergo_logo.svg/320px-HDFC_Ergo_logo.svg.png' },
-  { id: 4, name: 'Bajaj Allianz', logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Bajaj_Allianz_Logo.svg/320px-Bajaj_Allianz_Logo.svg.png' },
-  { id: 5, name: 'New India Assurance', logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/New_India_Assurance_logo.svg/320px-New_India_Assurance_logo.svg.png' },
-  { id: 6, name: 'Aditya Birla Health', logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Aditya_Birla_Capital_logo.svg/320px-Aditya_Birla_Capital_logo.svg.png' },
-  { id: 7, name: 'Care Health Insurance', logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Care_Health_Insurance_logo.png/320px-Care_Health_Insurance_logo.png' },
+  { id: 1, name: 'Star Health Insurance', logo: '/images/tpa1.jpeg' },
+  { id: 2, name: 'ICICI Lombard', logo: '/images/tpa2.jpeg' },
+  { id: 3, name: 'HDFC ERGO', logo: '/images/tpa3.jpeg' },
+  { id: 4, name: 'Bajaj Allianz', logo: '/images/tpa4.jpeg' },
+  { id: 5, name: 'New India Assurance', logo: '/images/tpa5.jpeg' },
+  { id: 6, name: 'Aditya Birla Health', logo: '/images/tpa6.jpeg' },
+  { id: 7, name: 'Care Health Insurance', logo: '/images/tpa7.jpeg' },
+  { id: 8, name: 'PMJAY', logo: '/images/tpa8.jpeg' },
 ];
 
