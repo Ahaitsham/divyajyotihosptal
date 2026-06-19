@@ -234,1053 +234,414 @@ export const DOCTORS = [
 //   },
 // ];
 
-
 export const SPECIALITIES = [
-
-{
-id:1,
-
-name:"IVF & Fertility Center",
-
-icon:"Heart",
-
-desc:"Advanced assisted reproductive technologies and fertility treatments.",
-
-image:"/images/IVF.jpg.jpeg",
-
-
-heroDesc:
-"At Divya Jyoti Hospital's IVF & Fertility Centre, we understand that the journey to parenthood can be emotional and challenging. Our experienced fertility specialists combine advanced reproductive technology with compassionate care to help couples fulfill their dream of having a baby.",
-
-
-sections:[
-
-
-{
-title:"Why Choose Our IVF Centre?",
-
-content:[
-"Experienced IVF & Fertility Specialists",
-"Personalized Treatment Plans",
-"Advanced Fertility Diagnostics",
-"Modern IVF Laboratory & Technology",
-"High Standards of Safety and Hygiene",
-"Ethical, Transparent & Confidential Care",
-"Compassionate Counseling and Emotional Support",
-"Affordable Fertility Treatment Packages"
-]
-
-},
-
-
-{
-title:"Our Fertility Services",
-
-content:[
-"IVF (In Vitro Fertilization)",
-"IUI (Intrauterine Insemination)",
-"ICSI (Intracytoplasmic Sperm Injection)",
-"Fertility Evaluation",
-"Male Infertility Treatment",
-"Female Infertility Treatment",
-"Fertility Counseling",
-"Pregnancy Care After IVF"
-]
-
-},
-
-
-
-{
-title:"Conditions We Treat",
-
-content:[
-"Female Infertility",
-"Male Infertility",
-"PCOS & Ovulation Disorders",
-"Endometriosis",
-"Blocked Fallopian Tubes",
-"Low Ovarian Reserve",
-"Recurrent Miscarriages",
-"Unexplained Infertility",
-"Hormonal Imbalances"
-]
-
-},
-
-
-
-{
-title:"Treatment Process",
-
-steps:true,
-
-content:[
-"Initial Consultation & Fertility Assessment",
-"Diagnostic Tests & Fertility Evaluation",
-"Personalized Treatment Planning",
-"IVF / IUI / ICSI Procedure",
-"Pregnancy Testing & Follow-up Care"
-]
-
-},
-
-
-
-{
-title:"Advanced Technology",
-
-content:
-"Our IVF Centre is equipped with advanced fertility technology and follows internationally accepted clinical protocols to improve treatment outcomes."
-
-},
-
-
-
-{
-title:"Patient-Centered Care",
-
-content:
-"We recognize that infertility affects both physical and emotional well-being. Our dedicated team provides compassionate guidance, honest communication and continuous support."
-
-}
-
-
-]
-
-},
-
-
-
-
-
-{
-id:2,
-
-name:"Gynecology",
-
-icon:"Activity",
-
-desc:"Comprehensive women's healthcare services.",
-
-image:"/images/Gynee.jpg.jpeg",
-
-
-heroDesc:
-"Our Gynecology department provides complete women's healthcare across all life stages — from adolescence through menopause. Our specialists offer compassionate and confidential care.",
-
-
-sections:[
-
-
-{
-title:"Why Choose Our Gynecology Department?",
-
-content:[
-"Experienced Gynecologists",
-"Personalized Treatment Plans",
-"Advanced Diagnostic Facilities",
-"Pregnancy Care",
-"Confidential & Compassionate Care",
-"Modern Infrastructure"
-]
-
-},
-
-
-{
-title:"Our Gynecology Services",
-
-content:[
-"Routine Gynecological Check-ups",
-"Pregnancy Care (Antenatal & Postnatal)",
-"High-Risk Pregnancy Management",
-"Menstrual Disorder Treatment",
-"PCOS / PCOD Management",
-"Infertility Evaluation",
-"Family Planning",
-"Menopause Care"
-]
-
-},
-
-
-
-{
-title:"Conditions We Treat",
-
-content:[
-"Irregular Menstrual Cycles",
-"Heavy or Painful Periods",
-"PCOS / PCOD",
-"Infertility",
-"Ovarian Cysts",
-"Uterine Fibroids",
-"Endometriosis",
-"Pelvic Pain",
-"UTIs"
-]
-
-},
-
-
-{
-title:"Care Process",
-
-steps:true,
-
-content:[
-"Consultation with Gynecologist",
-"Clinical Examination & Tests",
-"Personalized Treatment Plan",
-"Medical or Surgical Management",
-"Regular Follow-up"
-]
-
-},
-
-
-{
-title:"Advanced Women's Healthcare",
-
-content:
-"Our department uses modern diagnostic equipment, ultrasound technology and evidence-based treatments to provide accurate and effective care."
-
-}
-
-
-]
-
-},
-
-
-
-
-
-{
-id:3,
-
-name:"General Physician",
-
-icon:"Stethoscope",
-
-desc:"Complete medical care for everyday health problems.",
-
-image:"/images/Physician.jpg.jpeg",
-
-
-heroDesc:
-"Our General Physician Department provides comprehensive medical care for patients of all ages with diagnosis, prevention and treatment of acute and chronic illnesses.",
-
-
-sections:[
-
-
-{
-title:"Why Choose Our Physicians?",
-
-content:[
-"Experienced Qualified Physicians",
-"Accurate Diagnosis",
-"Evidence Based Treatment",
-"Preventive Healthcare",
-"Chronic Disease Management",
-"Patient Centered Care"
-]
-
-},
-
-
-{
-title:"Our Services",
-
-content:[
-"General Health Consultation",
-"Fever & Infection Management",
-"Diabetes Management",
-"Hypertension Care",
-"Thyroid Disorder Treatment",
-"Respiratory Disease Management",
-"Digestive Health",
-"Preventive Health Check-ups"
-]
-
-},
-
-
-{
-title:"Conditions We Treat",
-
-content:[
-"Fever & Viral Infections",
-"Cough Cold & Flu",
-"Diabetes",
-"High Blood Pressure",
-"Thyroid Disorders",
-"Asthma & Allergies",
-"Digestive Disorders",
-"UTIs",
-"Anemia"
-]
-
-},
-
-
-{
-title:"Care Process",
-
-steps:true,
-
-content:[
-"Medical Consultation",
-"Diagnostic Tests",
-"Accurate Diagnosis",
-"Personalized Treatment",
-"Follow-up Monitoring"
-]
-
-},
-
-
-{
-title:"Preventive Healthcare",
-
-content:
-"Good health starts with prevention. We focus on early detection, healthy lifestyle habits and patient education."
-
-}
-
-
-]
-
-},
-
-{
-id:4,
-
-name:"Pediatrics",
-
-icon:"Baby",
-
-desc:"Expert child healthcare from birth through adolescence.",
-
-image:"/images/Pedia.jpg.jpeg",
-
-
-heroDesc:
-"Our Pediatrics department offers comprehensive care for infants, children and adolescents in a warm and child-friendly environment.",
-
-
-sections:[
-
-{
-title:"Why Choose Our Pediatrics Department?",
-
-content:[
-"Experienced Pediatric Specialists",
-"Child-Friendly Environment",
-"Complete Vaccination Support",
-"Growth & Development Monitoring",
-"Advanced Diagnostic Facilities",
-"Compassionate Child Care"
-]
-
-},
-
-
-{
-title:"Our Pediatric Services",
-
-content:[
-"Routine Child Check-ups",
-"Vaccination Services",
-"Newborn Care",
-"Growth Monitoring",
-"Childhood Infection Treatment",
-"Nutritional Guidance",
-"Developmental Assessment"
-]
-
-},
-
-
-{
-title:"Conditions We Treat",
-
-content:[
-"Fever and Infections",
-"Respiratory Problems",
-"Childhood Allergies",
-"Growth Problems",
-"Nutritional Disorders",
-"Newborn Health Issues"
-]
-
-},
-
-
-{
-title:"Care Process",
-
-steps:true,
-
-content:[
-"Pediatric Consultation",
-"Clinical Examination",
-"Required Tests",
-"Personalized Treatment",
-"Follow-up Care"
-]
-
-}
-
-]
-
-},
-
-
-
-
-
-{
-id:5,
-
-name:"ENT - Ear, Nose, Throat",
-
-icon:"HeartPulse",
-
-desc:"Complete ear, nose and throat healthcare.",
-
-image:"/images/ENT.jpg.jpeg",
-
-
-heroDesc:
-"At Divya Jyoti Hospital's ENT Department, we provide expert diagnosis and treatment for conditions affecting the ear, nose, throat, head and neck.",
-
-
-sections:[
-
-
-{
-title:"Why Choose Our ENT Department?",
-
-content:[
-"Experienced ENT Specialists",
-"Advanced Diagnostic Facilities",
-"Personalized Patient Care",
-"Modern ENT Equipment",
-"Minimally Invasive Treatments",
-"Safe Hygienic Environment"
-]
-
-},
-
-
-{
-title:"Our ENT Services",
-
-content:[
-"Ear Care",
-"Nose & Sinus Care",
-"Throat Care",
-"Hearing Assessment",
-"Allergy Management",
-"Pediatric ENT Care",
-"Head & Neck Evaluation",
-"Minor ENT Procedures"
-]
-
-},
-
-
-{
-title:"Conditions We Treat",
-
-content:[
-"Ear Infections",
-"Hearing Loss",
-"Earwax Blockage",
-"Tinnitus",
-"Sinusitis",
-"Allergic Rhinitis",
-"Nasal Blockage",
-"Tonsillitis",
-"Voice Disorders",
-"Vertigo"
-]
-
-},
-
-
-{
-title:"Care Process",
-
-steps:true,
-
-content:[
-"ENT Consultation",
-"Physical Examination",
-"Diagnostic Tests",
-"Personalized Treatment",
-"Follow-up Care"
-]
-
-},
-
-
-{
-title:"Advanced ENT Care",
-
-content:
-"Our ENT department uses modern diagnostic technology and minimally invasive techniques to provide faster recovery."
-
-}
-
-
-]
-
-},
-
-
-
-
-
-
-{
-id:6,
-
-name:"General Surgery",
-
-icon:"Scissors",
-
-desc:"Advanced surgical care with modern techniques.",
-
-image:"/images/GeneralSurgery.jpg.jpeg",
-
-
-heroDesc:
-"Our General Surgery department provides comprehensive surgical care using advanced techniques, modern technology and patient-centered treatment.",
-
-
-sections:[
-
-
-{
-title:"Why Choose Our Surgery Department?",
-
-content:[
-"Experienced Surgeons",
-"Advanced Surgical Techniques",
-"Laparoscopic Surgery",
-"Modern Operation Theatres",
-"Post Operative Care",
-"High Safety Standards"
-]
-
-},
-
-
-{
-title:"Our Surgical Services",
-
-content:[
-"Laparoscopic Surgery",
-"Gallbladder Surgery",
-"Hernia Surgery",
-"Appendix Surgery",
-"Piles Treatment",
-"Fissure & Fistula Surgery",
-"Breast Surgery",
-"Minor Surgical Procedures"
-]
-
-},
-
-
-{
-title:"Conditions We Treat",
-
-content:[
-"Gallstones",
-"Hernias",
-"Appendicitis",
-"Piles",
-"Anal Fissures",
-"Anal Fistulas",
-"Breast Lumps",
-"Lipomas",
-"Abscesses"
-]
-
-},
-
-
-{
-title:"Surgical Care Process",
-
-steps:true,
-
-content:[
-"Surgical Consultation",
-"Diagnostic Tests",
-"Treatment Planning",
-"Surgical Procedure",
-"Recovery & Follow-up"
-]
-
-},
-
-
-{
-title:"Advanced Surgical Facilities",
-
-content:
-"Our operation theatres follow strict sterilization protocols and use modern surgical technology for safer procedures."
-
-}
-
-
-]
-
-},
-
-
-
-
-
-{
-id:7,
-
-name:"Orthopedics",
-
-icon:"Bone",
-
-desc:"Joint, bone and spine care solutions.",
-
-image:"/images/Orthopedic.jpg.jpeg",
-
-
-heroDesc:
-"Our Orthopedics department provides complete musculoskeletal care including joint problems, fractures, spine issues and rehabilitation.",
-
-
-sections:[
-
-
-{
-title:"Orthopedic Services",
-
-content:[
-"Joint Replacement",
-"Arthroscopic Procedures",
-"Spine Care",
-"Sports Injury Treatment",
-"Fracture Management",
-"Physiotherapy & Rehabilitation"
-]
-
-},
-
-
-{
-title:"Conditions We Treat",
-
-content:[
-"Joint Pain",
-"Fractures",
-"Arthritis",
-"Back Pain",
-"Sports Injuries",
-"Spine Disorders"
-]
-
-},
-
-
-{
-title:"Treatment Process",
-
-steps:true,
-
-content:[
-"Orthopedic Consultation",
-"Diagnosis & Imaging",
-"Treatment Planning",
-"Procedure or Therapy",
-"Recovery Monitoring"
-]
-
-}
-
-
-]
-
-},
-
-{
-id:8,
-
-name:"Urology",
-
-icon:"Activity",
-
-desc:"Specialized care for urinary and kidney related conditions.",
-
-image:"/images/Urology.jpg.jpeg",
-
-
-heroDesc:
-"Our Urology department provides advanced diagnosis and treatment for urinary tract, kidney and male reproductive health conditions.",
-
-
-sections:[
-
-
-{
-title:"Urology Services",
-
-content:[
-"Kidney Stone Treatment",
-"Urinary Tract Care",
-"Prostate Management",
-"Male Fertility Care",
-"Urological Surgery",
-"Preventive Urology"
-]
-
-},
-
-
-{
-title:"Conditions We Treat",
-
-content:[
-"Kidney Stones",
-"Urinary Infections",
-"Prostate Problems",
-"Bladder Disorders",
-"Male Infertility",
-"Urinary Blockage"
-]
-
-},
-
-
-{
-title:"Treatment Process",
-
-steps:true,
-
-content:[
-"Urology Consultation",
-"Diagnostic Tests",
-"Treatment Planning",
-"Procedure or Medication",
-"Follow-up Care"
-]
-
-}
-
-]
-
-},
-
-
-
-
-
-{
-id:9,
-
-name:"Medical Oncology",
-
-icon:"Activity",
-
-desc:"Comprehensive cancer treatment and care.",
-
-image:"/images/MedicalOncology.jpg.jpeg",
-
-
-heroDesc:
-"Our Medical Oncology Department provides evidence-based cancer treatment with personalized care plans and compassionate support.",
-
-
-sections:[
-
-
-{
-title:"Why Choose Medical Oncology?",
-
-content:[
-"Experienced Medical Oncologists",
-"Personalized Cancer Treatment",
-"Advanced Chemotherapy",
-"Targeted Therapy",
-"Immunotherapy",
-"Supportive Care"
-]
-
-},
-
-
-{
-title:"Our Oncology Services",
-
-content:[
-"Cancer Consultation",
-"Cancer Diagnosis",
-"Chemotherapy",
-"Targeted Therapy",
-"Immunotherapy",
-"Hormone Therapy",
-"Supportive Cancer Care",
-"Palliative Care"
-]
-
-},
-
-
-{
-title:"Types of Cancer We Manage",
-
-content:[
-"Breast Cancer",
-"Lung Cancer",
-"Colorectal Cancer",
-"Stomach Cancer",
-"Liver Cancer",
-"Ovarian Cancer",
-"Cervical Cancer",
-"Prostate Cancer",
-"Blood Cancers"
-]
-
-},
-
-
-{
-title:"Treatment Process",
-
-steps:true,
-
-content:[
-"Cancer Consultation",
-"Diagnostic Tests & Staging",
-"Treatment Planning",
-"Cancer Therapy",
-"Follow-up Care"
-]
-
-},
-
-
-{
-title:"Advanced Cancer Care",
-
-content:
-"Our oncology team follows evidence-based protocols and creates treatment plans according to cancer type, stage and patient needs."
-
-},
-
-
-{
-title:"Compassionate Support",
-
-content:
-"We provide emotional support, symptom management and guidance for patients and families throughout treatment."
-
-}
-
-]
-
-},
-
-
-
-
-
-
-
-{
-id:10,
-
-name:"Surgical Oncology",
-
-icon:"Scissors",
-
-desc:"Advanced cancer surgery with precision and care.",
-
-image:"/images/oncology.jpg.jpeg",
-
-
-heroDesc:
-"Our Surgical Oncology department provides specialized cancer surgeries using modern techniques and a multidisciplinary approach.",
-
-
-sections:[
-
-
-{
-title:"Why Choose Surgical Oncology?",
-
-content:[
-"Experienced Surgical Oncologists",
-"Advanced Cancer Surgery",
-"Organ Preserving Procedures",
-"Modern Operation Theatres",
-"Personalized Treatment Plans",
-"Complete Post Surgery Care"
-]
-
-},
-
-
-{
-title:"Surgical Oncology Services",
-
-content:[
-"Cancer Surgery",
-"Breast Cancer Surgery",
-"Head & Neck Cancer Surgery",
-"Gastrointestinal Cancer Surgery",
-"Gynecological Cancer Surgery",
-"Tumor Removal Surgery",
-"Biopsy Procedures"
-]
-
-},
-
-
-{
-title:"Cancer Types Treated",
-
-content:[
-"Breast Cancer",
-"Head & Neck Cancer",
-"Thyroid Cancer",
-"Oral Cancer",
-"Stomach Cancer",
-"Colon Cancer",
-"Liver Cancer",
-"Ovarian Cancer"
-]
-
-},
-
-
-{
-title:"Treatment Process",
-
-steps:true,
-
-content:[
-"Specialist Consultation",
-"Imaging & Biopsy",
-"Treatment Planning",
-"Cancer Surgery",
-"Recovery & Rehabilitation"
-]
-
-},
-
-
-{
-title:"Advanced Surgical Techniques",
-
-content:
-"Our department uses minimally invasive techniques whenever possible to reduce pain and improve recovery."
-
-}
-
-]
-
-},
-
-
-
-
-
-
-
-
-{
-id:11,
-
-name:"Nephrology",
-
-icon:"Activity",
-
-desc:"Kidney care and renal disease management.",
-
-image:"/images/Nephrology.jpg.jpeg",
-
-
-heroDesc:
-"Our Nephrology department provides specialized diagnosis and treatment for kidney-related conditions with advanced medical care.",
-
-
-sections:[
-
-
-{
-title:"Nephrology Services",
-
-content:[
-"Kidney Disease Management",
-"Kidney Function Evaluation",
-"Hypertension Related Kidney Care",
-"Dialysis Support",
-"Electrolyte Disorder Management",
-"Preventive Kidney Care"
-]
-
-},
-
-
-{
-title:"Conditions We Treat",
-
-content:[
-"Chronic Kidney Disease",
-"Kidney Infections",
-"Kidney Stones",
-"High Blood Pressure Related Kidney Problems",
-"Electrolyte Disorders",
-"Acute Kidney Problems"
-]
-
-},
-
-
-{
-title:"Care Process",
-
-steps:true,
-
-content:[
-"Nephrology Consultation",
-"Blood & Urine Tests",
-"Kidney Evaluation",
-"Treatment Planning",
-"Regular Monitoring"
-]
-
-}
-
-
-]
-
-}
-
+  {
+    id: 1, name: 'IVF & Fertility Center', icon: 'Heart',
+    desc: 'Advanced assisted reproductive technologies and fertility treatments.',
+    image: '/images/IVF.jpg.jpeg',
+    tagline: 'Bringing Hope, Creating Families',
+    intro: [
+      'At Divya Jyoti Hospital\'s IVF & Fertility Centre, we understand that the journey to parenthood can be emotional and challenging. Our experienced fertility specialists combine advanced reproductive technology with compassionate care to help couples fulfill their dream of having a baby. Every treatment plan is personalized based on your medical history, fertility needs, and family goals.',
+      'Whether you are facing infertility, recurrent pregnancy loss, or planning fertility preservation, our team is committed to supporting you at every step of your journey.',
+    ],
+    whyChooseUs: ['Experienced IVF & Fertility Specialists', 'Personalized Treatment Plans', 'Advanced Fertility Diagnostics', 'Modern IVF Laboratory & Technology', 'High Standards of Safety and Hygiene', 'Ethical, Transparent & Confidential Care', 'Compassionate Counseling and Emotional Support', 'Affordable Fertility Treatment Packages'],
+    servicesList: [
+      { title: 'IVF (In Vitro Fertilization)', desc: 'A highly effective assisted reproductive treatment where eggs and sperm are fertilized outside the body before transferring the embryo into the uterus.' },
+      { title: 'IUI (Intrauterine Insemination)', desc: 'A simple fertility treatment that places specially prepared sperm directly into the uterus to improve the chances of conception.' },
+      { title: 'ICSI (Intracytoplasmic Sperm Injection)', desc: 'An advanced technique in which a single healthy sperm is injected directly into an egg, especially beneficial in cases of male infertility.' },
+      { title: 'Fertility Evaluation', desc: 'Comprehensive fertility assessments for both men and women, including hormonal tests, ultrasound scans, semen analysis, and ovarian reserve evaluation.' },
+      { title: 'Male Infertility Treatment', desc: 'Diagnosis and management of male fertility issues such as low sperm count, poor sperm motility, and abnormal sperm morphology.' },
+      { title: 'Female Infertility Treatment', desc: 'Specialized care for conditions including PCOS, blocked fallopian tubes, ovulation disorders, endometriosis, and unexplained infertility.' },
+      { title: 'Fertility Counseling', desc: 'Professional counseling to help couples understand treatment options, success rates, emotional well-being, and lifestyle modifications.' },
+      { title: 'Pregnancy Care After IVF', desc: 'Comprehensive prenatal monitoring and care to ensure a healthy pregnancy following successful fertility treatment.' },
+    ],
+    conditionsTreated: ['Female Infertility', 'Male Infertility', 'PCOS & Ovulation Disorders', 'Endometriosis', 'Blocked Fallopian Tubes', 'Low Ovarian Reserve', 'Recurrent Miscarriages', 'Unexplained Infertility', 'Hormonal Imbalances', 'Age-Related Fertility Challenges'],
+    careProcess: [
+      { step: 1, title: 'Initial Consultation & Fertility Assessment' },
+      { step: 2, title: 'Diagnostic Tests & Fertility Evaluation' },
+      { step: 3, title: 'Personalized Treatment Planning' },
+      { step: 4, title: 'IVF / IUI / ICSI Procedure' },
+      { step: 5, title: 'Pregnancy Testing & Follow-up Care' },
+    ],
+    faqs: [
+      { q: 'How do I know if I need IVF?', a: 'If you have been trying to conceive for over one year (or six months if the woman is over 35), it is recommended to consult a fertility specialist for evaluation.' },
+      { q: 'Is IVF painful?', a: 'Most IVF procedures involve minimal discomfort. Our specialists ensure your comfort and explain every step of the treatment process.' },
+      { q: 'What is the success rate of IVF?', a: 'Success rates vary depending on factors such as age, overall health, and the underlying cause of infertility. Our specialists discuss realistic expectations based on your individual case.' },
+      { q: 'Can both partners be tested for infertility?', a: 'Yes. Fertility evaluation includes assessments for both male and female partners to identify the underlying cause and recommend the most suitable treatment.' },
+    ],
+    closingNote: 'Your Journey to Parenthood Begins Here.',
+  },
+  {
+    id: 2, name: 'Gynecology', icon: 'Activity',
+    desc: 'Comprehensive women\'s health care, maternal and prenatal services.',
+    image: '/images/Gynee.jpg.jpeg',
+    tagline: 'Comprehensive Women\'s Healthcare at Every Stage of Life',
+    intro: [
+      'At Divya Jyoti Hospital\'s Gynecology Department, we are committed to providing expert, compassionate, and personalized healthcare for women of all ages. From adolescence to motherhood and menopause, our experienced gynecologists offer comprehensive diagnosis, treatment, preventive care, and counseling to help women maintain their reproductive and overall health.',
+      'Our patient-centered approach, modern medical facilities, and advanced diagnostic technology ensure safe, effective, and confidential care for every woman.',
+    ],
+    whyChooseUs: ['Experienced Gynecologists & Women\'s Health Specialists', 'Personalized Treatment Plans', 'Advanced Diagnostic & Ultrasound Facilities', 'Comprehensive Pregnancy & Women\'s Healthcare', 'Minimally Invasive Procedures', 'Confidential & Compassionate Care', 'Modern Infrastructure & Hygiene Standards', 'Complete Support from Consultation to Recovery'],
+    servicesList: [
+      { title: 'Routine Gynecological Check-ups', desc: 'Regular health examinations for early detection, prevention, and management of gynecological conditions.' },
+      { title: 'Pregnancy Care (Antenatal & Postnatal)', desc: 'Complete care throughout pregnancy, including routine check-ups, fetal monitoring, nutritional guidance, and post-delivery care.' },
+      { title: 'High-Risk Pregnancy Management', desc: 'Specialized care for pregnancies complicated by hypertension, diabetes, multiple pregnancies, thyroid disorders, or other medical conditions.' },
+      { title: 'Menstrual Disorder Treatment', desc: 'Diagnosis and treatment for irregular periods, heavy bleeding, painful menstruation, and hormonal imbalances.' },
+      { title: 'PCOS/PCOD Management', desc: 'Comprehensive treatment plans including lifestyle counseling, medication, and fertility support for women with PCOS/PCOD.' },
+      { title: 'Infertility Evaluation & Treatment', desc: 'Assessment and treatment for couples facing difficulty conceiving, including ovulation monitoring and fertility counseling.' },
+      { title: 'Family Planning & Contraception', desc: 'Expert guidance on birth control options, spacing pregnancies, and reproductive health planning.' },
+      { title: 'Menopause Care', desc: 'Management of menopausal symptoms including hot flashes, hormonal changes, bone health, and emotional well-being.' },
+      { title: 'Gynecological Infections', desc: 'Diagnosis and treatment of vaginal infections, urinary tract infections (UTIs), sexually transmitted infections (STIs), and pelvic inflammatory disease (PID).' },
+      { title: 'Cervical Cancer Screening', desc: 'Routine Pap smear, HPV screening, and preventive gynecological care for early detection of cervical abnormalities.' },
+    ],
+    conditionsTreated: ['Irregular Menstrual Cycles', 'Heavy or Painful Periods', 'PCOS / PCOD', 'Infertility', 'Ovarian Cysts', 'Uterine Fibroids', 'Endometriosis', 'Pelvic Pain', 'Vaginal Infections', 'Urinary Tract Infections (UTIs)', 'Cervical Disorders', 'Menopause-Related Problems', 'High-Risk Pregnancy', 'Recurrent Miscarriage'],
+    careProcess: [
+      { step: 1, title: 'Consultation with a Gynecologist' },
+      { step: 2, title: 'Clinical Examination & Diagnostic Tests' },
+      { step: 3, title: 'Personalized Treatment Plan' },
+      { step: 4, title: 'Medical or Surgical Management (if required)' },
+      { step: 5, title: 'Regular Follow-up & Preventive Care' },
+    ],
+    faqs: [
+      { q: 'When should I visit a gynecologist?', a: 'You should consult a gynecologist for routine check-ups, menstrual problems, pregnancy care, pelvic pain, abnormal discharge, infertility concerns, or menopause-related symptoms.' },
+      { q: 'How often should women have a gynecological check-up?', a: 'Most women should have a routine gynecological examination once a year, or more frequently if advised by their doctor.' },
+      { q: 'Can PCOS be treated?', a: 'Yes. While PCOS cannot always be completely cured, its symptoms can be effectively managed through lifestyle changes, medications, and personalized treatment.' },
+      { q: 'Do you provide pregnancy care?', a: 'Yes. We offer comprehensive antenatal, delivery, and postnatal care, including management of high-risk pregnancies.' },
+    ],
+    closingNote: 'Caring for Women\'s Health, Every Step of the Way.',
+  },
+  {
+    id: 3, name: 'General Physician', icon: 'Baby',
+    desc: 'Expert medical care for everyday health, infections, and chronic disease management.',
+    image: '/images/Physician.jpg.jpeg',
+    tagline: 'Expert Medical Care for Your Everyday Health',
+    intro: [
+      'At Divya Jyoti Hospital\'s General Physician Department, we provide comprehensive medical care for patients of all ages. Our experienced physicians specialize in the prevention, diagnosis, and treatment of a wide range of acute and chronic illnesses. Whether you need a routine health check-up, treatment for common infections, or long-term management of chronic conditions, we are committed to delivering personalized and compassionate care.',
+      'Our goal is to help you achieve better health through timely diagnosis, effective treatment, preventive care, and continuous medical support.',
+    ],
+    whyChooseUs: ['Experienced & Qualified Physicians', 'Accurate Diagnosis and Evidence-Based Treatment', 'Personalized Patient Care', 'Comprehensive Health Check-ups', 'Advanced Diagnostic Facilities', 'Preventive Healthcare & Lifestyle Counseling', 'Management of Acute & Chronic Diseases', 'Compassionate and Patient-Centered Care'],
+    servicesList: [
+      { title: 'General Health Consultation', desc: 'Comprehensive evaluation and treatment for common medical conditions and overall health concerns.' },
+      { title: 'Fever & Infection Management', desc: 'Diagnosis and treatment of viral fever, bacterial infections, dengue, malaria, typhoid, seasonal flu, and other infectious diseases.' },
+      { title: 'Diabetes Management', desc: 'Regular monitoring, medication management, dietary guidance, and lifestyle counseling for diabetes care.' },
+      { title: 'Hypertension (High Blood Pressure) Care', desc: 'Diagnosis, treatment, and long-term management to reduce the risk of heart disease and stroke.' },
+      { title: 'Thyroid Disorder Treatment', desc: 'Evaluation and treatment of hypothyroidism, hyperthyroidism, and other thyroid-related conditions.' },
+      { title: 'Respiratory Disease Management', desc: 'Care for asthma, bronchitis, allergies, cough, cold, and other respiratory illnesses.' },
+      { title: 'Digestive Health', desc: 'Treatment for acidity, gastritis, constipation, diarrhea, liver disorders, and other gastrointestinal conditions.' },
+      { title: 'Preventive Health Check-ups', desc: 'Routine medical examinations, health screenings, and risk assessments to detect diseases early.' },
+      { title: 'Lifestyle Disease Management', desc: 'Comprehensive care for obesity, high cholesterol, metabolic disorders, and other lifestyle-related health conditions.' },
+      { title: 'Vaccination & Preventive Care', desc: 'Adult immunization, health education, and preventive guidance for maintaining long-term wellness.' },
+    ],
+    conditionsTreated: ['Fever & Viral Infections', 'Cough, Cold & Flu', 'Diabetes', 'High Blood Pressure (Hypertension)', 'Thyroid Disorders', 'Asthma & Allergies', 'Stomach & Digestive Disorders', 'Urinary Tract Infections (UTIs)', 'Anemia', 'Joint & Muscle Pain', 'Migraine & Headache', 'High Cholesterol', 'Seasonal Illnesses', 'General Weakness & Fatigue'],
+    careProcess: [
+      { step: 1, title: 'Medical Consultation & Health Assessment' },
+      { step: 2, title: 'Diagnostic Tests (if required)' },
+      { step: 3, title: 'Accurate Diagnosis' },
+      { step: 4, title: 'Personalized Treatment Plan' },
+      { step: 5, title: 'Follow-up Care & Health Monitoring' },
+    ],
+    faqs: [
+      { q: 'When should I consult a general physician?', a: 'You should visit a general physician for fever, cough, cold, infections, digestive problems, fatigue, routine health check-ups, or management of chronic conditions such as diabetes and hypertension.' },
+      { q: 'Can a general physician manage chronic diseases?', a: 'Yes. General physicians are trained to diagnose, treat, and monitor chronic conditions like diabetes, hypertension, thyroid disorders, and high cholesterol.' },
+      { q: 'Do I need an appointment for a routine health check-up?', a: 'Appointments are recommended for convenience, but walk-in consultations may also be available depending on the hospital schedule.' },
+      { q: 'Do you provide preventive health check-ups?', a: 'Yes. We offer comprehensive health screenings and preventive care to help detect diseases early and maintain long-term health.' },
+    ],
+    closingNote: 'Your Health is Our Priority.',
+  },
+  {
+    id: 4, name: 'Pediatrics', icon: 'Users',
+    desc: 'Expert child healthcare from birth through adolescence.',
+    image: '/images/Pedia.jpg.jpeg',
+    tagline: 'Expert Care for Infants, Children & Adolescents',
+    intro: [
+      'At Divya Jyoti Hospital\'s Pediatrics Department, we are dedicated to providing compassionate, comprehensive, and high-quality healthcare for newborns, infants, children, and adolescents. Our experienced pediatricians focus on your child\'s physical, emotional, and developmental well-being, ensuring they receive the best possible care at every stage of growth.',
+      'From routine check-ups and vaccinations to the treatment of childhood illnesses, we provide personalized care in a warm, child-friendly environment.',
+    ],
+    whyChooseUs: ['Experienced Pediatricians', 'Child-Friendly & Comfortable Environment', 'Comprehensive Newborn & Child Care', 'Routine Vaccination & Immunization', 'Growth & Development Monitoring', 'Advanced Diagnostic Facilities', 'Personalized Treatment Plans', 'Compassionate Care for Every Child'],
+    servicesList: [
+      { title: 'Newborn Care', desc: 'Comprehensive medical care for newborns, including routine examinations, feeding guidance, jaundice management, and growth monitoring.' },
+      { title: 'Child Health Check-ups', desc: 'Regular health assessments to monitor your child\'s growth, nutrition, development, and overall well-being.' },
+      { title: 'Vaccination & Immunization', desc: 'Complete immunization services following the recommended vaccination schedule to protect children from preventable diseases.' },
+      { title: 'Treatment of Childhood Illnesses', desc: 'Diagnosis and treatment of fever, cough, cold, infections, allergies, digestive problems, and other common pediatric conditions.' },
+      { title: 'Growth & Development Monitoring', desc: 'Regular evaluation of physical growth, developmental milestones, nutrition, and behavioral health.' },
+      { title: 'Nutritional Counseling', desc: 'Expert guidance on infant feeding, breastfeeding, healthy eating habits, and nutritional support for growing children.' },
+      { title: 'Allergy & Asthma Management', desc: 'Diagnosis and treatment of childhood allergies, asthma, wheezing, and other respiratory conditions.' },
+      { title: 'Adolescent Healthcare', desc: 'Medical care, counseling, and health guidance for teenagers, addressing physical, emotional, and developmental concerns.' },
+    ],
+    conditionsTreated: ['Fever & Viral Infections', 'Cold, Cough & Flu', 'Asthma & Allergies', 'Ear, Nose & Throat Infections', 'Stomach Infections & Diarrhea', 'Vomiting & Dehydration', 'Nutritional Deficiencies', 'Skin Allergies & Rashes', 'Growth & Developmental Concerns', 'Childhood Anemia', 'Constipation', 'Respiratory Infections'],
+    careProcess: [
+      { step: 1, title: 'Pediatric Consultation & Health Assessment' },
+      { step: 2, title: 'Physical Examination & Diagnostic Tests (if required)' },
+      { step: 3, title: 'Accurate Diagnosis' },
+      { step: 4, title: 'Personalized Treatment & Medication' },
+      { step: 5, title: 'Follow-up Care & Growth Monitoring' },
+    ],
+    faqs: [
+      { q: 'When should I take my child to a pediatrician?', a: 'You should consult a pediatrician for routine check-ups, vaccinations, fever, cough, cold, poor feeding, allergies, digestive problems, or any concerns regarding your child\'s growth and development.' },
+      { q: 'How often should my child have a health check-up?', a: 'Regular check-ups are recommended during infancy and childhood to monitor growth, development, and overall health. Your pediatrician will advise the appropriate schedule.' },
+      { q: 'Are vaccinations safe for children?', a: 'Yes. Vaccinations are safe, effective, and one of the best ways to protect children from serious infectious diseases.' },
+      { q: 'Do you provide newborn care?', a: 'Yes. We offer comprehensive newborn care, including health assessments, feeding support, jaundice management, and routine follow-up care.' },
+    ],
+    closingNote: 'Healthy Children, Happy Families.',
+  },
+  {
+    id: 5, name: 'ENT (Ear, Nose, Throat)', icon: 'HeartPulse',
+    desc: 'Comprehensive care for ear, nose, throat, head and neck health.',
+    image: '/images/ENT.jpg.jpeg',
+    tagline: 'Comprehensive Care for Ear, Nose & Throat Health',
+    intro: [
+      'At Divya Jyoti Hospital\'s ENT Department, we provide expert diagnosis and treatment for a wide range of conditions affecting the ear, nose, throat, head, and neck. Our experienced ENT specialists use advanced diagnostic techniques and modern treatment methods to deliver personalized care for patients of all ages.',
+      'Whether you\'re dealing with persistent ear pain, sinus problems, hearing loss, throat infections, or voice disorders, our team is committed to helping you breathe better, hear clearly, and live comfortably.',
+    ],
+    whyChooseUs: ['Experienced ENT Specialists', 'Advanced Diagnostic & Treatment Facilities', 'Personalized Patient Care', 'Comprehensive Care for Children & Adults', 'Modern Equipment for Accurate Diagnosis', 'Minimally Invasive Treatment Options', 'Safe & Hygienic Environment', 'Compassionate and Patient-Centered Care'],
+    servicesList: [
+      { title: 'Ear Care', desc: 'Diagnosis and treatment of ear infections, hearing loss, ear pain, earwax blockage, tinnitus (ringing in the ears), and balance disorders.' },
+      { title: 'Nose & Sinus Care', desc: 'Treatment for sinusitis, nasal allergies, nasal blockage, deviated nasal septum (DNS), nosebleeds, and nasal polyps.' },
+      { title: 'Throat Care', desc: 'Expert management of sore throat, tonsillitis, voice disorders, swallowing difficulties, throat infections, and chronic cough.' },
+      { title: 'Hearing Assessment', desc: 'Comprehensive hearing evaluations and guidance for hearing-related problems in both children and adults.' },
+      { title: 'Allergy Management', desc: 'Diagnosis and treatment of allergic rhinitis and other ENT-related allergies to improve breathing and overall comfort.' },
+      { title: 'Pediatric ENT Care', desc: 'Specialized care for children\'s ear infections, enlarged adenoids, tonsil problems, hearing issues, and nasal conditions.' },
+      { title: 'Head & Neck Evaluation', desc: 'Assessment and treatment of neck swellings, thyroid-related concerns, salivary gland disorders, and other ENT-related conditions.' },
+      { title: 'Minor ENT Procedures', desc: 'Safe and effective office-based procedures for selected ENT conditions, ensuring faster recovery and patient comfort.' },
+    ],
+    conditionsTreated: ['Ear Infections', 'Hearing Loss', 'Earwax Blockage', 'Tinnitus (Ringing in the Ears)', 'Sinusitis', 'Allergic Rhinitis', 'Nasal Blockage', 'Deviated Nasal Septum (DNS)', 'Tonsillitis', 'Sore Throat', 'Voice Disorders', 'Nosebleeds', 'Vertigo & Balance Disorders', 'Snoring & Sleep-Related Breathing Problems'],
+    careProcess: [
+      { step: 1, title: 'ENT Consultation & Medical History' },
+      { step: 2, title: 'Physical Examination & Diagnostic Tests' },
+      { step: 3, title: 'Accurate Diagnosis' },
+      { step: 4, title: 'Personalized Medical or Surgical Treatment' },
+      { step: 5, title: 'Follow-up Care & Recovery Monitoring' },
+    ],
+    faqs: [
+      { q: 'When should I see an ENT specialist?', a: 'You should consult an ENT specialist if you have persistent ear pain, hearing loss, sinus problems, sore throat, frequent nosebleeds, dizziness, or voice changes.' },
+      { q: 'Can hearing loss be treated?', a: 'Many types of hearing loss can be treated or managed effectively, depending on the underlying cause. Early evaluation is important for the best outcomes.' },
+      { q: 'Do you treat children with ENT problems?', a: 'Yes. We provide specialized ENT care for infants, children, and adolescents, including treatment for ear infections, tonsillitis, adenoid problems, and hearing concerns.' },
+      { q: 'Do I need surgery for sinus or tonsil problems?', a: 'Not always. Many ENT conditions can be managed with medications. Surgery is recommended only when necessary after a thorough evaluation.' },
+    ],
+    closingNote: 'Helping You Hear Better, Breathe Easier, and Live Healthier.',
+  },
+  {
+    id: 6, name: 'General Surgery', icon: 'Scissors',
+    desc: 'Minimally invasive and open surgical procedures by expert surgeons.',
+    image: '/images/GeneralSurgery.jpg.jpeg',
+    tagline: 'Advanced Surgical Care with Precision & Compassion',
+    intro: [
+      'At Divya Jyoti Hospital\'s General Surgery Department, we provide comprehensive surgical care using advanced techniques, modern technology, and a patient-centered approach. Our experienced general surgeons are dedicated to delivering safe, effective, and minimally invasive treatments for a wide range of surgical conditions.',
+      'From routine procedures to complex surgeries, we focus on accurate diagnosis, personalized treatment plans, and faster recovery to ensure the best possible outcomes for every patient.',
+    ],
+    whyChooseUs: ['Experienced & Skilled General Surgeons', 'Advanced Surgical Techniques', 'Minimally Invasive (Laparoscopic) Surgery', 'Modern Operation Theatres', 'Comprehensive Pre & Post-Operative Care', 'High Standards of Safety & Infection Control', 'Personalized Treatment Plans', 'Compassionate, Patient-Centered Care'],
+    servicesList: [
+      { title: 'Laparoscopic (Keyhole) Surgery', desc: 'Minimally invasive procedures that offer smaller incisions, less pain, faster recovery, and shorter hospital stays.' },
+      { title: 'Gallbladder Surgery', desc: 'Diagnosis and surgical treatment for gallstones and gallbladder diseases, including laparoscopic cholecystectomy.' },
+      { title: 'Hernia Surgery', desc: 'Expert treatment for inguinal, umbilical, incisional, and other types of hernias using modern surgical techniques.' },
+      { title: 'Appendix Surgery', desc: 'Emergency and planned appendectomy for acute appendicitis with safe and effective surgical care.' },
+      { title: 'Piles (Hemorrhoids) Treatment', desc: 'Medical and surgical management of piles, including minimally invasive procedures for quicker recovery.' },
+      { title: 'Fissure & Fistula Surgery', desc: 'Comprehensive treatment for anal fissures and fistulas with a focus on pain relief and long-term recovery.' },
+      { title: 'Breast Surgery', desc: 'Evaluation and surgical treatment for benign breast lumps, infections, and selected breast conditions.' },
+      { title: 'Minor Surgical Procedures', desc: 'Safe outpatient procedures for cysts, lipomas, abscess drainage, ingrown toenails, and other minor conditions.' },
+    ],
+    conditionsTreated: ['Gallstones & Gallbladder Disease', 'Hernias', 'Appendicitis', 'Piles (Hemorrhoids)', 'Anal Fissures', 'Anal Fistulas', 'Breast Lumps', 'Lipomas', 'Sebaceous Cysts', 'Abscesses', 'Soft Tissue Swellings', 'Skin & Subcutaneous Lesions'],
+    careProcess: [
+      { step: 1, title: 'Surgical Consultation & Clinical Evaluation' },
+      { step: 2, title: 'Diagnostic Tests & Imaging' },
+      { step: 3, title: 'Personalized Surgical Planning' },
+      { step: 4, title: 'Safe Surgical Procedure' },
+      { step: 5, title: 'Post-Operative Care & Follow-up' },
+    ],
+    faqs: [
+      { q: 'When should I consult a general surgeon?', a: 'You should consult a general surgeon if you have persistent abdominal pain, a hernia, gallstones, appendicitis symptoms, piles, breast lumps, or any condition that may require surgical evaluation.' },
+      { q: 'Is laparoscopic surgery better than open surgery?', a: 'For many conditions, laparoscopic surgery offers smaller incisions, less pain, reduced hospital stay, and faster recovery. Your surgeon will recommend the most suitable approach based on your condition.' },
+      { q: 'How long does recovery take after surgery?', a: 'Recovery depends on the type of surgery and your overall health. Many minimally invasive procedures allow patients to return to normal activities much sooner than traditional open surgery.' },
+      { q: 'Will I receive follow-up care after surgery?', a: 'Yes. We provide comprehensive post-operative care, wound management, pain control, and regular follow-up visits to ensure a smooth and complete recovery.' },
+    ],
+    closingNote: 'Expert Surgery. Faster Recovery. Better Health.',
+  },
+  {
+    id: 7, name: 'Orthopedics', icon: 'Bone',
+    desc: 'Joint replacement, spine care and sports medicine solutions.',
+    image: '/images/Orthopedic.jpg.jpeg',
+    tagline: 'Expert Bone, Joint & Spine Care for Every Stage of Life',
+    intro: [
+      'At Divya Jyoti Hospital\'s Orthopedic Department, we provide comprehensive diagnosis, treatment, and rehabilitation for conditions affecting the bones, joints, muscles, ligaments, and spine. Our experienced orthopedic specialists are committed to helping patients regain mobility, reduce pain, and improve their quality of life through advanced medical and surgical care.',
+      'Whether you are dealing with a sports injury, arthritis, fractures, back pain, or joint problems, our team offers personalized treatment plans tailored to your individual needs.',
+    ],
+    whyChooseUs: ['Experienced Orthopedic Surgeons', 'Advanced Diagnostic & Imaging Facilities', 'Fracture & Trauma Care', 'Joint Pain & Arthritis Management', 'Sports Injury Treatment', 'Personalized Rehabilitation Programs', 'Modern Surgical Techniques', 'Compassionate & Patient-Centered Care'],
+    servicesList: [
+      { title: 'Fracture & Trauma Care', desc: 'Expert treatment for bone fractures, dislocations, and accident-related injuries with comprehensive emergency and follow-up care.' },
+      { title: 'Joint Pain Treatment', desc: 'Diagnosis and management of knee, hip, shoulder, elbow, wrist, and ankle pain caused by injury or degenerative conditions.' },
+      { title: 'Arthritis Management', desc: 'Comprehensive care for osteoarthritis, rheumatoid arthritis, and other joint disorders to relieve pain and improve mobility.' },
+      { title: 'Spine Care', desc: 'Evaluation and treatment for back pain, neck pain, slipped disc, sciatica, and other spine-related conditions.' },
+      { title: 'Sports Injury Treatment', desc: 'Specialized care for ligament tears, muscle injuries, tendon problems, sprains, and other sports-related injuries.' },
+      { title: 'Joint Replacement Consultation', desc: 'Assessment and guidance for knee and hip replacement surgery when conservative treatments are no longer effective.' },
+      { title: 'Pediatric Orthopedic Care', desc: 'Diagnosis and treatment of bone, joint, and growth-related orthopedic conditions in children.' },
+      { title: 'Bone Health & Osteoporosis Care', desc: 'Screening, prevention, and treatment of osteoporosis and other conditions affecting bone strength.' },
+    ],
+    conditionsTreated: ['Bone Fractures', 'Joint Pain', 'Arthritis', 'Back Pain', 'Neck Pain', 'Sciatica', 'Slipped Disc', 'Sports Injuries', 'Ligament & Tendon Injuries', 'Shoulder Pain', 'Knee Pain', 'Hip Pain', 'Osteoporosis', 'Frozen Shoulder', 'Carpal Tunnel Syndrome'],
+    careProcess: [
+      { step: 1, title: 'Orthopedic Consultation & Physical Examination' },
+      { step: 2, title: 'Diagnostic Tests & Imaging (X-ray, MRI, CT Scan, if required)' },
+      { step: 3, title: 'Accurate Diagnosis' },
+      { step: 4, title: 'Personalized Medical or Surgical Treatment' },
+      { step: 5, title: 'Rehabilitation & Follow-up Care' },
+    ],
+    faqs: [
+      { q: 'When should I see an orthopedic specialist?', a: 'You should consult an orthopedic specialist if you have persistent joint pain, fractures, back pain, sports injuries, limited movement, swelling, or difficulty walking.' },
+      { q: 'Can arthritis be treated without surgery?', a: 'Yes. Many cases of arthritis can be effectively managed with medications, physiotherapy, lifestyle modifications, and joint injections. Surgery is considered only when necessary.' },
+      { q: 'Do all fractures require surgery?', a: 'No. Many fractures heal with casts, splints, or braces. Surgery is recommended only for complex or unstable fractures.' },
+      { q: 'Do you provide rehabilitation after orthopedic treatment?', a: 'Yes. We offer comprehensive follow-up care and rehabilitation guidance to support healing, restore mobility, and improve strength after injury or surgery.' },
+    ],
+    closingNote: 'Strong Bones. Healthy Joints. Active Life.',
+  },
+  {
+    id: 8, name: 'Urology', icon: 'Ambulance',
+    // ⚠️ DEMO DATA — replace with real content once Urology.docx is provided
+    desc: 'Advanced urology care for kidney, prostate and urinary tract conditions.',
+    image: '/images/Urology.jpg.jpeg',
+    tagline: 'Expert Kidney Care for a Healthier Tomorrow',
+    intro: [
+      'At Divya Jyoti Hospital\'s Urology Department, we provide specialized diagnosis, treatment, and long-term management of kidney and urinary tract-related conditions. Our experienced urologists combine advanced diagnostic technology with a patient-centered approach to help patients manage urological disease, control complications, and maintain the best possible quality of life.',
+      'From early-stage kidney concerns to advanced chronic kidney disease and dialysis care, our team is committed to providing compassionate, evidence-based treatment at every stage.',
+    ],
+    whyChooseUs: ['Experienced Urologists', 'Advanced Kidney Function Testing', 'Comprehensive Dialysis Care', 'Personalized Treatment Plans', 'Modern Diagnostic & Monitoring Facilities', 'Management of Hypertension-Related Kidney Disease', 'Dietary & Lifestyle Counseling', 'Compassionate, Patient-Centered Care'],
+    servicesList: [
+      { title: 'Chronic Kidney Disease (CKD) Management', desc: 'Comprehensive evaluation and long-term management to slow disease progression and prevent complications.' },
+      { title: 'Dialysis Care', desc: 'Hemodialysis and supportive care for patients with advanced kidney disease, delivered with safety and comfort in mind.' },
+      { title: 'Kidney Function Evaluation', desc: 'Detailed assessment of kidney health through blood and urine tests, imaging, and clinical evaluation.' },
+      { title: 'Electrolyte & Fluid Disorder Management', desc: 'Diagnosis and correction of imbalances in sodium, potassium, and other electrolytes affecting kidney function.' },
+      { title: 'Hypertension-Related Kidney Care', desc: 'Management of high blood pressure as it relates to kidney health, reducing long-term risk of kidney damage.' },
+      { title: 'Kidney Stone Prevention Counseling', desc: 'Guidance on diet, hydration, and lifestyle changes to reduce the risk of recurrent kidney stones.' },
+    ],
+    conditionsTreated: ['Chronic Kidney Disease (CKD)', 'Acute Kidney Injury', 'Kidney Stones', 'Urinary Tract Infections', 'Hypertension-Related Kidney Disease', 'Diabetic Kidney Disease', 'Electrolyte Imbalances', 'Proteinuria', 'Glomerulonephritis', 'Fluid Retention & Swelling'],
+    careProcess: [
+      { step: 1, title: 'Urology Consultation & Medical History' },
+      { step: 2, title: 'Kidney Function Tests & Diagnostic Evaluation' },
+      { step: 3, title: 'Accurate Diagnosis' },
+      { step: 4, title: 'Personalized Treatment Plan (Medical or Dialysis Care)' },
+      { step: 5, title: 'Regular Follow-up & Kidney Health Monitoring' },
+    ],
+    faqs: [
+      { q: 'When should I see a urologist?', a: 'You should consult a urologist if you have persistent swelling, changes in urination, high blood pressure, abnormal kidney function tests, or a family history of kidney disease.' },
+      { q: 'Can chronic kidney disease be reversed?', a: 'In most cases, chronic kidney disease cannot be fully reversed, but early diagnosis and proper management can significantly slow its progression and prevent complications.' },
+      { q: 'Is dialysis a permanent treatment?', a: 'Dialysis may be temporary or long-term depending on the underlying cause and severity of kidney disease. Your urologist will guide you on the most suitable treatment plan.' },
+      { q: 'How can I protect my kidney health?', a: 'Maintaining healthy blood pressure and blood sugar levels, staying hydrated, avoiding excessive use of painkillers, and having regular check-ups can help protect kidney health.' },
+    ],
+    closingNote: 'Caring for Your Kidneys, Caring for Your Life.',
+  },
+  {
+    id: 9, name: 'Medical Oncology', icon: 'Ambulance',
+    desc: 'Comprehensive, evidence-based cancer care with compassion.',
+    image: '/images/MedicalOncology.jpg.jpeg',
+    tagline: 'Comprehensive Cancer Care with Expertise & Compassion',
+    intro: [
+      'At Divya Jyoti Hospital\'s Medical Oncology Department, we provide comprehensive, evidence-based care for patients diagnosed with cancer. Our experienced medical oncologists work closely with a multidisciplinary team to deliver personalized treatment plans using the latest advances in cancer therapy. We are committed to supporting patients and their families throughout every stage of their cancer journey with compassionate care, advanced treatments, and continuous guidance.',
+      'Our focus is not only on treating cancer but also on improving quality of life through holistic, patient-centered care.',
+    ],
+    whyChooseUs: ['Experienced Medical Oncologists', 'Personalized Cancer Treatment Plans', 'Advanced Chemotherapy & Targeted Therapy', 'Multidisciplinary Cancer Care', 'Modern Diagnostic & Monitoring Facilities', 'Supportive & Palliative Care Services', 'Compassionate Counseling for Patients & Families', 'Safe, Ethical & Patient-Centered Care'],
+    servicesList: [
+      { title: 'Cancer Consultation & Diagnosis', desc: 'Comprehensive evaluation, diagnosis, staging, and treatment planning for various types of cancer.' },
+      { title: 'Chemotherapy', desc: 'Administration and monitoring of chemotherapy using internationally accepted treatment protocols.' },
+      { title: 'Targeted Therapy', desc: 'Advanced treatments that specifically target cancer cells while minimizing damage to healthy tissues.' },
+      { title: 'Immunotherapy', desc: 'Modern cancer treatment that helps strengthen the body\'s immune system to recognize and fight certain types of cancer.' },
+      { title: 'Hormone Therapy', desc: 'Treatment for hormone-sensitive cancers, including selected breast and prostate cancers.' },
+      { title: 'Supportive Cancer Care', desc: 'Management of treatment-related side effects such as nausea, fatigue, infections, anemia, and pain to improve patient comfort.' },
+      { title: 'Cancer Follow-up & Survivorship Care', desc: 'Regular follow-up visits to monitor recovery, detect recurrence early, and support long-term health after treatment.' },
+      { title: 'Palliative Care', desc: 'Comprehensive symptom management and supportive care to improve comfort and quality of life for patients with advanced cancer.' },
+    ],
+    conditionsTreated: ['Breast Cancer', 'Lung Cancer', 'Colorectal Cancer', 'Stomach (Gastric) Cancer', 'Liver Cancer', 'Pancreatic Cancer', 'Ovarian Cancer', 'Cervical Cancer', 'Prostate Cancer', 'Head & Neck Cancers', 'Blood Cancers (Leukemia, Lymphoma & Multiple Myeloma)', 'Other Solid Tumors'],
+    careProcess: [
+      { step: 1, title: 'Cancer Consultation & Medical Evaluation' },
+      { step: 2, title: 'Diagnostic Tests & Cancer Staging' },
+      { step: 3, title: 'Personalized Treatment Planning' },
+      { step: 4, title: 'Chemotherapy, Targeted Therapy, Immunotherapy, or Other Recommended Treatment' },
+      { step: 5, title: 'Regular Follow-up & Supportive Care' },
+    ],
+    faqs: [
+      { q: 'What does a medical oncologist do?', a: 'A medical oncologist specializes in diagnosing, treating, and managing cancer using treatments such as chemotherapy, targeted therapy, immunotherapy, and hormone therapy.' },
+      { q: 'Is chemotherapy the only treatment for cancer?', a: 'No. Depending on the type and stage of cancer, treatment may include chemotherapy, targeted therapy, immunotherapy, hormone therapy, surgery, radiation therapy, or a combination of these approaches.' },
+      { q: 'How often will I need follow-up visits?', a: 'Follow-up schedules vary depending on your diagnosis and treatment plan. Your oncologist will recommend a personalized follow-up schedule to monitor your recovery.' },
+      { q: 'Can side effects of cancer treatment be managed?', a: 'Yes. Our team provides supportive care to help manage side effects such as nausea, fatigue, pain, and infections, ensuring patients remain as comfortable as possible during treatment.' },
+    ],
+    closingNote: 'Expert Cancer Care. Compassionate Support. Hope for Tomorrow.',
+  },
+  {
+    id: 10, name: 'Surgical Oncology', icon: 'Ambulance',
+    desc: 'Expert surgical care for cancer treatment with precision and compassion.',
+    image: '/images/oncology.jpg.jpeg',
+    tagline: 'Expert Surgical Care for Cancer Treatment',
+    intro: [
+      'At Divya Jyoti Hospital\'s Surgical Oncology Department, we provide specialized surgical treatment for a wide range of cancers using advanced techniques and a patient-centered approach. Our experienced surgical oncologists work closely with medical oncologists, radiologists, pathologists, and other specialists to develop personalized treatment plans that ensure the best possible outcomes.',
+      'From early-stage cancer surgeries to complex tumor removal procedures, we are committed to delivering safe, effective, and compassionate care throughout your cancer journey.',
+    ],
+    whyChooseUs: ['Experienced Surgical Oncologists', 'Advanced Cancer Surgery Techniques', 'Multidisciplinary Cancer Care', 'Minimally Invasive & Organ-Preserving Procedures', 'Modern Operation Theatres', 'Personalized Treatment Plans', 'Comprehensive Pre & Post-Operative Care', 'Compassionate Support for Patients & Families'],
+    servicesList: [
+      { title: 'Cancer Surgery', desc: 'Surgical removal of cancerous tumors with a focus on complete tumor excision while preserving healthy tissues whenever possible.' },
+      { title: 'Breast Cancer Surgery', desc: 'Comprehensive surgical treatment for breast cancer, including breast-conserving surgery and mastectomy, based on individual patient needs.' },
+      { title: 'Head & Neck Cancer Surgery', desc: 'Specialized surgical treatment for cancers affecting the mouth, tongue, throat, larynx, thyroid, and salivary glands.' },
+      { title: 'Gastrointestinal Cancer Surgery', desc: 'Surgical management of cancers involving the esophagus, stomach, liver, pancreas, colon, rectum, and other digestive organs.' },
+      { title: 'Gynecologic Cancer Surgery', desc: 'Surgical treatment for cancers of the uterus, cervix, ovaries, and other female reproductive organs.' },
+      { title: 'Skin & Soft Tissue Tumor Surgery', desc: 'Removal of skin cancers, soft tissue tumors, and other cancerous growths with appropriate reconstruction when needed.' },
+      { title: 'Lymph Node Surgery', desc: 'Evaluation and removal of affected lymph nodes for cancer staging and treatment.' },
+      { title: 'Biopsy Procedures', desc: 'Image-guided and surgical biopsies for accurate diagnosis and treatment planning.' },
+    ],
+    conditionsTreated: ['Breast Cancer', 'Head & Neck Cancer', 'Thyroid Cancer', 'Oral Cancer', 'Stomach Cancer', 'Colon & Rectal Cancer', 'Liver Cancer', 'Pancreatic Cancer', 'Ovarian Cancer', 'Cervical Cancer', 'Uterine Cancer', 'Skin Cancer', 'Soft Tissue Tumors'],
+    careProcess: [
+      { step: 1, title: 'Specialist Consultation & Clinical Evaluation' },
+      { step: 2, title: 'Diagnostic Tests, Imaging & Biopsy' },
+      { step: 3, title: 'Multidisciplinary Treatment Planning' },
+      { step: 4, title: 'Cancer Surgery' },
+      { step: 5, title: 'Recovery, Follow-up & Rehabilitation' },
+    ],
+    faqs: [
+      { q: 'What is surgical oncology?', a: 'Surgical oncology is a specialized branch of surgery focused on diagnosing, staging, and treating cancer through surgical procedures.' },
+      { q: 'Is surgery the only treatment for cancer?', a: 'Not always. Depending on the type and stage of cancer, surgery may be combined with chemotherapy, immunotherapy, targeted therapy, or radiation therapy for the best possible outcome.' },
+      { q: 'Are minimally invasive cancer surgeries available?', a: 'Yes. Whenever appropriate, minimally invasive techniques such as laparoscopic surgery are used to reduce recovery time and improve patient comfort.' },
+      { q: 'Will I need follow-up care after surgery?', a: 'Yes. Regular follow-up appointments are important to monitor recovery, assess treatment outcomes, and detect any recurrence at an early stage.' },
+    ],
+    closingNote: 'Precision in Surgery. Compassion in Care. Hope for Life.',
+  },
+  {
+    id: 11, name: 'Nephrology', icon: 'Ambulance',
+    // ⚠️ DEMO DATA — replace with real content once the correct Nephrology.docx is provided
+    desc: 'Specialized care for kidney health and chronic kidney conditions.',
+    image: '/images/Nephrology.jpg.jpeg',
+    tagline: 'Expert Kidney Care for a Healthier Tomorrow',
+    intro: [
+      'At Divya Jyoti Hospital\'s Nephrology Department, we provide specialized diagnosis, treatment, and long-term management of kidney-related conditions. Our experienced nephrologists combine advanced diagnostic technology with a patient-centered approach to help patients manage kidney disease, control complications, and maintain the best possible quality of life.',
+      'From early-stage kidney concerns to advanced chronic kidney disease and dialysis care, our team is committed to providing compassionate, evidence-based treatment at every stage.',
+    ],
+    whyChooseUs: ['Experienced Nephrologists', 'Advanced Kidney Function Testing', 'Comprehensive Dialysis Care', 'Personalized Treatment Plans', 'Modern Diagnostic & Monitoring Facilities', 'Management of Hypertension-Related Kidney Disease', 'Dietary & Lifestyle Counseling', 'Compassionate, Patient-Centered Care'],
+    servicesList: [
+      { title: 'Chronic Kidney Disease (CKD) Management', desc: 'Comprehensive evaluation and long-term management to slow disease progression and prevent complications.' },
+      { title: 'Dialysis Care', desc: 'Hemodialysis and supportive care for patients with advanced kidney disease, delivered with safety and comfort in mind.' },
+      { title: 'Kidney Function Evaluation', desc: 'Detailed assessment of kidney health through blood and urine tests, imaging, and clinical evaluation.' },
+      { title: 'Electrolyte & Fluid Disorder Management', desc: 'Diagnosis and correction of imbalances in sodium, potassium, and other electrolytes affecting kidney function.' },
+      { title: 'Hypertension-Related Kidney Care', desc: 'Management of high blood pressure as it relates to kidney health, reducing long-term risk of kidney damage.' },
+      { title: 'Kidney Stone Prevention Counseling', desc: 'Guidance on diet, hydration, and lifestyle changes to reduce the risk of recurrent kidney stones.' },
+    ],
+    conditionsTreated: ['Chronic Kidney Disease (CKD)', 'Acute Kidney Injury', 'Kidney Stones', 'Urinary Tract Infections', 'Hypertension-Related Kidney Disease', 'Diabetic Kidney Disease', 'Electrolyte Imbalances', 'Proteinuria', 'Glomerulonephritis', 'Fluid Retention & Swelling'],
+    careProcess: [
+      { step: 1, title: 'Nephrology Consultation & Medical History' },
+      { step: 2, title: 'Kidney Function Tests & Diagnostic Evaluation' },
+      { step: 3, title: 'Accurate Diagnosis' },
+      { step: 4, title: 'Personalized Treatment Plan (Medical or Dialysis Care)' },
+      { step: 5, title: 'Regular Follow-up & Kidney Health Monitoring' },
+    ],
+    faqs: [
+      { q: 'When should I see a nephrologist?', a: 'You should consult a nephrologist if you have persistent swelling, changes in urination, high blood pressure, abnormal kidney function tests, or a family history of kidney disease.' },
+      { q: 'Can chronic kidney disease be reversed?', a: 'In most cases, chronic kidney disease cannot be fully reversed, but early diagnosis and proper management can significantly slow its progression and prevent complications.' },
+      { q: 'Is dialysis a permanent treatment?', a: 'Dialysis may be temporary or long-term depending on the underlying cause and severity of kidney disease. Your nephrologist will guide you on the most suitable treatment plan.' },
+      { q: 'How can I protect my kidney health?', a: 'Maintaining healthy blood pressure and blood sugar levels, staying hydrated, avoiding excessive use of painkillers, and having regular check-ups can help protect kidney health.' },
+    ],
+    closingNote: 'Caring for Your Kidneys, Caring for Your Life.',
+  },
 ];
 
 export const SERVICES = [
-  { id: 1, name: 'Emergency & Trauma', tag: 'Emergency', desc: '24×7 emergency care with trained trauma specialists and rapid ambulance services.', image: 'https://images.unsplash.com/photo-1538108149393-fbbd81895907?w=500' },
-  { id: 2, name: 'IVF & Infertility', tag: 'Fertility', desc: 'Cutting-edge IVF, IUI and fertility preservation treatments for aspiring parents.', image: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=500' },
-  { id: 3, name: 'NICU', tag: 'Neonatal', desc: 'Level III NICU with advanced monitoring and care for critically ill newborns.', image: 'https://images.unsplash.com/photo-1555861496-0666c8981751?w=500' },
-  { id: 4, name: 'Radiology & Imaging', tag: 'Diagnostics', desc: 'Digital X-ray, Ultrasound, CT Scan and MRI with expert radiologists.', image: 'https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=500' },
-  { id: 5, name: 'Pathology Lab', tag: 'Diagnostics', desc: 'Comprehensive blood tests, cultures and advanced diagnostic pathology.', image: 'https://images.unsplash.com/photo-1582719471384-894fbb16e074?w=500' },
-  { id: 6, name: 'Pharmacy', tag: 'Services', desc: '24×7 in-house pharmacy with genuine medicines and home delivery.', image: 'https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=500' },
+  { id: 1, name: 'Emergency & Trauma', tag: 'Emergency', desc: '24×7 emergency care with trained trauma specialists and rapid ambulance services.', image: '/images/serviceEmergency.jpg.jpeg' },
+  { id: 2, name: 'IVF & Infertility', tag: 'Fertility', desc: 'Cutting-edge IVF, IUI and fertility preservation treatments for aspiring parents.', image: '/images/serviceIVF.jpg.jpeg' },
+  { id: 3, name: 'NICU', tag: 'Neonatal', desc: 'Level III NICU with advanced monitoring and care for critically ill newborns.', image: '/images/serviceNICU.jpg.jpeg' },
+  { id: 4, name: 'Radiology & Imaging', tag: 'Diagnostics', desc: 'Digital X-ray, Ultrasound, CT Scan and MRI with expert radiologists.', image: '/images/serviceRadiology.jpg.jpeg' },
+  { id: 5, name: 'Pathology Lab', tag: 'Diagnostics', desc: 'Comprehensive blood tests, cultures and advanced diagnostic pathology.', image: '/images/servicePathology%20Lab.jpg.jpeg' },
+  { id: 6, name: 'Pharmacy', tag: 'Services', desc: '24×7 in-house pharmacy with genuine medicines and home delivery.', image: '/images/servicePharmacy.jpg.jpeg' },
 ];
 
 export const BLOGS = [

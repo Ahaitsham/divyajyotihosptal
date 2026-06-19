@@ -64,7 +64,7 @@
 }
 
 .pointList {
-  display: grid;
+  display: flex;
   grid-template-columns: 1fr 1fr;
   gap: 12px;
   list-style: none;
@@ -72,6 +72,7 @@
 
 .pointList li {
   display: flex;
+  flex-direction: column;
   align-items: center;
   gap: 10px;
   font-size: 14px;
