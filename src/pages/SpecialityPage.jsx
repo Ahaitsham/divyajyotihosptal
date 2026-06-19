@@ -1,69 +1,393 @@
 import { useParams, Link } from 'react-router-dom';
-import { ArrowLeft, CalendarDays, CheckCircle2, Shield } from 'lucide-react';
+import { 
+  ArrowLeft, 
+  CalendarDays, 
+  CheckCircle2, 
+  Shield 
+} from 'lucide-react';
+
 import { SPECIALITIES } from '../data/siteData';
 import AppointmentSidebar from '../components/AppointmentSidebar';
+
 import styles from './SpecialityPage.module.css';
 
-export default function SpecialityPage() {
-  const { id } = useParams();
-  const sp = SPECIALITIES.find(s => s.id === parseInt(id));
 
-  if (!sp) return (
-    <div style={{ padding: '80px', textAlign: 'center' }}>
-      <h2>Speciality not found</h2>
-      <Link to="/specialities" className="btn-primary" style={{ marginTop: '20px' }}>← Back to Specialities</Link>
-    </div>
+export default function SpecialityPage() {
+
+
+  const { id } = useParams();
+
+
+  const sp = SPECIALITIES.find(
+    item => item.id === Number(id)
   );
+
+
+
+  if(!sp){
+
+    return (
+
+      <div style={{
+        padding:"80px",
+        textAlign:"center"
+      }}>
+
+        <h2>
+          Speciality not found
+        </h2>
+
+
+        <Link 
+          to="/specialities"
+          className="btn-primary"
+        >
+          ← Back to Specialities
+        </Link>
+
+
+      </div>
+
+    );
+
+  }
+
+
+
+
 
   return (
+
     <div>
+
+
+
       <div className="page-hero">
-        <h1>{sp.name}</h1>
-        <Link to="/contact" className="btn-green"><CalendarDays size={15}/> Book An Appointment</Link>
+
+
+        <h1>
+          {sp.name}
+        </h1>
+
+
+        <Link
+          to="/contact"
+          className="btn-green"
+        >
+
+          <CalendarDays size={15}/>
+
+          Book An Appointment
+
+        </Link>
+
+
       </div>
+
+
+
+
 
       <div className="container">
+
+
         <div className={styles.layout}>
+
+
           <main>
-            <Link to="/specialities" className={styles.backLink}><ArrowLeft size={16}/> Back to Specialities</Link>
 
-            {/* HERO BOX */}
+
+
+            <Link
+              to="/specialities"
+              className={styles.backLink}
+            >
+
+              <ArrowLeft size={16}/>
+
+              Back to Specialities
+
+            </Link>
+
+
+
+
+
+            {/* TOP BOX */}
+
             <div className={styles.box}>
+
+
               <div className={styles.text}>
-                <h2>{sp.name}</h2>
-                <p>{sp.longDesc}</p>
-                <Link to="/contact" className="btn-primary" style={{ marginTop: '8px' }}>
-                  <CalendarDays size={15}/> Book Appointment
+
+
+                <h2>
+                  {sp.name}
+                </h2>
+
+
+                <p>
+                  {sp.heroDesc}
+                </p>
+
+
+
+                <Link
+                  to="/contact"
+                  className="btn-primary"
+                >
+
+                  <CalendarDays size={15}/>
+
+                  Book Appointment
+
                 </Link>
+
+
               </div>
+
+
+
+
+
               <div className={styles.imgWrap}>
-                <img src={sp.image} alt={sp.name}/>
+
+
+                <img
+                  src={sp.image}
+                  alt={sp.name}
+                />
+
+
               </div>
+
+
+
             </div>
 
-            {/* WHAT WE OFFER */}
-            <div className={styles.section}>
-              <h3>What We Offer</h3>
-              <ul className={styles.pointList}>
-                {sp.points.map(pt => (
-                  <li key={pt}><CheckCircle2 size={16} color="#de7639"/>{pt}</li>
-                ))}
-              </ul>
-            </div>
 
-            {/* WHY CHOOSE US */}
-            <div className={styles.section}>
-              <h3>Why Choose Divya Jyoti Hospital?</h3>
+
+
+
+
+
+
+
+            {/* DYNAMIC CONTENT */}
+
+
+
+            {
+              sp.sections?.map((section,index)=>(
+
+
+                <div
+                  className={styles.section}
+                  key={index}
+                >
+
+
+
+                  <h3>
+                    {section.title}
+                  </h3>
+
+
+
+
+
+                  {/* LIST */}
+
+                  {
+                    Array.isArray(section.content)
+                    &&
+                    !section.steps
+                    &&
+
+                    (
+
+                    <ul className={styles.pointList}>
+
+
+                      {
+                        section.content.map(item=>(
+
+
+                          <li key={item}>
+
+
+                            <CheckCircle2
+                              size={16}
+                              color="#de7639"
+                            />
+
+
+                            {item}
+
+
+                          </li>
+
+
+                        ))
+                      }
+
+
+                    </ul>
+
+
+                    )
+
+                  }
+
+
+
+
+
+
+                  {/* STEPS */}
+
+
+                  {
+                    section.steps
+                    &&
+
+                    (
+
+                    <div className={styles.steps}>
+
+
+                      {
+                        section.content.map((item,i)=>(
+
+
+                          <div
+                            className={styles.step}
+                            key={item}
+                          >
+
+                            <b>
+                              Step {i+1}
+                            </b>
+
+
+                            <span>
+                              {item}
+                            </span>
+
+
+                          </div>
+
+
+                        ))
+                      }
+
+
+                    </div>
+
+                    )
+
+                  }
+
+
+
+
+
+
+
+
+                  {/* TEXT */}
+
+
+                  {
+                    typeof section.content === "string"
+                    &&
+
+                    (
+
+                    <p className={styles.description}>
+
+                      {section.content}
+
+                    </p>
+
+                    )
+
+                  }
+
+
+
+                </div>
+
+
+
+              ))
+            }
+
+
+
+
+
+
+
+
+
+            {/* COMMON WHY BOX */}
+
+
+            {/* <div className={styles.section}>
+
+
+              <h3>
+                Why Choose Divya Jyoti Hospital?
+              </h3>
+
+
+
               <div className={styles.whyBox}>
-                <Shield size={40} color="#0085A9"/>
-                <p>Our {sp.name} team combines experienced specialists, modern infrastructure and a patient-first approach to deliver safe, effective and compassionate care for every individual.</p>
+
+
+                <Shield
+                  size={40}
+                  color="#0085A9"
+                />
+
+
+                <p>
+
+                  Our {sp.name} team combines
+                  experienced specialists, modern
+                  infrastructure and patient-first care
+                  to provide safe and effective treatment.
+
+                </p>
+
+
               </div>
-            </div>
+
+
+
+            </div> */}
+
+
+
+
           </main>
 
-          <AppointmentSidebar/>
+
+
+
+
+          <AppointmentSidebar />
+
+
         </div>
+
+
       </div>
+
+
     </div>
+
   );
+
 }

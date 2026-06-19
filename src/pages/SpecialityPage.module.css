@@ -16,7 +16,10 @@
   margin-bottom: 20px;
   text-decoration: none;
 }
-.backLink:hover { color: #00687F; }
+
+.backLink:hover {
+  color: #00687F;
+}
 
 .box {
   background: white;
@@ -51,7 +54,7 @@
   background: white;
   padding: 28px 32px;
   border-radius: 8px;
-  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
   margin-bottom: 20px;
 }
 
@@ -93,8 +96,44 @@
   line-height: 1.8;
 }
 
+.description {
+  color: #555;
+  line-height: 1.8;
+}
+
+
+.steps {
+  display: grid;
+  gap: 15px;
+}
+
+
+.step {
+  background: #f0f8fb;
+  padding: 18px;
+  border-radius: 8px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+
+.step b {
+  color: #0085A9;
+}
+
 @media (max-width: 1000px) {
-  .layout { grid-template-columns: 1fr; }
-  .box { grid-template-columns: 1fr; padding: 24px; }
-  .pointList { grid-template-columns: 1fr; }
+  .layout {
+    grid-template-columns: 1fr;
+  }
+
+  .box {
+    grid-template-columns: 1fr;
+    padding: 24px;
+  }
+
+  .pointList {
+    grid-template-columns: 1fr;
+  }
 }

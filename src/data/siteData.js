@@ -152,87 +152,1127 @@ export const DOCTORS = [
   },
 ];
 
-export const SPECIALITIES = [
-  {
-    id: 1, name: 'IVF & Fertility Center', icon: 'Heart',
-    desc: 'Advanced assisted reproductive technologies and fertility treatments.',
-    image: '/images/IVF.jpg.jpeg',
-    longDesc: ['At Divya Jyoti Hospital\'s IVF   & Fertility Centre, we understand that the journey to parenthood can be emotional and challenging.Our experienced fertility specialists combine advanced reproductive technology with compassionate care to help couples fulfill their dream of having a baby.Every treatment plan is personalized based on your medical history, fertility needs, and family goals.'],
-   points: ['IVF and ICSI procedures', 'IUI (Intrauterine Insemination)', 'Egg and embryo freezing', 'Fertility counselling and support', 'Hormonal evaluation and treatment', 'Male and female infertility workup'],
+// export const SPECIALITIES = [
+//   {
+//     id: 1, name: 'IVF & Fertility Center', icon: 'Heart',
+//     desc: 'Advanced assisted reproductive technologies and fertility treatments.',
+//     image: '/images/IVF.jpg.jpeg',
+//     longDesc: ['At Divya Jyoti Hospital\'s IVF   & Fertility Centre, we understand that the journey to parenthood can be emotional and challenging.Our experienced fertility specialists combine advanced reproductive technology with compassionate care to help couples fulfill their dream of having a baby.Every treatment plan is personalized based on your medical history, fertility needs, and family goals.'],
+//    points: ['Experienced IVF & Fertility Specialists', 'Personalized Treatment Plans', 'Advanced Fertility Diagnostics', 'Modern IVF Laboratory & Technology', 'High Standards of Safety and Hygiene', 'Ethical, Transparent & Confidential Care','Compassionate Counseling and Emotional Support','Affordable Fertility Treatment Packages'],
    
-  },
-{
-  id: 2, name: 'Gynecology', icon: 'Activity',
-    desc: 'Comprehensive women\'s health care, maternal and prenatal services.',
-      image: '/images/Gynee.jpg.jpeg',
-        longDesc: 'Our Gynecology department provides complete women\'s healthcare across all life stages — from adolescence through menopause. Our specialists offer compassionate, confidential care for routine check-ups as well as complex gynecological conditions.',
-          points: ['Routine gynecological exams', 'High-risk pregnancy care', 'Menstrual and hormonal disorders', 'Laparoscopic gynecological surgery', 'Prenatal and postnatal care', 'Family planning services'],
-  },
-{
-  id: 3, name: 'General Physician', icon: 'Baby',
-    desc: 'State-of-the-art neonatal intensive care for premature newborns.',
-      image: '/images/Physician.jpg.jpeg',
-        longDesc: 'Our Level III NICU is equipped with advanced monitoring technology and staffed by experienced neonatologists, providing round-the-clock care for premature and critically ill newborns to ensure the best possible start to life.',
-          points: ['Advanced incubators and warmers', 'Ventilator support for preterm babies', 'Phototherapy for jaundice', 'Continuous vital monitoring', 'Infection control protocols', 'Parental guidance and counselling'],
-  },
-{
-  id: 4, name: 'Pediatrics', icon: 'Users',
-    desc: 'Expert child healthcare from birth through adolescence.',
-      image: '/images/Pedia.jpg.jpeg',
-        longDesc: 'Our Pediatrics department offers comprehensive care for infants, children and adolescents in a warm, child-friendly environment. From routine vaccinations to managing complex childhood illnesses, our team is dedicated to your child\'s wellbeing.',
-          points: ['Routine check-ups and growth monitoring', 'Complete vaccination schedules', 'Newborn care services', 'Management of childhood infections', 'Nutritional counselling', 'Developmental assessments'],
-  },
-{
-  id: 5, name: 'ENT\' Ear, Nose, Throat', icon: 'HeartPulse',
-    desc: 'Advanced cardiac diagnosis, treatment and interventional procedures.',
-      image: '/images/ENT.jpg.jpeg',
-        longDesc: 'Our Cardiology department offers comprehensive heart care, from preventive screening to advanced interventional procedures. Our cardiologists use the latest diagnostic tools to detect and manage cardiovascular conditions early.',
-          points: ['ECG and Echo cardiography', 'Cardiac stress testing', 'Hypertension management', 'Interventional cardiology procedures', 'Heart failure management', 'Preventive cardiac screening'],
-  },
-{
-  id: 6, name: 'General Surgery', icon: 'Scissors',
-    desc: 'Minimally invasive and open surgical procedures by expert surgeons.',
-      image: '/images/GeneralSurgery.jpg.jpeg',
-        longDesc: 'Our General Surgery department is equipped to handle a wide range of surgical procedures, from minimally invasive laparoscopic surgeries to complex abdominal operations, performed by experienced surgeons using modern techniques.',
-          points: ['Laparoscopic surgery', 'Hernia repair', 'Gallbladder surgery', 'Appendix surgery', 'Abdominal surgeries', 'Post-operative care and follow-up'],
-  },
-{
-  id: 7, name: 'Orthopedics', icon: 'Bone',
-    desc: 'Joint replacement, spine care and sports medicine solutions.',
-      image: '/images/Orthopedic.jpg.jpeg',
-        longDesc: 'Our Orthopedics department provides comprehensive musculoskeletal care, from conservative management of joint pain to advanced joint replacement surgeries, helping patients regain mobility and improve quality of life.',
-          points: ['Joint replacement surgery', 'Arthroscopic procedures', 'Spine care and treatment', 'Sports injury management', 'Fracture care', 'Physiotherapy and rehabilitation'],
-  },
-{
-  id: 8, name: 'Urology', icon: 'Ambulance',
-    desc: '24×7 emergency trauma care with rapid response teams.',
-      image: '/images/Urology.jpg.jpeg',
-        longDesc: 'Our Emergency & Trauma department operates round the clock, providing rapid medical care for accident victims, critical illnesses and medical emergencies. Equipped with advanced facilities and a specialised team ready at all times.',
-          points: ['24×7 fast ambulance services', 'Dedicated emergency surgery procedures', 'Specialised ICU and trauma care', 'Advanced monitoring systems', 'Cardiac and neuro emergency support', 'Emergency laboratory and diagnostics'],
-  },
-{
-  id: 9, name: 'Medical Oncology', icon: 'Ambulance',
-    desc: '24×7 emergency trauma care with rapid response teams.',
-      image: '/images/MedicalOncology.jpg.jpeg',
-        longDesc: 'Our Emergency & Trauma department operates round the clock, providing rapid medical care for accident victims, critical illnesses and medical emergencies. Equipped with advanced facilities and a specialised team ready at all times.',
-          points: ['24×7 fast ambulance services', 'Dedicated emergency surgery procedures', 'Specialised ICU and trauma care', 'Advanced monitoring systems', 'Cardiac and neuro emergency support', 'Emergency laboratory and diagnostics'],
-  },
-{
-  id: 10, name: 'Surgical Oncology', icon: 'Ambulance',
-    desc: '24×7 emergency trauma care with rapid response teams.',
-      image: '/images/oncology.jpg.jpeg',
-        longDesc: 'Our Emergency & Trauma department operates round the clock, providing rapid medical care for accident victims, critical illnesses and medical emergencies. Equipped with advanced facilities and a specialised team ready at all times.',
-          points: ['24×7 fast ambulance services', 'Dedicated emergency surgery procedures', 'Specialised ICU and trauma care', 'Advanced monitoring systems', 'Cardiac and neuro emergency support', 'Emergency laboratory and diagnostics'],
-  },
-{
-  id: 11, name: 'Nephrology', icon: 'Ambulance',
-    desc: '24×7 emergency trauma care with rapid response teams.',
-      image: '/images/Nephrology.jpg.jpeg',
-        longDesc: 'Our Emergency & Trauma department operates round the clock, providing rapid medical care for accident victims, critical illnesses and medical emergencies. Equipped with advanced facilities and a specialised team ready at all times.',
-          points: ['24×7 fast ambulance services', 'Dedicated emergency surgery procedures', 'Specialised ICU and trauma care', 'Advanced monitoring systems', 'Cardiac and neuro emergency support', 'Emergency laboratory and diagnostics'],
-  },
-];
+   
+//   },
+// {
+//   id: 2, name: 'Gynecology', icon: 'Activity',
+//     desc: 'Comprehensive women\'s health care, maternal and prenatal services.',
+//       image: '/images/Gynee.jpg.jpeg',
+//         longDesc: 'Our Gynecology department provides complete women\'s healthcare across all life stages — from adolescence through menopause. Our specialists offer compassionate, confidential care for routine check-ups as well as complex gynecological conditions.',
+//           points: ['Routine gynecological exams', 'High-risk pregnancy care', 'Menstrual and hormonal disorders', 'Laparoscopic gynecological surgery', 'Prenatal and postnatal care', 'Family planning services'],
+//   },
+// {
+//   id: 3, name: 'General Physician', icon: 'Baby',
+//     desc: 'State-of-the-art neonatal intensive care for premature newborns.',
+//       image: '/images/Physician.jpg.jpeg',
+//         longDesc: 'Our Level III NICU is equipped with advanced monitoring technology and staffed by experienced neonatologists, providing round-the-clock care for premature and critically ill newborns to ensure the best possible start to life.',
+//           points: ['Advanced incubators and warmers', 'Ventilator support for preterm babies', 'Phototherapy for jaundice', 'Continuous vital monitoring', 'Infection control protocols', 'Parental guidance and counselling'],
+//   },
+// {
+//   id: 4, name: 'Pediatrics', icon: 'Users',
+//     desc: 'Expert child healthcare from birth through adolescence.',
+//       image: '/images/Pedia.jpg.jpeg',
+//         longDesc: 'Our Pediatrics department offers comprehensive care for infants, children and adolescents in a warm, child-friendly environment. From routine vaccinations to managing complex childhood illnesses, our team is dedicated to your child\'s wellbeing.',
+//           points: ['Routine check-ups and growth monitoring', 'Complete vaccination schedules', 'Newborn care services', 'Management of childhood infections', 'Nutritional counselling', 'Developmental assessments'],
+//   },
+// {
+//   id: 5, name: 'ENT\' Ear, Nose, Throat', icon: 'HeartPulse',
+//     desc: 'Advanced cardiac diagnosis, treatment and interventional procedures.',
+//       image: '/images/ENT.jpg.jpeg',
+//         longDesc: 'Our Cardiology department offers comprehensive heart care, from preventive screening to advanced interventional procedures. Our cardiologists use the latest diagnostic tools to detect and manage cardiovascular conditions early.',
+//           points: ['ECG and Echo cardiography', 'Cardiac stress testing', 'Hypertension management', 'Interventional cardiology procedures', 'Heart failure management', 'Preventive cardiac screening'],
+//   },
+// {
+//   id: 6, name: 'General Surgery', icon: 'Scissors',
+//     desc: 'Minimally invasive and open surgical procedures by expert surgeons.',
+//       image: '/images/GeneralSurgery.jpg.jpeg',
+//         longDesc: 'Our General Surgery department is equipped to handle a wide range of surgical procedures, from minimally invasive laparoscopic surgeries to complex abdominal operations, performed by experienced surgeons using modern techniques.',
+//           points: ['Laparoscopic surgery', 'Hernia repair', 'Gallbladder surgery', 'Appendix surgery', 'Abdominal surgeries', 'Post-operative care and follow-up'],
+//   },
+// {
+//   id: 7, name: 'Orthopedics', icon: 'Bone',
+//     desc: 'Joint replacement, spine care and sports medicine solutions.',
+//       image: '/images/Orthopedic.jpg.jpeg',
+//         longDesc: 'Our Orthopedics department provides comprehensive musculoskeletal care, from conservative management of joint pain to advanced joint replacement surgeries, helping patients regain mobility and improve quality of life.',
+//           points: ['Joint replacement surgery', 'Arthroscopic procedures', 'Spine care and treatment', 'Sports injury management', 'Fracture care', 'Physiotherapy and rehabilitation'],
+//   },
+// {
+//   id: 8, name: 'Urology', icon: 'Ambulance',
+//     desc: '24×7 emergency trauma care with rapid response teams.',
+//       image: '/images/Urology.jpg.jpeg',
+//         longDesc: 'Our Emergency & Trauma department operates round the clock, providing rapid medical care for accident victims, critical illnesses and medical emergencies. Equipped with advanced facilities and a specialised team ready at all times.',
+//           points: ['24×7 fast ambulance services', 'Dedicated emergency surgery procedures', 'Specialised ICU and trauma care', 'Advanced monitoring systems', 'Cardiac and neuro emergency support', 'Emergency laboratory and diagnostics'],
+//   },
+// {
+//   id: 9, name: 'Medical Oncology', icon: 'Ambulance',
+//     desc: '24×7 emergency trauma care with rapid response teams.',
+//       image: '/images/MedicalOncology.jpg.jpeg',
+//         longDesc: 'Our Emergency & Trauma department operates round the clock, providing rapid medical care for accident victims, critical illnesses and medical emergencies. Equipped with advanced facilities and a specialised team ready at all times.',
+//           points: ['24×7 fast ambulance services', 'Dedicated emergency surgery procedures', 'Specialised ICU and trauma care', 'Advanced monitoring systems', 'Cardiac and neuro emergency support', 'Emergency laboratory and diagnostics'],
+//   },
+// {
+//   id: 10, name: 'Surgical Oncology', icon: 'Ambulance',
+//     desc: '24×7 emergency trauma care with rapid response teams.',
+//       image: '/images/oncology.jpg.jpeg',
+//         longDesc: 'Our Emergency & Trauma department operates round the clock, providing rapid medical care for accident victims, critical illnesses and medical emergencies. Equipped with advanced facilities and a specialised team ready at all times.',
+//           points: ['24×7 fast ambulance services', 'Dedicated emergency surgery procedures', 'Specialised ICU and trauma care', 'Advanced monitoring systems', 'Cardiac and neuro emergency support', 'Emergency laboratory and diagnostics'],
+//   },
+// {
+//   id: 11, name: 'Nephrology', icon: 'Ambulance',
+//     desc: '24×7 emergency trauma care with rapid response teams.',
+//       image: '/images/Nephrology.jpg.jpeg',
+//         longDesc: 'Our Emergency & Trauma department operates round the clock, providing rapid medical care for accident victims, critical illnesses and medical emergencies. Equipped with advanced facilities and a specialised team ready at all times.',
+//           points: ['24×7 fast ambulance services', 'Dedicated emergency surgery procedures', 'Specialised ICU and trauma care', 'Advanced monitoring systems', 'Cardiac and neuro emergency support', 'Emergency laboratory and diagnostics'],
+//   },
+// ];
 
+
+export const SPECIALITIES = [
+
+{
+id:1,
+
+name:"IVF & Fertility Center",
+
+icon:"Heart",
+
+desc:"Advanced assisted reproductive technologies and fertility treatments.",
+
+image:"/images/IVF.jpg.jpeg",
+
+
+heroDesc:
+"At Divya Jyoti Hospital's IVF & Fertility Centre, we understand that the journey to parenthood can be emotional and challenging. Our experienced fertility specialists combine advanced reproductive technology with compassionate care to help couples fulfill their dream of having a baby.",
+
+
+sections:[
+
+
+{
+title:"Why Choose Our IVF Centre?",
+
+content:[
+"Experienced IVF & Fertility Specialists",
+"Personalized Treatment Plans",
+"Advanced Fertility Diagnostics",
+"Modern IVF Laboratory & Technology",
+"High Standards of Safety and Hygiene",
+"Ethical, Transparent & Confidential Care",
+"Compassionate Counseling and Emotional Support",
+"Affordable Fertility Treatment Packages"
+]
+
+},
+
+
+{
+title:"Our Fertility Services",
+
+content:[
+"IVF (In Vitro Fertilization)",
+"IUI (Intrauterine Insemination)",
+"ICSI (Intracytoplasmic Sperm Injection)",
+"Fertility Evaluation",
+"Male Infertility Treatment",
+"Female Infertility Treatment",
+"Fertility Counseling",
+"Pregnancy Care After IVF"
+]
+
+},
+
+
+
+{
+title:"Conditions We Treat",
+
+content:[
+"Female Infertility",
+"Male Infertility",
+"PCOS & Ovulation Disorders",
+"Endometriosis",
+"Blocked Fallopian Tubes",
+"Low Ovarian Reserve",
+"Recurrent Miscarriages",
+"Unexplained Infertility",
+"Hormonal Imbalances"
+]
+
+},
+
+
+
+{
+title:"Treatment Process",
+
+steps:true,
+
+content:[
+"Initial Consultation & Fertility Assessment",
+"Diagnostic Tests & Fertility Evaluation",
+"Personalized Treatment Planning",
+"IVF / IUI / ICSI Procedure",
+"Pregnancy Testing & Follow-up Care"
+]
+
+},
+
+
+
+{
+title:"Advanced Technology",
+
+content:
+"Our IVF Centre is equipped with advanced fertility technology and follows internationally accepted clinical protocols to improve treatment outcomes."
+
+},
+
+
+
+{
+title:"Patient-Centered Care",
+
+content:
+"We recognize that infertility affects both physical and emotional well-being. Our dedicated team provides compassionate guidance, honest communication and continuous support."
+
+}
+
+
+]
+
+},
+
+
+
+
+
+{
+id:2,
+
+name:"Gynecology",
+
+icon:"Activity",
+
+desc:"Comprehensive women's healthcare services.",
+
+image:"/images/Gynee.jpg.jpeg",
+
+
+heroDesc:
+"Our Gynecology department provides complete women's healthcare across all life stages — from adolescence through menopause. Our specialists offer compassionate and confidential care.",
+
+
+sections:[
+
+
+{
+title:"Why Choose Our Gynecology Department?",
+
+content:[
+"Experienced Gynecologists",
+"Personalized Treatment Plans",
+"Advanced Diagnostic Facilities",
+"Pregnancy Care",
+"Confidential & Compassionate Care",
+"Modern Infrastructure"
+]
+
+},
+
+
+{
+title:"Our Gynecology Services",
+
+content:[
+"Routine Gynecological Check-ups",
+"Pregnancy Care (Antenatal & Postnatal)",
+"High-Risk Pregnancy Management",
+"Menstrual Disorder Treatment",
+"PCOS / PCOD Management",
+"Infertility Evaluation",
+"Family Planning",
+"Menopause Care"
+]
+
+},
+
+
+
+{
+title:"Conditions We Treat",
+
+content:[
+"Irregular Menstrual Cycles",
+"Heavy or Painful Periods",
+"PCOS / PCOD",
+"Infertility",
+"Ovarian Cysts",
+"Uterine Fibroids",
+"Endometriosis",
+"Pelvic Pain",
+"UTIs"
+]
+
+},
+
+
+{
+title:"Care Process",
+
+steps:true,
+
+content:[
+"Consultation with Gynecologist",
+"Clinical Examination & Tests",
+"Personalized Treatment Plan",
+"Medical or Surgical Management",
+"Regular Follow-up"
+]
+
+},
+
+
+{
+title:"Advanced Women's Healthcare",
+
+content:
+"Our department uses modern diagnostic equipment, ultrasound technology and evidence-based treatments to provide accurate and effective care."
+
+}
+
+
+]
+
+},
+
+
+
+
+
+{
+id:3,
+
+name:"General Physician",
+
+icon:"Stethoscope",
+
+desc:"Complete medical care for everyday health problems.",
+
+image:"/images/Physician.jpg.jpeg",
+
+
+heroDesc:
+"Our General Physician Department provides comprehensive medical care for patients of all ages with diagnosis, prevention and treatment of acute and chronic illnesses.",
+
+
+sections:[
+
+
+{
+title:"Why Choose Our Physicians?",
+
+content:[
+"Experienced Qualified Physicians",
+"Accurate Diagnosis",
+"Evidence Based Treatment",
+"Preventive Healthcare",
+"Chronic Disease Management",
+"Patient Centered Care"
+]
+
+},
+
+
+{
+title:"Our Services",
+
+content:[
+"General Health Consultation",
+"Fever & Infection Management",
+"Diabetes Management",
+"Hypertension Care",
+"Thyroid Disorder Treatment",
+"Respiratory Disease Management",
+"Digestive Health",
+"Preventive Health Check-ups"
+]
+
+},
+
+
+{
+title:"Conditions We Treat",
+
+content:[
+"Fever & Viral Infections",
+"Cough Cold & Flu",
+"Diabetes",
+"High Blood Pressure",
+"Thyroid Disorders",
+"Asthma & Allergies",
+"Digestive Disorders",
+"UTIs",
+"Anemia"
+]
+
+},
+
+
+{
+title:"Care Process",
+
+steps:true,
+
+content:[
+"Medical Consultation",
+"Diagnostic Tests",
+"Accurate Diagnosis",
+"Personalized Treatment",
+"Follow-up Monitoring"
+]
+
+},
+
+
+{
+title:"Preventive Healthcare",
+
+content:
+"Good health starts with prevention. We focus on early detection, healthy lifestyle habits and patient education."
+
+}
+
+
+]
+
+},
+
+{
+id:4,
+
+name:"Pediatrics",
+
+icon:"Baby",
+
+desc:"Expert child healthcare from birth through adolescence.",
+
+image:"/images/Pedia.jpg.jpeg",
+
+
+heroDesc:
+"Our Pediatrics department offers comprehensive care for infants, children and adolescents in a warm and child-friendly environment.",
+
+
+sections:[
+
+{
+title:"Why Choose Our Pediatrics Department?",
+
+content:[
+"Experienced Pediatric Specialists",
+"Child-Friendly Environment",
+"Complete Vaccination Support",
+"Growth & Development Monitoring",
+"Advanced Diagnostic Facilities",
+"Compassionate Child Care"
+]
+
+},
+
+
+{
+title:"Our Pediatric Services",
+
+content:[
+"Routine Child Check-ups",
+"Vaccination Services",
+"Newborn Care",
+"Growth Monitoring",
+"Childhood Infection Treatment",
+"Nutritional Guidance",
+"Developmental Assessment"
+]
+
+},
+
+
+{
+title:"Conditions We Treat",
+
+content:[
+"Fever and Infections",
+"Respiratory Problems",
+"Childhood Allergies",
+"Growth Problems",
+"Nutritional Disorders",
+"Newborn Health Issues"
+]
+
+},
+
+
+{
+title:"Care Process",
+
+steps:true,
+
+content:[
+"Pediatric Consultation",
+"Clinical Examination",
+"Required Tests",
+"Personalized Treatment",
+"Follow-up Care"
+]
+
+}
+
+]
+
+},
+
+
+
+
+
+{
+id:5,
+
+name:"ENT - Ear, Nose, Throat",
+
+icon:"HeartPulse",
+
+desc:"Complete ear, nose and throat healthcare.",
+
+image:"/images/ENT.jpg.jpeg",
+
+
+heroDesc:
+"At Divya Jyoti Hospital's ENT Department, we provide expert diagnosis and treatment for conditions affecting the ear, nose, throat, head and neck.",
+
+
+sections:[
+
+
+{
+title:"Why Choose Our ENT Department?",
+
+content:[
+"Experienced ENT Specialists",
+"Advanced Diagnostic Facilities",
+"Personalized Patient Care",
+"Modern ENT Equipment",
+"Minimally Invasive Treatments",
+"Safe Hygienic Environment"
+]
+
+},
+
+
+{
+title:"Our ENT Services",
+
+content:[
+"Ear Care",
+"Nose & Sinus Care",
+"Throat Care",
+"Hearing Assessment",
+"Allergy Management",
+"Pediatric ENT Care",
+"Head & Neck Evaluation",
+"Minor ENT Procedures"
+]
+
+},
+
+
+{
+title:"Conditions We Treat",
+
+content:[
+"Ear Infections",
+"Hearing Loss",
+"Earwax Blockage",
+"Tinnitus",
+"Sinusitis",
+"Allergic Rhinitis",
+"Nasal Blockage",
+"Tonsillitis",
+"Voice Disorders",
+"Vertigo"
+]
+
+},
+
+
+{
+title:"Care Process",
+
+steps:true,
+
+content:[
+"ENT Consultation",
+"Physical Examination",
+"Diagnostic Tests",
+"Personalized Treatment",
+"Follow-up Care"
+]
+
+},
+
+
+{
+title:"Advanced ENT Care",
+
+content:
+"Our ENT department uses modern diagnostic technology and minimally invasive techniques to provide faster recovery."
+
+}
+
+
+]
+
+},
+
+
+
+
+
+
+{
+id:6,
+
+name:"General Surgery",
+
+icon:"Scissors",
+
+desc:"Advanced surgical care with modern techniques.",
+
+image:"/images/GeneralSurgery.jpg.jpeg",
+
+
+heroDesc:
+"Our General Surgery department provides comprehensive surgical care using advanced techniques, modern technology and patient-centered treatment.",
+
+
+sections:[
+
+
+{
+title:"Why Choose Our Surgery Department?",
+
+content:[
+"Experienced Surgeons",
+"Advanced Surgical Techniques",
+"Laparoscopic Surgery",
+"Modern Operation Theatres",
+"Post Operative Care",
+"High Safety Standards"
+]
+
+},
+
+
+{
+title:"Our Surgical Services",
+
+content:[
+"Laparoscopic Surgery",
+"Gallbladder Surgery",
+"Hernia Surgery",
+"Appendix Surgery",
+"Piles Treatment",
+"Fissure & Fistula Surgery",
+"Breast Surgery",
+"Minor Surgical Procedures"
+]
+
+},
+
+
+{
+title:"Conditions We Treat",
+
+content:[
+"Gallstones",
+"Hernias",
+"Appendicitis",
+"Piles",
+"Anal Fissures",
+"Anal Fistulas",
+"Breast Lumps",
+"Lipomas",
+"Abscesses"
+]
+
+},
+
+
+{
+title:"Surgical Care Process",
+
+steps:true,
+
+content:[
+"Surgical Consultation",
+"Diagnostic Tests",
+"Treatment Planning",
+"Surgical Procedure",
+"Recovery & Follow-up"
+]
+
+},
+
+
+{
+title:"Advanced Surgical Facilities",
+
+content:
+"Our operation theatres follow strict sterilization protocols and use modern surgical technology for safer procedures."
+
+}
+
+
+]
+
+},
+
+
+
+
+
+{
+id:7,
+
+name:"Orthopedics",
+
+icon:"Bone",
+
+desc:"Joint, bone and spine care solutions.",
+
+image:"/images/Orthopedic.jpg.jpeg",
+
+
+heroDesc:
+"Our Orthopedics department provides complete musculoskeletal care including joint problems, fractures, spine issues and rehabilitation.",
+
+
+sections:[
+
+
+{
+title:"Orthopedic Services",
+
+content:[
+"Joint Replacement",
+"Arthroscopic Procedures",
+"Spine Care",
+"Sports Injury Treatment",
+"Fracture Management",
+"Physiotherapy & Rehabilitation"
+]
+
+},
+
+
+{
+title:"Conditions We Treat",
+
+content:[
+"Joint Pain",
+"Fractures",
+"Arthritis",
+"Back Pain",
+"Sports Injuries",
+"Spine Disorders"
+]
+
+},
+
+
+{
+title:"Treatment Process",
+
+steps:true,
+
+content:[
+"Orthopedic Consultation",
+"Diagnosis & Imaging",
+"Treatment Planning",
+"Procedure or Therapy",
+"Recovery Monitoring"
+]
+
+}
+
+
+]
+
+},
+
+{
+id:8,
+
+name:"Urology",
+
+icon:"Activity",
+
+desc:"Specialized care for urinary and kidney related conditions.",
+
+image:"/images/Urology.jpg.jpeg",
+
+
+heroDesc:
+"Our Urology department provides advanced diagnosis and treatment for urinary tract, kidney and male reproductive health conditions.",
+
+
+sections:[
+
+
+{
+title:"Urology Services",
+
+content:[
+"Kidney Stone Treatment",
+"Urinary Tract Care",
+"Prostate Management",
+"Male Fertility Care",
+"Urological Surgery",
+"Preventive Urology"
+]
+
+},
+
+
+{
+title:"Conditions We Treat",
+
+content:[
+"Kidney Stones",
+"Urinary Infections",
+"Prostate Problems",
+"Bladder Disorders",
+"Male Infertility",
+"Urinary Blockage"
+]
+
+},
+
+
+{
+title:"Treatment Process",
+
+steps:true,
+
+content:[
+"Urology Consultation",
+"Diagnostic Tests",
+"Treatment Planning",
+"Procedure or Medication",
+"Follow-up Care"
+]
+
+}
+
+]
+
+},
+
+
+
+
+
+{
+id:9,
+
+name:"Medical Oncology",
+
+icon:"Activity",
+
+desc:"Comprehensive cancer treatment and care.",
+
+image:"/images/MedicalOncology.jpg.jpeg",
+
+
+heroDesc:
+"Our Medical Oncology Department provides evidence-based cancer treatment with personalized care plans and compassionate support.",
+
+
+sections:[
+
+
+{
+title:"Why Choose Medical Oncology?",
+
+content:[
+"Experienced Medical Oncologists",
+"Personalized Cancer Treatment",
+"Advanced Chemotherapy",
+"Targeted Therapy",
+"Immunotherapy",
+"Supportive Care"
+]
+
+},
+
+
+{
+title:"Our Oncology Services",
+
+content:[
+"Cancer Consultation",
+"Cancer Diagnosis",
+"Chemotherapy",
+"Targeted Therapy",
+"Immunotherapy",
+"Hormone Therapy",
+"Supportive Cancer Care",
+"Palliative Care"
+]
+
+},
+
+
+{
+title:"Types of Cancer We Manage",
+
+content:[
+"Breast Cancer",
+"Lung Cancer",
+"Colorectal Cancer",
+"Stomach Cancer",
+"Liver Cancer",
+"Ovarian Cancer",
+"Cervical Cancer",
+"Prostate Cancer",
+"Blood Cancers"
+]
+
+},
+
+
+{
+title:"Treatment Process",
+
+steps:true,
+
+content:[
+"Cancer Consultation",
+"Diagnostic Tests & Staging",
+"Treatment Planning",
+"Cancer Therapy",
+"Follow-up Care"
+]
+
+},
+
+
+{
+title:"Advanced Cancer Care",
+
+content:
+"Our oncology team follows evidence-based protocols and creates treatment plans according to cancer type, stage and patient needs."
+
+},
+
+
+{
+title:"Compassionate Support",
+
+content:
+"We provide emotional support, symptom management and guidance for patients and families throughout treatment."
+
+}
+
+]
+
+},
+
+
+
+
+
+
+
+{
+id:10,
+
+name:"Surgical Oncology",
+
+icon:"Scissors",
+
+desc:"Advanced cancer surgery with precision and care.",
+
+image:"/images/oncology.jpg.jpeg",
+
+
+heroDesc:
+"Our Surgical Oncology department provides specialized cancer surgeries using modern techniques and a multidisciplinary approach.",
+
+
+sections:[
+
+
+{
+title:"Why Choose Surgical Oncology?",
+
+content:[
+"Experienced Surgical Oncologists",
+"Advanced Cancer Surgery",
+"Organ Preserving Procedures",
+"Modern Operation Theatres",
+"Personalized Treatment Plans",
+"Complete Post Surgery Care"
+]
+
+},
+
+
+{
+title:"Surgical Oncology Services",
+
+content:[
+"Cancer Surgery",
+"Breast Cancer Surgery",
+"Head & Neck Cancer Surgery",
+"Gastrointestinal Cancer Surgery",
+"Gynecological Cancer Surgery",
+"Tumor Removal Surgery",
+"Biopsy Procedures"
+]
+
+},
+
+
+{
+title:"Cancer Types Treated",
+
+content:[
+"Breast Cancer",
+"Head & Neck Cancer",
+"Thyroid Cancer",
+"Oral Cancer",
+"Stomach Cancer",
+"Colon Cancer",
+"Liver Cancer",
+"Ovarian Cancer"
+]
+
+},
+
+
+{
+title:"Treatment Process",
+
+steps:true,
+
+content:[
+"Specialist Consultation",
+"Imaging & Biopsy",
+"Treatment Planning",
+"Cancer Surgery",
+"Recovery & Rehabilitation"
+]
+
+},
+
+
+{
+title:"Advanced Surgical Techniques",
+
+content:
+"Our department uses minimally invasive techniques whenever possible to reduce pain and improve recovery."
+
+}
+
+]
+
+},
+
+
+
+
+
+
+
+
+{
+id:11,
+
+name:"Nephrology",
+
+icon:"Activity",
+
+desc:"Kidney care and renal disease management.",
+
+image:"/images/Nephrology.jpg.jpeg",
+
+
+heroDesc:
+"Our Nephrology department provides specialized diagnosis and treatment for kidney-related conditions with advanced medical care.",
+
+
+sections:[
+
+
+{
+title:"Nephrology Services",
+
+content:[
+"Kidney Disease Management",
+"Kidney Function Evaluation",
+"Hypertension Related Kidney Care",
+"Dialysis Support",
+"Electrolyte Disorder Management",
+"Preventive Kidney Care"
+]
+
+},
+
+
+{
+title:"Conditions We Treat",
+
+content:[
+"Chronic Kidney Disease",
+"Kidney Infections",
+"Kidney Stones",
+"High Blood Pressure Related Kidney Problems",
+"Electrolyte Disorders",
+"Acute Kidney Problems"
+]
+
+},
+
+
+{
+title:"Care Process",
+
+steps:true,
+
+content:[
+"Nephrology Consultation",
+"Blood & Urine Tests",
+"Kidney Evaluation",
+"Treatment Planning",
+"Regular Monitoring"
+]
+
+}
+
+
+]
+
+}
+
+];
 
 export const SERVICES = [
   { id: 1, name: 'Emergency & Trauma', tag: 'Emergency', desc: '24×7 emergency care with trained trauma specialists and rapid ambulance services.', image: 'https://images.unsplash.com/photo-1538108149393-fbbd81895907?w=500' },
