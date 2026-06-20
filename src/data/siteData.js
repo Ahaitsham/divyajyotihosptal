@@ -635,13 +635,345 @@ export const SPECIALITIES = [
   },
 ];
 
+
+
 export const SERVICES = [
-  { id: 1, name: 'Emergency & Trauma', tag: 'Emergency', desc: '24×7 emergency care with trained trauma specialists and rapid ambulance services.', image: '/images/serviceEmergency.jpg.jpeg' },
-  { id: 2, name: 'IVF & Infertility', tag: 'Fertility', desc: 'Cutting-edge IVF, IUI and fertility preservation treatments for aspiring parents.', image: '/images/serviceIVF.jpg.jpeg' },
-  { id: 3, name: 'NICU', tag: 'Neonatal', desc: 'Level III NICU with advanced monitoring and care for critically ill newborns.', image: '/images/serviceNICU.jpg.jpeg' },
-  { id: 4, name: 'Radiology & Imaging', tag: 'Diagnostics', desc: 'Digital X-ray, Ultrasound, CT Scan and MRI with expert radiologists.', image: '/images/serviceRadiology.jpg.jpeg' },
-  { id: 5, name: 'Pathology Lab', tag: 'Diagnostics', desc: 'Comprehensive blood tests, cultures and advanced diagnostic pathology.', image: '/images/servicePathology%20Lab.jpg.jpeg' },
-  { id: 6, name: 'Pharmacy', tag: 'Services', desc: '24×7 in-house pharmacy with genuine medicines and home delivery.', image: '/images/servicePharmacy.jpg.jpeg' },
+  {
+    id: 1, name: 'Emergency & Trauma', tag: 'Emergency',
+    desc: '24×7 emergency care with trained trauma specialists and rapid ambulance services.',
+    image: '/images/serviceEmergency.jpg.jpeg',
+    heroDesc: 'Medical emergencies can happen at any time, and every second counts. At Divya Jyoti Hospital, Jewar, our 24x7 Emergency Department is fully equipped to provide immediate medical attention for critical illnesses, accidents, injuries, and life-threatening conditions. Our experienced emergency doctors, trained nursing staff, and advanced medical facilities work together to deliver prompt diagnosis, rapid treatment, and compassionate care when you need it most. If you are searching for the Best Emergency Hospital in Jewar, Divya Jyoti Hospital is committed to providing round-the-clock emergency medical services with speed, accuracy, and patient safety.',
+    sections: [
+      {
+        title: 'Comprehensive 24x7 Emergency Care',
+        content: 'Our emergency department is designed to manage a wide range of medical emergencies with immediate response and expert care. We are equipped to stabilize patients quickly and initiate appropriate treatment without delay.',
+      },
+      {
+        title: 'Our Emergency Services Include',
+        content: ['Emergency Medical Consultation', 'Accident & Trauma Care', 'Cardiac Emergency Management', 'Stroke & Brain Emergency Care', 'High Fever & Infection Management', 'Respiratory Emergencies', 'Severe Abdominal Pain Evaluation', 'Poisoning & Drug Overdose Treatment', 'Fracture & Orthopedic Emergency Care', 'Burns & Wound Management', 'Pediatric Emergency Care', 'Gynecological & Pregnancy Emergencies', 'Emergency Surgical Assessment', 'Emergency Observation & Monitoring'],
+      },
+      {
+        title: 'Our Emergency Facilities',
+        content: 'At Divya Jyoti Hospital, we understand that emergency care requires advanced infrastructure and immediate access to diagnostic services. Our emergency department is supported by modern medical technology to ensure timely and effective treatment.',
+      },
+      {
+        title: 'Advanced Emergency Facilities',
+        content: ['24x7 Emergency Department', 'Experienced Emergency Physicians', 'Critical Care Monitoring', 'Advanced Life Support Equipment', 'Oxygen & Ventilator Support', 'Emergency Minor Procedure Room', 'Digital X-Ray', 'Ultrasound Services', 'Laboratory Services', 'ECG & Cardiac Monitoring', 'Emergency Pharmacy', 'Intensive Care Support', 'Ambulance Assistance', 'Multispecialty Specialist Backup'],
+      },
+      {
+        title: 'Conditions We Treat',
+        type: 'cards',
+        content: [
+          { title: 'Cardiac Emergencies', description: 'Chest pain, heart attack symptoms, sudden palpitations, cardiac arrest.' },
+          { title: 'Trauma & Accidents', description: 'Road traffic accidents, falls and fractures, head injuries, sports injuries, soft tissue injuries.' },
+          { title: 'Neurological Emergencies', description: 'Stroke symptoms, seizures, loss of consciousness, sudden weakness or paralysis.' },
+          { title: 'Respiratory Emergencies', description: 'Severe asthma attack, breathing difficulty, pneumonia complications, low oxygen levels.' },
+          { title: 'Pediatric Emergencies', description: 'High fever, breathing problems, dehydration, convulsions, injury management.' },
+          { title: 'Women\'s Health Emergencies', description: 'Pregnancy complications, severe abdominal pain, heavy bleeding, gynecological emergencies.' },
+        ],
+      },
+      {
+        title: 'Why Choose Divya Jyoti Hospital for Emergency Care in Jewar?',
+        content: 'Our emergency department is committed to delivering immediate, high-quality care with compassion and professionalism.',
+      },
+      {
+        title: 'Why Patients Trust Us',
+        content: ['24x7 Emergency Medical Services', 'Experienced Emergency Doctors', 'Rapid Diagnosis & Immediate Treatment', 'Modern Medical Equipment', 'Multispecialty Team Support', 'Advanced Diagnostic Facilities', 'Patient-Centered Care', 'Hygienic & Well-Equipped Emergency Unit', 'Continuous Patient Monitoring', 'Compassionate Nursing Care'],
+      },
+      {
+        title: 'Signs You Should Visit the Emergency Department Immediately',
+        content: ['Severe chest pain', 'Difficulty breathing', 'Sudden weakness or paralysis', 'Uncontrolled bleeding', 'Loss of consciousness', 'Severe head injury', 'High fever with confusion', 'Seizures', 'Serious burns', 'Poisoning', 'Severe allergic reactions', 'Sudden vision loss', 'Persistent severe abdominal pain'],
+      },
+      {
+        title: 'Emergency Care Process',
+        steps: true,
+        content: ['Immediate Patient Assessment', 'Emergency Triage', 'Rapid Diagnosis', 'Stabilization & Critical Care', 'Advanced Investigations', 'Specialist Consultation', 'Emergency Treatment', 'Admission or Safe Discharge with Follow-up Guidance'],
+      },
+      {
+        title: 'Frequently Asked Questions',
+        type: 'faq',
+        content: [
+          { title: 'Is the emergency department open 24 hours?', description: 'Yes. Divya Jyoti Hospital provides 24x7 emergency medical services, including nights, weekends, and public holidays.' },
+          { title: 'Do I need an appointment for emergency treatment?', description: 'No. Emergency patients are treated immediately without a prior appointment.' },
+          { title: 'Does the hospital provide emergency care for children?', description: 'Yes. Our emergency department is equipped to manage pediatric emergencies with experienced medical professionals.' },
+          { title: 'Can accident victims receive immediate treatment?', description: 'Absolutely. We provide prompt evaluation, stabilization, trauma care, and specialist support for accident and injury cases.' },
+          { title: 'What should I bring during an emergency visit?', description: 'If available, bring previous medical records, current medications, identification, and insurance details. However, emergency treatment is always prioritized.' },
+        ],
+      },
+      {
+        title: 'Trust Divya Jyoti Hospital for 24x7 Emergency Services in Jewar',
+        content: 'When every second matters, you need a hospital that is prepared to respond with speed, expertise, and compassion. At Divya Jyoti Hospital, Jewar, our dedicated emergency team is available around the clock to provide immediate medical care for patients of all ages. Whether it\'s a medical emergency, accident, trauma, or sudden illness, we are committed to delivering fast diagnosis, advanced treatment, and continuous support to help protect what matters most—your health.',
+      },
+    ],
+  },
+  {
+    id: 2, name: 'IVF & Infertility', tag: 'Fertility',
+    desc: 'Cutting-edge IVF, IUI and fertility preservation treatments for aspiring parents.',
+    image: '/images/serviceIVF.jpg.jpeg',
+    heroDesc: 'Fertility treatments require expert monitoring and timely medical attention, especially during critical stages such as ovarian stimulation, egg retrieval, embryo transfer, and early pregnancy. At Divya Jyoti Hospital, Jewar, we provide prompt evaluation and emergency care for patients undergoing IVF and other fertility treatments. Our experienced fertility specialists and gynecologists are committed to ensuring the safety of both mother and baby while providing compassionate, evidence-based care. If you are searching for the Best IVF Centre in Jewar with reliable emergency support, Divya Jyoti Hospital offers comprehensive fertility care under one roof.',
+    sections: [
+      {
+        title: 'What Is an IVF Emergency?',
+        content: 'An IVF emergency refers to any unexpected medical condition or complication that occurs before, during, or after fertility treatment and requires immediate medical evaluation. Early diagnosis and timely treatment can help protect your health and improve treatment outcomes. Our team provides rapid assessment and personalized care for women experiencing symptoms during fertility treatment or early pregnancy.',
+      },
+      {
+        title: 'When Should You Seek Immediate Medical Attention?',
+        content: ['Severe abdominal or pelvic pain', 'Heavy vaginal bleeding', 'Difficulty breathing', 'Persistent nausea and vomiting', 'Sudden abdominal swelling or bloating', 'High fever or signs of infection', 'Severe dizziness or fainting', 'Reduced urine output', 'Severe pain after egg retrieval', 'Intense pain during early pregnancy', 'Suspected ectopic pregnancy symptoms'],
+      },
+      {
+        title: 'IVF-Related Conditions We Manage',
+        type: 'cards',
+        content: [
+          { title: 'Ovarian Hyperstimulation Syndrome (OHSS)', description: 'A rare but important complication that may occur after ovarian stimulation. Symptoms include abdominal swelling, pain, nausea, vomiting, and breathing difficulty.' },
+          { title: 'Bleeding After Egg Retrieval', description: 'Mild spotting is common, but heavy bleeding requires immediate medical assessment.' },
+          { title: 'Infection After Fertility Procedures', description: 'Prompt diagnosis and treatment help prevent complications and protect reproductive health.' },
+          { title: 'Early Pregnancy Complications', description: 'Our specialists evaluate bleeding, abdominal pain, and pregnancy-related concerns following IVF treatment.' },
+          { title: 'Suspected Ectopic Pregnancy', description: 'Early diagnosis is essential if a pregnancy develops outside the uterus, as urgent treatment may be required.' },
+          { title: 'Severe Pelvic Pain', description: 'Pelvic pain during or after fertility treatment should always be assessed by an experienced fertility specialist.' },
+        ],
+      },
+      {
+        title: 'Our Emergency IVF Support Includes',
+        content: ['Immediate Fertility Specialist Consultation', 'Emergency Gynecology Assessment', 'Ultrasound Evaluation', 'Pregnancy Monitoring', 'Hormonal Blood Tests', 'Management of IVF Complications', 'Early Pregnancy Care', 'Emergency Medical Treatment', 'Hospital Admission (When Required)', 'Continuous Patient Monitoring'],
+      },
+      {
+        title: 'Why Choose Divya Jyoti Hospital for IVF Care in Jewar?',
+        content: 'Divya Jyoti Hospital is committed to providing advanced fertility care with compassion and clinical excellence.',
+      },
+      {
+        title: 'Our Advantages',
+        content: ['Experienced IVF & Fertility Specialists', 'Personalized Fertility Treatment Plans', 'Modern IVF Laboratory Support', 'Advanced Ultrasound & Diagnostics', 'Comprehensive Women\'s Healthcare', 'Emergency Gynecological Services', 'High Standards of Patient Safety', 'Compassionate Counseling & Support', 'Complete Fertility Care Under One Roof'],
+      },
+      {
+        title: 'Tips for a Safe IVF Journey',
+        content: ['Take all medications exactly as prescribed.', 'Attend every scheduled appointment.', 'Stay hydrated and maintain a balanced diet.', 'Avoid strenuous physical activity if advised.', 'Report any unusual symptoms immediately.', 'Follow post-procedure instructions carefully.', 'Keep regular communication with your fertility specialist.'],
+      },
+      {
+        title: 'Frequently Asked Questions',
+        type: 'faq',
+        content: [
+          { title: 'Is mild pain normal after egg retrieval?', description: 'Mild discomfort or cramping is common and usually settles within a short time. Severe or worsening pain should be evaluated immediately.' },
+          { title: 'Is spotting after embryo transfer normal?', description: 'Light spotting can occur in some patients. Heavy bleeding or severe pain should be reported to your doctor without delay.' },
+          { title: 'What is OHSS?', description: 'Ovarian Hyperstimulation Syndrome (OHSS) is an uncommon complication of fertility treatment that requires prompt medical attention if symptoms become severe.' },
+          { title: 'Can I visit the hospital without an appointment during an emergency?', description: 'Yes. Patients experiencing urgent IVF or pregnancy-related symptoms should seek immediate medical care.' },
+          { title: 'Does Divya Jyoti Hospital provide complete fertility care?', description: 'Yes. We offer comprehensive fertility evaluation, IVF treatment, pregnancy monitoring, and emergency gynecological support under one roof.' },
+        ],
+      },
+      {
+        title: 'Trusted IVF & Fertility Care in Jewar',
+        content: 'Your fertility journey deserves expert care, advanced technology, and compassionate support. At Divya Jyoti Hospital, Jewar, we are committed to providing safe, personalized IVF treatment and prompt emergency care whenever you need it. Whether you are planning your first IVF cycle, undergoing treatment, or experiencing concerns during early pregnancy, our dedicated fertility team is here to support you every step of the way.',
+      },
+    ],
+  },
+  {
+    id: 3, name: 'NICU', tag: 'Neonatal',
+    desc: 'Level III NICU with advanced monitoring and care for critically ill newborns.',
+    image: '/images/serviceNICU.jpg.jpeg',
+    heroDesc: 'The first few days of a baby\'s life are precious and critical. Some newborns require specialized medical attention due to premature birth, low birth weight, breathing difficulties, infections, or other health concerns. At Divya Jyoti Hospital, Jewar, our Neonatal Intensive Care Unit (NICU) is designed to provide expert, round-the-clock care for critically ill and high-risk newborns. Equipped with advanced neonatal technology and supported by experienced pediatricians, neonatologists, and specially trained nursing staff, our NICU is dedicated to giving every newborn the best possible start in life. If you are looking for the Best NICU Hospital in Jewar, Divya Jyoti Hospital offers compassionate, family-centered, and evidence-based neonatal care.',
+    sections: [
+      {
+        title: 'What is a NICU?',
+        content: 'A Neonatal Intensive Care Unit (NICU) is a specialized department that provides intensive medical care for newborn babies who need extra support after birth. Babies admitted to the NICU receive continuous monitoring, specialized treatment, and advanced life-support when required. Our goal is to help newborns recover, grow, and transition safely to home with their families.',
+      },
+      {
+        title: 'Which Babies May Need NICU Care?',
+        content: ['Premature birth (before 37 weeks)', 'Low birth weight', 'Difficulty breathing', 'Birth asphyxia', 'Neonatal jaundice requiring intensive treatment', 'Infections or neonatal sepsis', 'Feeding difficulties', 'Congenital abnormalities', 'Low blood sugar', 'Respiratory distress syndrome', 'Meconium aspiration', 'Twin or multiple birth complications'],
+      },
+      {
+        title: 'Our NICU Services Include',
+        content: ['24x7 Neonatal Intensive Care', 'Care for Premature & Low Birth Weight Babies', 'Advanced Respiratory Support', 'Oxygen Therapy', 'CPAP & Ventilator Support', 'Newborn Resuscitation', 'Phototherapy for Neonatal Jaundice', 'Neonatal Infection Management', 'Intravenous Fluid & Nutrition Support', 'Temperature-Controlled Incubators', 'Continuous Heart Rate & Oxygen Monitoring', 'Feeding Support & Lactation Guidance', 'High-Risk Newborn Monitoring', 'Neonatal Emergency Care'],
+      },
+      {
+        title: 'Advanced NICU Facilities',
+        content: ['Modern Neonatal Incubators', 'Radiant Warmers', 'Multiparameter Monitoring Systems', 'CPAP & Ventilator Support', 'Phototherapy Units', 'Infusion Pumps', 'Emergency Resuscitation Equipment', 'Dedicated Neonatal Nursing Staff', 'Infection Control Protocols', 'Laboratory & Diagnostic Support', 'Pediatric & Neonatology Specialist Backup', '24x7 Emergency Neonatal Services'],
+      },
+      {
+        title: 'Why Families Choose Us',
+        content: ['Experienced Pediatricians & Neonatal Care Team', 'Advanced NICU Infrastructure', '24x7 Emergency Newborn Care', 'Modern Life-Support Equipment', 'Individualized Treatment Plans', 'Strict Infection Prevention Measures', 'Family-Centered Care Approach', 'Continuous Monitoring of Every Baby', 'Safe & Comfortable Hospital Environment', 'Comprehensive Mother & Baby Care Under One Roof'],
+      },
+      {
+        title: 'Our Approach to Neonatal Care',
+        content: ['Immediate medical assessment', 'Continuous monitoring', 'Personalized treatment plan', 'Nutritional support', 'Infection prevention', 'Developmental care', 'Parent education and counseling', 'Regular progress updates', 'Safe discharge planning', 'Follow-up care recommendations'],
+      },
+      {
+        title: 'Tips for Parents of NICU Babies',
+        content: ['Visit your baby as advised by the care team.', 'Practice proper hand hygiene before touching your baby.', 'Provide breast milk whenever possible.', 'Ask questions about your baby\'s treatment and progress.', 'Follow medical advice after discharge.', 'Attend all scheduled follow-up appointments.'],
+      },
+      {
+        title: 'Frequently Asked Questions',
+        type: 'faq',
+        content: [
+          { title: 'What does NICU stand for?', description: 'NICU stands for Neonatal Intensive Care Unit, a specialized unit for newborns requiring intensive medical care.' },
+          { title: 'Can parents visit their baby in the NICU?', description: 'Yes. Parents are encouraged to stay involved in their baby\'s care according to hospital guidelines and safety protocols.' },
+          { title: 'How long does a baby stay in the NICU?', description: 'The length of stay depends on the baby\'s medical condition, birth weight, and overall progress. Every baby is different.' },
+          { title: 'Do premature babies recover completely?', description: 'Many premature babies grow into healthy children with appropriate medical care, nutrition, and regular follow-up.' },
+          { title: 'Does Divya Jyoti Hospital provide emergency newborn care?', description: 'Yes. Our NICU offers 24x7 emergency neonatal care for premature, critically ill, and high-risk newborns.' },
+        ],
+      },
+      {
+        title: 'Trusted NICU Care in Jewar',
+        content: 'At Divya Jyoti Hospital, Jewar, we understand that every newborn deserves the highest standard of medical care. Our advanced Neonatal Intensive Care Unit (NICU) is equipped to provide expert treatment, continuous monitoring, and compassionate support for babies who need specialized care during the earliest and most delicate stage of life. From premature birth and respiratory support to infection management and neonatal emergencies, our experienced team is dedicated to helping your baby grow stronger every day while supporting your family with care, guidance, and hope.',
+      },
+    ],
+  },
+  {
+    id: 4, name: 'Radiology & Imaging', tag: 'Diagnostics',
+    desc: 'Digital X-ray, Ultrasound, CT Scan and MRI with expert radiologists.',
+    image: '/images/serviceRadiology.jpg.jpeg',
+    heroDesc: 'Accurate diagnosis is the first step toward effective treatment, and advanced medical imaging plays a crucial role in identifying diseases at an early stage. At Divya Jyoti Hospital, Jewar, our Radiology & Diagnostic Imaging Department offers high-quality imaging services using modern technology to help doctors diagnose, monitor, and treat a wide range of medical conditions. Our experienced radiologists and skilled technicians provide safe, precise, and timely diagnostic imaging for patients of all ages. Whether you require a routine X-ray, pregnancy ultrasound, or specialized imaging, we are committed to delivering reliable reports with compassionate care. If you are looking for the Best Radiology Centre in Jewar, Divya Jyoti Hospital provides comprehensive diagnostic imaging services under one roof.',
+    sections: [
+      {
+        title: 'What is Radiology?',
+        content: 'Radiology is a medical specialty that uses advanced imaging technologies to diagnose and monitor diseases and injuries. These imaging tests help doctors visualize internal organs, bones, muscles, blood vessels, and other body structures without surgery. Radiology supports early diagnosis, treatment planning, and continuous monitoring of a patient\'s health.',
+      },
+      {
+        title: 'Our Radiology Services',
+        content: ['Digital X-Ray', 'Ultrasound (USG)', 'Pregnancy Ultrasound', 'Abdomen Ultrasound', 'Pelvic Ultrasound', 'Kidney & Urinary Tract Ultrasound', 'Thyroid Ultrasound', 'Soft Tissue Ultrasound', 'Doppler Ultrasound', 'Musculoskeletal Imaging', 'Chest Imaging', 'Orthopedic Imaging', 'Emergency Radiology Services', 'Image-Guided Diagnostic Support'],
+      },
+      {
+        title: 'Advanced Imaging Facilities',
+        content: ['Digital X-Ray System', 'High-Resolution Ultrasound Machines', 'Color Doppler Imaging', 'Portable Imaging Support', 'Emergency Imaging Services', 'Pregnancy & Fetal Imaging', 'Image Archiving & Digital Reporting', 'Radiation Safety Protocols', 'Experienced Radiologists', 'Skilled Radiology Technicians', 'Fast & Accurate Report Generation'],
+      },
+      {
+        title: 'Conditions Diagnosed with Radiology',
+        type: 'cards',
+        content: [
+          { title: 'Bone & Joint Conditions', description: 'Fractures, arthritis, sports injuries, joint disorders.' },
+          { title: 'Chest & Lung Conditions', description: 'Lung infections, pneumonia, chest injuries, respiratory disorders.' },
+          { title: 'Abdominal Conditions', description: 'Gallstones, kidney stones, liver disorders, pancreatic conditions, digestive system diseases.' },
+          { title: 'Pregnancy & Women\'s Health', description: 'Pregnancy monitoring, fetal growth assessment, gynecological conditions, ovarian cysts, uterine disorders.' },
+          { title: 'Urology', description: 'Kidney stones, urinary tract abnormalities, bladder disorders, prostate evaluation (when appropriate).' },
+          { title: 'Vascular Conditions', description: 'Blood flow assessment, deep vein thrombosis (DVT), peripheral vascular disorders.' },
+        ],
+      },
+      {
+        title: 'Why Patients Trust Us',
+        content: ['Experienced Radiologists', 'Advanced Digital Imaging Equipment', 'High-Quality Diagnostic Images', 'Fast & Accurate Reporting', 'Safe Imaging Procedures', 'Affordable Diagnostic Services', 'Comfortable Patient Experience', 'Multispecialty Medical Support', 'Strict Radiation Safety Standards', 'Comprehensive Diagnostic Care'],
+      },
+      {
+        title: 'Preparing for Your Imaging Test',
+        content: ['Carry your doctor\'s referral, if available.', 'Bring previous imaging reports for comparison.', 'Wear comfortable clothing.', 'Inform the radiology team if you are pregnant or think you may be pregnant.', 'Follow fasting or hydration instructions for certain ultrasound examinations.'],
+      },
+      {
+        title: 'Frequently Asked Questions',
+        type: 'faq',
+        content: [
+          { title: 'Is a Digital X-Ray safe?', description: 'Yes. Digital X-rays use low doses of radiation and are performed following strict safety protocols.' },
+          { title: 'Do I need an appointment for an ultrasound?', description: 'Appointments are recommended for convenience, although emergency imaging is available when medically required.' },
+          { title: 'Can pregnant women undergo ultrasound?', description: 'Yes. Ultrasound is a safe imaging method commonly used to monitor pregnancy and fetal development.' },
+          { title: 'How long does it take to receive radiology reports?', description: 'Routine imaging reports are generally available within a short time, while specialized studies may require additional review.' },
+          { title: 'Does Divya Jyoti Hospital provide emergency imaging services?', description: 'Yes. Our Radiology Department supports emergency cases with prompt imaging to assist doctors in making timely treatment decisions.' },
+        ],
+      },
+      {
+        title: 'Trusted Radiology & Diagnostic Imaging in Jewar',
+        content: 'At Divya Jyoti Hospital, Jewar, we believe that accurate imaging leads to better healthcare decisions. Our advanced Radiology & Diagnostic Imaging Department provides high-quality diagnostic services with modern equipment, experienced radiologists, and a patient-first approach. From routine X-rays and ultrasounds to emergency imaging and pregnancy scans, we are committed to delivering precise diagnostics that support effective treatment and improved patient outcomes.',
+      },
+    ],
+  },
+  {
+    id: 5, name: 'Pathology Lab', tag: 'Diagnostics',
+    desc: 'Comprehensive blood tests, cultures and advanced diagnostic pathology.',
+    image: '/images/servicePathology%20Lab.jpg.jpeg',
+    heroDesc: 'A correct diagnosis is the foundation of effective treatment. At Divya Jyoti Hospital, Jewar, our Pathology & Diagnostic Laboratory provides fast, accurate, and reliable diagnostic testing to help doctors detect diseases early and plan the most appropriate treatment. Equipped with modern laboratory technology and managed by experienced pathologists and skilled technicians, we ensure precise test results with the highest standards of quality and safety. Whether you need routine health screening, blood investigations, urine analysis, or specialized diagnostic tests, Divya Jyoti Hospital is your trusted destination for advanced pathology services in Jewar.',
+    sections: [
+      {
+        title: 'What is Pathology?',
+        content: 'Pathology is the branch of medical science that studies diseases through laboratory testing of blood, urine, body fluids, tissues, and other clinical samples. These tests help doctors identify infections, monitor chronic diseases, detect health conditions at an early stage, and evaluate the effectiveness of ongoing treatments. Accurate pathology reports enable timely medical decisions and improve patient outcomes.',
+      },
+      {
+        title: 'Our Pathology Services',
+        content: ['Complete Blood Count (CBC)', 'Blood Sugar Testing', 'HbA1c (Diabetes Monitoring)', 'Lipid Profile', 'Liver Function Test (LFT)', 'Kidney Function Test (KFT)', 'Thyroid Function Test (TFT)', 'Urine Routine & Microscopy', 'Pregnancy Test', 'Blood Group & Rh Typing', 'Electrolyte Testing', 'Infection Screening', 'Dengue, Malaria & Typhoid Testing', 'COVID-19 & Viral Infection Testing (as applicable)', 'Vitamin & Nutritional Deficiency Tests', 'Hormone Testing', 'Allergy Testing', 'Cancer Marker Tests', 'Stool Examination', 'Sputum Examination'],
+      },
+      {
+        title: 'Laboratory Features',
+        content: ['Fully Automated Laboratory Equipment', 'Advanced Blood Analysis Systems', 'Biochemistry Testing', 'Hematology Services', 'Clinical Pathology', 'Microbiology Testing', 'Serology Testing', 'Hormonal Assays', 'Sample Collection by Trained Professionals', 'Strict Quality Control Protocols', 'Safe Sample Handling', 'Fast & Accurate Reporting'],
+      },
+      {
+        title: 'Health Check-Up Packages',
+        content: ['Annual Health Check-Ups', 'Diabetes Screening', 'Heart Health Assessment', 'Liver & Kidney Health Evaluation', 'Thyroid Screening', 'Women\'s Health Check-Up', 'Men\'s Health Check-Up', 'Senior Citizen Health Packages', 'Pre-Employment Medical Tests', 'Preventive Health Screening'],
+      },
+      {
+        title: 'Why Patients Trust Us',
+        content: ['Experienced Pathologists', 'Qualified Laboratory Technicians', 'Advanced Diagnostic Equipment', 'Accurate & Reliable Test Results', 'Fast Report Delivery', 'Hygienic Sample Collection', 'Affordable Diagnostic Services', 'Comprehensive Test Menu', 'High Standards of Quality Control', 'Patient-Friendly Environment'],
+      },
+      {
+        title: 'Importance of Regular Diagnostic Testing',
+        content: ['Detect diseases at an early stage', 'Monitor diabetes and hypertension', 'Assess kidney and liver function', 'Diagnose infections', 'Evaluate nutritional deficiencies', 'Monitor treatment effectiveness', 'Prevent complications through timely intervention'],
+      },
+      {
+        title: 'Preparing for Laboratory Tests',
+        content: ['Follow fasting instructions if advised.', 'Drink adequate water unless instructed otherwise.', 'Inform your doctor about current medications.', 'Arrive at the scheduled time for sample collection.', 'Carry previous laboratory reports for comparison when applicable.'],
+      },
+      {
+        title: 'Frequently Asked Questions',
+        type: 'faq',
+        content: [
+          { title: 'Do I need a doctor\'s prescription for pathology tests?', description: 'Some tests require a doctor\'s recommendation, while many routine health screening tests can be performed directly. Our team can guide you based on your requirements.' },
+          { title: 'How long does it take to receive test reports?', description: 'Report delivery depends on the type of investigation. Many routine tests are completed on the same day, while specialized tests may take longer.' },
+          { title: 'Is fasting necessary before blood tests?', description: 'Certain blood tests, such as fasting blood sugar and lipid profile, may require fasting. Our staff will inform you in advance if preparation is needed.' },
+          { title: 'Are health check-up packages available?', description: 'Yes. We offer preventive health check-up packages for individuals, families, senior citizens, and corporate health screening.' },
+          { title: 'Does Divya Jyoti Hospital maintain quality standards?', description: 'Yes. Our laboratory follows strict quality control procedures to ensure accurate, reliable, and timely diagnostic reports.' },
+        ],
+      },
+      {
+        title: 'Trusted Pathology & Diagnostic Laboratory in Jewar',
+        content: 'At Divya Jyoti Hospital, Jewar, we believe that accurate diagnosis is the first step toward successful treatment. Our advanced pathology laboratory combines modern technology, experienced professionals, and rigorous quality standards to deliver dependable diagnostic services for patients of all ages. Whether you need routine blood tests, preventive health screening, or specialized laboratory investigations, our team is committed to providing accurate reports with compassionate care and timely service.',
+      },
+    ],
+  },
+  {
+    id: 6, name: 'Pharmacy', tag: 'Services',
+    desc: '24×7 in-house pharmacy with genuine medicines and home delivery.',
+    image: '/images/servicePharmacy.jpg.jpeg',
+    heroDesc: 'Medicines play a vital role in every stage of treatment, making timely access to genuine medications essential for better health outcomes. At Divya Jyoti Hospital, Jewar, our Hospital Pharmacy is committed to providing authentic medicines, quality healthcare products, and professional pharmaceutical guidance to support patients and their families. Conveniently located within the hospital premises, our pharmacy ensures that patients receive prescribed medications quickly without the need to visit multiple medical stores. Whether you require medicines after a consultation, surgery, emergency treatment, or ongoing therapy, our pharmacy is dedicated to delivering safe, reliable, and efficient service. If you are looking for a trusted pharmacy in Jewar, Divya Jyoti Hospital offers comprehensive pharmaceutical services with a strong focus on quality, patient safety, and convenience.',
+    sections: [
+      {
+        title: 'Comprehensive Pharmacy Services',
+        content: 'Our pharmacy is designed to meet the medication needs of both inpatients and outpatients. We maintain a well-organized inventory of medicines and healthcare essentials to ensure prompt availability.',
+      },
+      {
+        title: 'Our Pharmacy Services Include',
+        content: ['Prescription Medicines', 'Emergency Medicines', 'Pediatric Medicines', 'Gynecology & Obstetric Medicines', 'IVF & Fertility Medications', 'Diabetes Medicines', 'Blood Pressure Medicines', 'Cardiac Medicines', 'Antibiotics & Infection Care Medicines', 'Pain Management Medicines', 'Surgical & Post-Operative Medicines', 'Vitamins & Nutritional Supplements', 'Medical Devices & Consumables', 'Wound Care Products', 'Personal Healthcare Products'],
+      },
+      {
+        title: 'Our Key Advantages',
+        content: ['Genuine & Quality-Assured Medicines', 'Well-Stocked Pharmacy', 'Easy Access Within Hospital Premises', 'Prescription-Based Medicine Dispensing', 'Experienced Pharmacy Professionals', 'Patient-Friendly Service', 'Proper Medicine Storage & Handling', 'Affordable Medication Options', 'Fast Billing & Medicine Dispensing', 'Support for Emergency & Inpatient Care'],
+      },
+      {
+        title: 'Medication Safety is Our Priority',
+        content: ['Accurate prescription verification', 'Proper dosage guidance', 'Safe storage of medicines', 'Monitoring expiry dates', 'Patient education on medicine usage', 'Safe handling of temperature-sensitive medications'],
+      },
+      {
+        title: 'Medicines Available for Various Specialties',
+        type: 'tags',
+        content: ['General Medicine', 'Gynecology & Obstetrics', 'IVF & Fertility Care', 'Pediatrics', 'ENT', 'Orthopedics', 'General Surgery', 'Urology', 'Nephrology', 'Medical Oncology', 'Surgical Oncology', 'Emergency & Trauma Care', 'Intensive Care (ICU & NICU)'],
+      },
+      {
+        title: 'Benefits of an In-Hospital Pharmacy',
+        content: ['Immediate access to prescribed medicines', 'Reduced waiting time', 'Better coordination between doctors and pharmacists', 'Convenient medication availability after consultations or procedures', 'Reliable access to emergency medicines', 'Enhanced patient safety through prescription verification'],
+      },
+      {
+        title: 'Tips for Safe Medicine Use',
+        content: ['Take medicines exactly as prescribed.', 'Never skip or change doses without consulting your doctor.', 'Store medicines as instructed.', 'Complete the full course of antibiotics.', 'Keep medicines out of children\'s reach.', 'Check expiry dates before use.', 'Inform your doctor about allergies or other medications you are taking.'],
+      },
+      {
+        title: 'Frequently Asked Questions',
+        type: 'faq',
+        content: [
+          { title: 'Can I purchase medicines without a prescription?', description: 'Prescription medicines are dispensed only against a valid doctor\'s prescription, while eligible over-the-counter medicines are available as per applicable guidelines.' },
+          { title: 'Does the pharmacy stock medicines for all hospital departments?', description: 'Yes. Our pharmacy maintains a comprehensive inventory of medicines supporting all major specialties available at Divya Jyoti Hospital.' },
+          { title: 'Are genuine branded and quality medicines available?', description: 'Yes. We source medicines from trusted pharmaceutical manufacturers and authorized distributors to ensure quality and authenticity.' },
+          { title: 'Can patients receive medicines immediately after consultation?', description: 'Yes. Patients can conveniently collect prescribed medicines from our hospital pharmacy after their consultation or treatment.' },
+          { title: 'Does the pharmacy support emergency patients?', description: 'Yes. Our pharmacy works closely with the emergency department to ensure timely availability of essential medicines for urgent medical care.' },
+        ],
+      },
+      {
+        title: 'Trusted Hospital Pharmacy in Jewar',
+        content: 'At Divya Jyoti Hospital, Jewar, our pharmacy is more than just a medicine dispensing center—it is an essential part of our commitment to delivering complete healthcare. By combining genuine medicines, experienced pharmacy professionals, and patient-focused service, we help ensure safe, effective, and uninterrupted treatment for every patient. Whether you need medicines for routine care, chronic conditions, surgery, maternity, IVF treatment, or emergency services, you can rely on our hospital pharmacy for quality, convenience, and trusted support.',
+      },
+    ],
+  },
 ];
 
 export const BLOGS = [

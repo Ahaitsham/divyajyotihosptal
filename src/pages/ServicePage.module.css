@@ -18,7 +18,7 @@
 }
 .backLink:hover { color: #00687F; }
 
-.serviceBox {
+.box {
   background: white;
   border: 3px solid #0085A9;
   border-radius: 8px;
@@ -30,23 +30,25 @@
   margin-bottom: 22px;
 }
 
-.serviceText h2 {
+.text h2 {
   font-size: 30px;
   font-weight: 700;
   margin-bottom: 16px;
 }
 
-.serviceText p {
+.text p {
   font-size: 15px;
   color: #555;
   line-height: 1.8;
+  margin-bottom: 12px;
 }
 
-.serviceImg img {
+.imgWrap img {
   width: 100%;
   border-radius: 6px;
 }
 
+/* SECTION WRAPPER (used for every dynamic section) */
 .section {
   background: white;
   padding: 28px 32px;
@@ -63,8 +65,16 @@
   border-bottom: 2px solid #f0f0f0;
 }
 
+/* PLAIN TEXT SECTION */
+.description {
+  font-size: 15px;
+  color: #555;
+  line-height: 1.8;
+}
+
+/* BULLET LIST (whyChooseUs-style arrays) */
 .pointList {
-  display: flex;
+  display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 12px;
   list-style: none;
@@ -72,13 +82,141 @@
 
 .pointList li {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   gap: 10px;
   font-size: 14px;
   color: #444;
+  line-height: 1.6;
+}
+.pointList li svg { flex-shrink: 0; margin-top: 2px; }
+
+/* CARD GRID (services-style title + description) */
+.serviceCards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
 }
 
+.serviceCard {
+  background: #f8fbfc;
+  border-left: 3px solid #0085A9;
+  border-radius: 0 6px 6px 0;
+  padding: 16px 18px;
+}
+
+.serviceCard h4 {
+  font-size: 14px;
+  font-weight: 700;
+  color: #0085A9;
+  margin-bottom: 6px;
+}
+
+.serviceCard p {
+  font-size: 13px;
+  color: #666;
+  line-height: 1.6;
+}
+
+/* TAGS (conditionsTreated-style pills) */
+.tagsGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.tag {
+  background: #e8f5f9;
+  color: #0085A9;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 8px 16px;
+  border-radius: 50px;
+}
+
+/* STEPS (numbered care process) */
+.steps {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 16px;
+}
+
+.step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 8px;
+}
+
+.step b {
+  width: 60px; height: 60px;
+  background: #0085A9;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.step span {
+  font-size: 13px;
+  color: #555;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+/* FAQ (native <details>/<summary>) */
+.faqList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.faqItem {
+  border: 1px solid #f0f0f0;
+  border-radius: 6px;
+  overflow: hidden;
+  border-left: 3px solid transparent;
+  transition: border-color 0.2s;
+}
+.faqItem[open] { border-left-color: #0085A9; }
+
+.faqQ {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 18px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  color: #222;
+}
+.faqQ::-webkit-details-marker { display: none; }
+.faqQ:hover { color: #0085A9; }
+.faqItem[open] .faqQ { color: #0085A9; }
+
+.faqQ::after {
+  content: '+';
+  font-size: 18px;
+  font-weight: 400;
+  color: #999;
+  transition: transform 0.2s;
+}
+.faqItem[open] .faqQ::after {
+  content: '−';
+}
+
+.faqA {
+  padding: 0 18px 16px;
+  font-size: 13px;
+  color: #666;
+  line-height: 1.7;
+}
+
+/* WHY CHOOSE US fallback box */
 .whyBox {
   display: flex;
   align-items: flex-start;
@@ -96,6 +234,12 @@
 
 @media (max-width: 1000px) {
   .layout { grid-template-columns: 1fr; }
-  .serviceBox { grid-template-columns: 1fr; padding: 24px; }
+  .box { grid-template-columns: 1fr; padding: 24px; }
   .pointList { grid-template-columns: 1fr; }
+  .serviceCards { grid-template-columns: 1fr; }
+  .steps { grid-template-columns: repeat(3, 1fr); }
+}
+
+@media (max-width: 600px) {
+  .steps { grid-template-columns: 1fr 1fr; }
 }
