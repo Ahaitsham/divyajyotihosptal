@@ -61,8 +61,9 @@ export default function Footer() {
         </div>
 
         <div className={styles.bottom}>
-          <p>© 2026 Divya Jyoti Hospital. All Rights Reserved.</p>
+          {/* <p>© 2026 Divya Jyoti Hospital. All Rights Reserved.</p> */}
           {/* <p><a className='salutation' target='_blank' href="https://ahaitshamkhan.vercel.app">© 2026 Divya Jyoti Hospital. All Rights Reserved.</a></p> */}
+          <p><a className='salutation' target='_blank' href="https://ahaitshamkhan.vercel.app">© 2026 Divya Jyoti Hospital. All Rights Reserved.</a></p>
         </div>
       </footer>
 

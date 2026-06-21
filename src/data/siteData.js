@@ -977,48 +977,327 @@ export const SERVICES = [
 ];
 
 export const BLOGS = [
+  
+
   {
-    id: 1,
-    title: 'Understanding IVF: A Complete Guide for Aspiring Parents',
-    subtitle: 'Everything you need to know about the IVF process, success rates and what to expect during treatment.',
+    id: 5,
+    title: 'Best General Physician in Jewar: Your Trusted Partner for Complete Healthcare',
+    subtitle: 'Expert General Physician services in Jewar for every stage of life — from preventive checkups to chronic disease management.',
+    category: 'General Medicine',
+    date: 'June 2, 2026',
+    image: '/images/BlogPhysician.jpg.jpeg',
+    heroDesc: 'Good health is the foundation of a happy and productive life. Whether it\'s a seasonal illness, chronic disease, unexplained symptoms, or preventive healthcare, consulting a qualified General Physician is the first step toward accurate diagnosis and effective treatment. General physicians are trained to diagnose, treat, and manage a wide range of medical conditions affecting people of all ages.\n\nAt Divya Jyoti Hospital, Jewar, our experienced General Physicians provide comprehensive medical care with a patient-first approach. From routine health check-ups to the management of chronic diseases such as diabetes and hypertension, our team is committed to delivering high-quality healthcare using evidence-based medical practices.\n\nIf you are searching for the Best General Physician in Jewar, Divya Jyoti Hospital offers expert consultation, advanced diagnostic support, and personalized treatment under one roof.',
+    sections: [
+      {
+        title: 'What is a General Physician?',
+        content: 'A General Physician is a medical doctor who specializes in diagnosing, treating, and preventing a broad range of health conditions without surgery. They are often the first healthcare professional you should consult when you experience new or unexplained symptoms. General physicians not only treat illnesses but also help patients maintain long-term health through preventive care, lifestyle guidance, and regular health monitoring.',
+      },
+      {
+        title: 'Why Should You Visit a General Physician?',
+        content: 'Many health problems begin with mild symptoms that are easy to ignore. Early consultation with a general physician can help identify the underlying cause before the condition becomes serious. A general physician can help you with:',
+      },
+      {
+        title: 'Conditions a General Physician Helps With',
+        content: ['Fever and viral infections', 'Cold, cough, and flu', 'Headache and body pain', 'Diabetes management', 'High blood pressure', 'Thyroid disorders', 'Digestive problems', 'Respiratory infections', 'Urinary tract infections', 'Allergies', 'Nutritional deficiencies', 'Fatigue and weakness', 'Lifestyle-related diseases', 'Preventive health check-ups'],
+      },
+      {
+        title: 'Common Medical Conditions We Treat',
+        type: 'cards',
+        content: [
+          { title: 'Infectious Diseases', description: 'Viral fever, Dengue, Malaria, Typhoid, Seasonal flu, COVID-19 (as clinically applicable).' },
+          { title: 'Respiratory Disorders', description: 'Common cold, Asthma, Bronchitis, Pneumonia, Allergic respiratory conditions.' },
+          { title: 'Lifestyle Diseases', description: 'Diabetes, Hypertension, High cholesterol, Obesity, Metabolic disorders.' },
+          { title: 'Digestive Disorders', description: 'Acidity, Gastritis, Indigestion, Constipation, Diarrhea, Liver-related conditions.' },
+          { title: 'General Health Concerns', description: 'Weakness, Fatigue, Vitamin deficiencies, Joint pain, Back pain, Sleep disturbances.' },
+        ],
+      },
+      {
+        title: 'Preventive Healthcare for a Better Future',
+        content: 'Preventive healthcare is one of the most effective ways to stay healthy and detect diseases early. Regular health screenings help identify potential health issues before symptoms develop.',
+      },
+      {
+        title: 'Our Preventive Care Services Include',
+        content: ['Annual Health Check-ups', 'Blood Pressure Monitoring', 'Diabetes Screening', 'Cholesterol Testing', 'Thyroid Evaluation', 'Lifestyle Counseling', 'Nutritional Guidance', 'Weight Management', 'Vaccination Advice', 'Routine Health Assessments'],
+      },
+      {
+        title: 'Advanced Diagnostic Support',
+        content: 'Accurate diagnosis is essential for effective treatment. Divya Jyoti Hospital offers advanced diagnostic facilities to support our physicians, with all essential diagnostic services available under one roof.',
+      },
+      {
+        title: 'Our Diagnostic Services Include',
+        content: ['Blood Tests', 'Urine Analysis', 'Digital X-Ray', 'Ultrasound', 'ECG', 'Blood Sugar Testing', 'Thyroid Function Tests', 'Liver Function Tests', 'Kidney Function Tests', 'Lipid Profile', 'Infection Screening'],
+      },
+      {
+        title: 'Why Patients Trust Us',
+        content: ['Experienced General Physicians', 'Comprehensive Medical Care', 'Advanced Diagnostic Facilities', 'Personalized Treatment Plans', 'Preventive Healthcare Focus', 'Affordable Medical Services', 'Patient-Centered Approach', 'Modern Hospital Infrastructure', 'Multispecialty Support', 'Emergency Medical Care Available'],
+      },
+      {
+        title: 'Healthy Lifestyle Tips from Our General Physicians',
+        content: ['Eat a balanced and nutritious diet.', 'Stay physically active.', 'Drink plenty of water.', 'Get 7–8 hours of sleep every night.', 'Avoid smoking and excessive alcohol consumption.', 'Manage stress effectively.', 'Monitor blood pressure and blood sugar regularly.', 'Attend routine medical check-ups.', 'Take prescribed medications as directed.'],
+      },
+      {
+        title: 'Frequently Asked Questions',
+        type: 'faq',
+        content: [
+          { title: 'When should I consult a General Physician?', description: 'You should consult a general physician if you have persistent fever, cough, fatigue, digestive issues, high blood pressure, diabetes, or any unexplained health concerns.' },
+          { title: 'Can a General Physician treat chronic diseases?', description: 'Yes. General physicians diagnose, treat, and manage chronic conditions such as diabetes, hypertension, thyroid disorders, and high cholesterol.' },
+          { title: 'Do I need a health check-up if I feel healthy?', description: 'Yes. Regular preventive health check-ups help detect diseases early, even before symptoms appear.' },
+          { title: 'Can a General Physician refer me to a specialist?', description: 'Yes. If specialized care is required, your physician will refer you to the appropriate specialist while coordinating your treatment.' },
+          { title: 'Does Divya Jyoti Hospital provide comprehensive medical care?', description: 'Yes. Divya Jyoti Hospital offers general medicine consultations, diagnostic services, emergency care, and multispecialty treatment under one roof.' },
+        ],
+      },
+      {
+        title: 'Conclusion',
+        content: 'Your health deserves expert attention at every stage of life. A trusted General Physician plays an important role in preventing diseases, managing chronic conditions, and helping you achieve long-term wellness through timely diagnosis and appropriate treatment.\n\nAt Divya Jyoti Hospital, Jewar, our General Medicine Department is dedicated to providing compassionate, comprehensive, and personalized healthcare for individuals and families. Whether you need treatment for a common illness, management of a chronic condition, or a preventive health check-up, our experienced physicians are here to support your journey toward better health.',
+      },
+      {
+        title: 'Book Your Consultation Today',
+        content: 'If you are looking for the Best General Physician in Jewar, visit Divya Jyoti Hospital for expert medical consultation, accurate diagnosis, and comprehensive healthcare services. Your health is our priority, and we are committed to helping you live a healthier, happier life.',
+      },
+    ],
+  },
+  {
+    id: 6,
+    title: 'IVF in Jewar: Making the Dream of Parenthood a Reality',
+    subtitle: 'A complete and easy guide to understanding IVF treatment, costs, and finding the right fertility centre near Jewar.',
     category: 'Fertility',
-    date: 'May 20, 2026',
-    image: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=600',
-    content: `IVF (In Vitro Fertilisation) is one of the most effective fertility treatments available today. The process involves stimulating the ovaries, retrieving eggs, fertilising them with sperm in a laboratory, and then transferring the resulting embryo into the uterus.\n\nThe procedure has helped millions of couples worldwide achieve their dream of parenthood. At Divya Jyoti Hospital, our IVF success rates are among the highest in the region, owing to our experienced embryologists, state-of-the-art laboratory and personalised treatment protocols.\n\nKey factors that influence IVF success include age, egg quality, sperm quality and uterine health. Our fertility specialists conduct a thorough evaluation before recommending the most suitable protocol for each couple.`,
-    points: ['Ovarian stimulation with close monitoring', 'Egg retrieval under mild anaesthesia', 'Embryo culture in advanced incubators', 'Embryo transfer – a simple, painless procedure', 'Luteal support and pregnancy testing'],
+    date: 'June 5, 2026',
+    image: '/images/BlogIVF.jpg.jpeg',
+    heroDesc: 'When people hear the name "Jewar" today, the first things that cross their minds are the upcoming Noida International Airport, multi-lane expressways, mega industrial projects, and skyrocketing development. However, amidst all this commercial boom and modern infrastructure, there is a very personal and silent struggle happening inside many homes in Jewar and its neighboring towns: the struggle with infertility.\n\nEven today, when a couple cannot conceive after years of marriage, they face immense emotional, mental, and social pressure—especially in close-knit communities. For a long time, people in rural or developing areas either blamed it on fate or ended up losing their hard-earned money to local quacks or unreliable treatments.\n\nBut medical science has progressed drastically. Today, IVF (In Vitro Fertilization), commonly known as \'Test Tube Baby\' treatment, has emerged as a definitive ray of hope. The best part? Couples living in Jewar no longer need to pack their bags, rent expensive rooms, and run around top-tier hospitals in Delhi or Mumbai. World-class fertility treatments are now available right at their doorstep.\n\nLet\'s dive deep into understanding everything about IVF in Jewar using simple, day-to-day language so you can make an informed choice for your family.',
+    sections: [
+      {
+        title: 'WHAT: What Exactly is IVF and How Does It Work?',
+        content: 'Let\'s clear the air first. Many people hear the term "Test Tube Baby" and picture a baby growing inside a glass jar or a machine in a laboratory. This is completely false.\n\nThe Natural Process: Normally, a woman\'s egg and a man\'s sperm meet inside the woman\'s body (specifically in the fallopian tubes). Fertilization happens naturally, an embryo (early stage of a baby) is formed, and it attaches itself to the womb (uterus) to grow for nine months.\n\nThe IVF Process: When there is a medical roadblock preventing this meeting inside the body, doctors step in. IVF is a process where the egg from the mother and the sperm from the father are collected and combined outside the body in a highly controlled laboratory. Once the embryo is formed and grows for 3 to 5 days, the doctor safely places it back into the woman\'s womb. From that point onward, the pregnancy progresses just like a completely natural one.',
+      },
+      {
+        title: 'Fact Check #1',
+        content: 'Myth: IVF babies are weak, artificial, or born with a higher risk of health defects.\n\nFact: This is a pure misconception. Millions of IVF babies have been born globally and are leading perfectly healthy, normal lives. They are biologically 100% yours and share the exact same genetic makeup as they would in a natural pregnancy.',
+      },
+      {
+        title: 'WHY: Why are Couples in the Jewar Region Needing IVF?',
+        content: 'Infertility is no longer a rare issue. In Jewar, Greater Noida, and adjacent semi-urban areas, reproductive health issues have shot up significantly over the last decade due to several core factors.',
+      },
+      {
+        title: 'Common Causes of Infertility',
+        type: 'cards',
+        content: [
+          { title: 'Low Sperm Count & Poor Motility', description: 'High stress, changing dietary habits, long hours of commuting, or exposure to environmental toxins have severely impacted male fertility.' },
+          { title: 'Lifestyle Habits', description: 'Regular usage of tobacco, gutkha, smoking, or alcohol directly damages sperm quality and reduces the chances of natural conception.' },
+          { title: 'PCOS/PCOD', description: 'A massive number of young women suffer from Polycystic Ovary Syndrome due to hormonal imbalances, leading to irregular periods.' },
+          { title: 'Blocked Fallopian Tubes', description: 'Infections, past pelvic surgeries, or pelvic tuberculosis can permanently block the fallopian tubes, making IVF the primary solution.' },
+          { title: 'Delayed Marriage & Family Planning', description: 'A woman\'s egg quality and quantity naturally begin to slide after the age of 30, and drop sharper after 35.' },
+        ],
+      },
+      {
+        title: 'WHO: Who is the Ideal Candidate for IVF Treatment?',
+        content: 'Not everyone who walks into a fertility clinic needs IVF straight away. Many couples conceive with simpler treatments like lifestyle modifications or IUI (Intrauterine Insemination). However, you should definitely consult an IVF specialist if:',
+      },
+      {
+        title: 'You Should Consult a Specialist If',
+        content: ['You are under 35 and have been actively trying to get pregnant for over 1 year without any protection, but with no success.', 'The female partner is over 35 years old and has been trying for 6 months.', 'The female partner has a known history of blocked or damaged fallopian tubes.', 'The male partner\'s semen analysis report shows an extremely low sperm count or zero sperm count (Azoospermia).', 'The couple has faced repeated miscarriages or multiple failed cycles of simpler fertility treatments.'],
+      },
+      {
+        title: 'WHERE: Where Can You Find the Best IVF Facilities Near Jewar?',
+        content: 'This is where the changing landscape of Jewar works to your absolute advantage. A few years ago, getting an advanced medical procedure meant traveling long distances. Now, the map looks completely different.\n\nLocal Primary Screenings in Jewar: You can easily find reputed maternity clinics and diagnostic centres right inside Jewar for your foundational tests—such as basic blood work, ultrasounds, and semen analysis.\n\nThe Greater Noida & Noida Hub (Just Minutes Away): Thanks to the seamless connectivity of the Yamuna Expressway and Noida-Greater Noida Expressway, traveling from Jewar to medical hubs like Pari Chowk, Jagat Farm, or Noida sectors takes less than 45 minutes. These areas host some of the country\'s leading, internationally accredited IVF chains and dedicated fertility hospitals.',
+      },
+      {
+        title: 'Fact Check #2',
+        content: 'Myth: IVF requires months of hospital admission, making it impossible for someone living in Jewar to manage daily work.\n\nFact: IVF is completely an outpatient (OPD) procedure. Out of the entire month-long process, the female partner only needs to stay at the clinic for a couple of hours on two specific days: once for extracting the eggs, and once for placing the embryo back. You do not need to alter your daily farming, business, or office routine.',
+      },
+      {
+        title: 'WHEN: When is the Best Time to Seek IVF Treatment?',
+        content: 'When it comes to fertility, timing is everything. The biggest mistake couples make is delaying medical consultation out of shyness, fear of social stigma, or spending years trying unverified home remedies and alternative paths.\n\nThe Golden Window (Ages 21 to 35): This is the prime biological window for women. The ovaries have an abundant supply of healthy eggs, which yields a remarkably high IVF success rate—often on the very first attempt.\n\nCan IVF be done after 40? Yes, absolutely. If a woman has crossed 40 and her egg reserve is depleted, modern technologies like \'Donor Egg IVF\' allow women in their late 40s to successfully carry a pregnancy and experience the joy of motherhood. However, the sooner you address the issue, the simpler and more economical the treatment path remains.',
+      },
+      {
+        title: 'HOW: A Step-by-Step Breakdown of the IVF Procedure',
+        steps: true,
+        content: [
+          'Initial Evaluation — The specialist evaluates both partners through simple blood panels, hormone checks, and scans to pinpoint why natural conception isn\'t happening.',
+          'Ovarian Stimulation (Growing the Eggs) — Doctors give hormonal injections for about 8 to 10 days starting from the second or third day of the menstrual cycle to mature multiple healthy eggs simultaneously.',
+          'Egg Retrieval (Collecting the Eggs) — Roughly 34 to 36 hours after the trigger shot, the eggs are extracted in a quick 15-minute procedure performed under mild sedation. On the same day, the husband provides his semen sample.',
+          'Fertilization in the Embryology Lab — The collected eggs and sperm are placed together in a specialized incubator. If sperm quality is low, doctors use ICSI (Intracytoplasmic Sperm Injection).',
+          'Embryo Transfer — Once embryos grow for 3 to 5 days, the healthiest embryo is gently guided through the cervix into the uterus using a soft, thin catheter — taking less than 10 minutes with no anaesthesia.',
+          'The Pregnancy Test — After 14 days of supportive medication, a blood test called Beta-hCG is performed. A positive report confirms pregnancy.',
+        ],
+      },
+      {
+        title: 'How to Choose the Right IVF Centre',
+        content: ['Beware of Unrealistically Cheap Packages: Quality IVF requires sophisticated laboratory gases, imported culture media, and high-end disposable equipment. Suspiciously low prices often mean compromised hygiene or hidden charges.', 'Check for an In-House Embryology Lab: An in-house lab ensures maximum safety and monitoring for your delicate embryos.', 'Verify the Doctor\'s Specialization: Ensure your treatment is handled by a certified Infertility Specialist (Reproductive Endocrinologist) and a full-time Embryologist.'],
+      },
+      {
+        title: 'Quick Fact-Check Reference Guide',
+        type: 'cards',
+        content: [
+          { title: 'Is IVF a very painful process?', description: 'No. The stimulation injections are tiny and user-friendly, and the main egg retrieval process is done under sedation, so you sleep through it painlessly.' },
+          { title: 'Does an IVF pregnancy require 9 months of strict bed rest?', description: 'Not at all. After the embryo transfer, you only need to rest for a day or two. You can easily cook, walk, manage your shop, or do light office desk work throughout your pregnancy.' },
+          { title: 'Is success guaranteed on the very first try?', description: 'No clinic can offer a 100% guarantee. Global success rates hover around 45% to 65% per cycle depending heavily on age. Many couples conceive on the first try, while some might need 2 or 3 attempts.' },
+          { title: 'What is the average cost around Jewar/Noida?', description: 'A standard, authentic IVF cycle ranges between ₹1,20,000 to ₹2,00,000 inclusive of all diagnostic scans, lab charges, and stimulation medicines.' },
+        ],
+      },
+    ],
   },
   {
-    id: 2,
-    title: 'Signs Your Child Needs to See a Pediatrician Immediately',
-    subtitle: 'Recognising warning signs in your child\'s health that require urgent medical attention.',
+    id: 7,
+    title: 'Best Pediatrician & Advanced NICU in Jewar: Complete Newborn and Child Care',
+    subtitle: 'Give your child the best start with expert pediatric care and advanced NICU services at Divya Jyoti Hospital.',
     category: 'Pediatrics',
-    date: 'May 10, 2026',
-    image: 'https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?w=600',
-    content: `As a parent, knowing when to seek immediate medical help for your child can be life-saving. While many childhood illnesses are minor, certain symptoms require urgent evaluation.\n\nHigh fever above 104°F, difficulty breathing, persistent vomiting, unusual drowsiness or a stiff neck are signs that should never be ignored. In newborns, even a low-grade fever warrants immediate medical attention.\n\nAt Divya Jyoti Hospital, our paediatric department is equipped to handle all childhood emergencies with specialised care and a child-friendly environment.`,
-    points: ['High fever not responding to medication', 'Difficulty breathing or blue lips', 'Severe abdominal pain', 'Seizures or convulsions', 'Signs of dehydration'],
+    date: 'June 8, 2026',
+    image: '/images/BlogPedia.jpg.jpeg',
+    heroDesc: 'Every parent dreams of seeing their child grow healthy, active, and happy. From the first breath of a newborn to the developmental milestones of childhood, every stage requires specialized medical attention. While most babies are born healthy, some newborns require immediate intensive care due to premature birth, low birth weight, infections, or breathing difficulties.\n\nAt Divya Jyoti Hospital, Jewar, we understand how precious your child is. Our Pediatric Department and Advanced Neonatal Intensive Care Unit (NICU) are dedicated to providing comprehensive healthcare for newborns, infants, children, and adolescents. With experienced pediatricians, trained NICU staff, and advanced medical technology, we offer compassionate and evidence-based care to ensure the best possible outcomes.\n\nIf you are searching for the Best Pediatrician in Jewar or an Advanced NICU in Jewar, Divya Jyoti Hospital is committed to delivering trusted healthcare for every child.',
+    sections: [
+      {
+        title: 'Why Pediatric Care Matters',
+        content: 'Children are not simply small adults—they have unique healthcare needs that change as they grow. Their immune systems, nutritional requirements, physical development, and emotional well-being require specialized attention from qualified pediatricians.',
+      },
+      {
+        title: 'Regular Pediatric Care Helps',
+        content: ['Monitor healthy growth and development', 'Prevent childhood illnesses', 'Detect health concerns early', 'Support proper nutrition', 'Ensure timely vaccinations', 'Manage infections and allergies', 'Guide parents on child healthcare'],
+      },
+      {
+        title: 'What is a NICU?',
+        content: 'A Neonatal Intensive Care Unit (NICU) is a specialized medical unit designed to care for newborn babies who require intensive monitoring and treatment immediately after birth. Newborns admitted to the NICU receive expert medical care using advanced equipment such as incubators, ventilators, CPAP machines, phototherapy units, and continuous monitoring systems. Our Advanced NICU at Divya Jyoti Hospital provides a safe environment where critically ill and premature babies receive round-the-clock care from experienced healthcare professionals.',
+      },
+      {
+        title: 'Which Babies Need NICU Care?',
+        content: ['Born before 37 weeks of pregnancy', 'Born with low birth weight', 'Experiencing breathing difficulties', 'Diagnosed with neonatal jaundice requiring intensive treatment', 'Suffering from infections', 'Having feeding difficulties', 'Born after a high-risk pregnancy', 'Diagnosed with congenital abnormalities', 'Requiring oxygen or respiratory support', 'Experiencing complications during delivery'],
+      },
+      {
+        title: 'Pediatric Services at Divya Jyoti Hospital',
+        content: ['Newborn Health Check-ups', 'Growth & Development Monitoring', 'Vaccination & Immunization', 'Treatment of Fever and Infections', 'Asthma & Allergy Care', 'Nutrition Counseling', 'Childhood Illness Management', 'Respiratory Disease Treatment', 'Digestive Disorder Management', 'Pediatric Emergency Care', 'Developmental Assessments', 'School Health Evaluations'],
+      },
+      {
+        title: 'Advanced NICU Facilities at Divya Jyoti Hospital',
+        content: ['24×7 Neonatal Intensive Care', 'Modern Neonatal Incubators', 'Radiant Warmers', 'CPAP Support', 'Mechanical Ventilator Support', 'Phototherapy for Jaundice', 'Multiparameter Monitoring Systems', 'Neonatal Emergency Resuscitation', 'Intravenous Nutrition Support', 'Continuous Oxygen Monitoring', 'Dedicated Neonatal Nursing Team', 'Strict Infection Control Measures'],
+      },
+      {
+        title: 'Common Childhood Conditions We Treat',
+        type: 'cards',
+        content: [
+          { title: 'Respiratory Illnesses', description: 'Common cold, Influenza, Bronchitis, Pneumonia, Asthma.' },
+          { title: 'Digestive Disorders', description: 'Diarrhea, Vomiting, Constipation, Stomach infections, Dehydration.' },
+          { title: 'Infectious Diseases', description: 'Viral fever, Dengue, Typhoid, Chickenpox, Measles.' },
+          { title: 'Allergies', description: 'Skin allergies, Food allergies, Dust allergies, Seasonal allergies.' },
+          { title: 'Nutritional Problems', description: 'Malnutrition, Vitamin deficiencies, Poor weight gain, Feeding concerns.' },
+        ],
+      },
+      {
+        title: 'Importance of Vaccination',
+        content: 'Vaccination is one of the most effective ways to protect children against serious diseases. Our pediatricians provide immunization according to the recommended vaccination schedule, protecting children from illnesses such as:',
+      },
+      {
+        title: 'Diseases Prevented Through Vaccination',
+        type: 'tags',
+        content: ['Polio', 'Hepatitis B', 'Measles', 'Mumps', 'Rubella', 'Diphtheria', 'Tetanus', 'Pertussis', 'Rotavirus', 'Pneumococcal infections'],
+      },
+      {
+        title: 'Why Parents Choose Divya Jyoti Hospital in Jewar',
+        content: ['Experienced Pediatricians', 'Advanced NICU Facilities', 'Comprehensive Newborn Care', 'Modern Medical Equipment', '24×7 Emergency Pediatric Support', 'Child-Friendly Environment', 'Compassionate Nursing Care', 'Personalized Treatment Plans', 'Advanced Diagnostic Services', 'Mother & Baby Care Under One Roof'],
+      },
+      {
+        title: 'Tips for Keeping Your Child Healthy',
+        content: ['Ensure timely vaccinations.', 'Encourage a balanced and nutritious diet.', 'Promote regular handwashing.', 'Keep children physically active.', 'Schedule routine pediatric check-ups.', 'Ensure adequate sleep.', 'Avoid unnecessary antibiotic use.', 'Seek medical advice promptly if symptoms persist.'],
+      },
+      {
+        title: 'Frequently Asked Questions',
+        type: 'faq',
+        content: [
+          { title: 'When should I take my newborn to a pediatrician?', description: 'A newborn should have regular health check-ups soon after birth and continue follow-up visits as recommended by the pediatrician.' },
+          { title: 'What is the difference between a Pediatric Ward and NICU?', description: 'The Pediatric Ward treats infants and children with general medical conditions, while the NICU provides intensive care for critically ill or premature newborns.' },
+          { title: 'Can premature babies live healthy lives?', description: 'Yes. With timely NICU care, proper nutrition, and regular follow-up, many premature babies grow into healthy children.' },
+          { title: 'How long does a baby stay in the NICU?', description: 'The duration depends on the baby\'s condition, gestational age, birth weight, and recovery progress. Each baby\'s care plan is individualized.' },
+          { title: 'Does Divya Jyoti Hospital provide emergency pediatric care?', description: 'Yes. We offer emergency pediatric services along with advanced NICU support for newborns requiring specialized medical care.' },
+        ],
+      },
+      {
+        title: 'Conclusion',
+        content: 'Every child deserves expert medical care from the very beginning of life. Whether it is routine health check-ups, vaccinations, treatment for childhood illnesses, or specialized neonatal intensive care, choosing the right healthcare provider makes a lasting difference.\n\nAt Divya Jyoti Hospital, Jewar, our experienced pediatricians and advanced NICU team are committed to delivering compassionate, evidence-based care for newborns, infants, and children. From preventive healthcare to life-saving neonatal support, we strive to provide families with confidence, comfort, and the highest standards of medical excellence.',
+      },
+      {
+        title: 'Trust Divya Jyoti Hospital for Pediatric & NICU Care in Jewar',
+        content: 'If you are looking for the Best Pediatrician in Jewar or an Advanced NICU in Jewar, Divya Jyoti Hospital offers comprehensive child healthcare with modern facilities, experienced specialists, and a family-centered approach.\n\nBook your child\'s consultation today and give your little one the expert care they deserve.',
+      },
+    ],
   },
   {
-    id: 3,
-    title: 'Heart Health: 10 Things Your Cardiologist Wants You to Know',
-    subtitle: 'Simple but powerful lifestyle changes that can dramatically reduce your risk of heart disease.',
-    category: 'Cardiology',
-    date: 'April 28, 2026',
-    image: 'https://images.unsplash.com/photo-1628348068343-c6a848d2b6dd?w=600',
-    content: `Cardiovascular disease remains one of the leading causes of mortality worldwide, yet the majority of heart attacks and strokes are preventable with the right lifestyle choices and regular medical care.\n\nRegular health check-ups, blood pressure monitoring, cholesterol management and a heart-healthy diet are the cornerstones of cardiac prevention. At Divya Jyoti Hospital, our cardiology team offers comprehensive cardiac screenings to detect early warning signs.\n\nQuit smoking, limit alcohol, exercise regularly and manage stress – these four lifestyle interventions alone can reduce your cardiac risk by over 60%.`,
-    points: ['Get annual cardiac check-ups', 'Know your blood pressure and cholesterol numbers', 'Exercise at least 30 minutes, 5 days a week', 'Follow a low-sodium, heart-healthy diet', 'Avoid tobacco in all forms'],
-  },
-  {
-    id: 4,
-    title: 'Orthopedic Health: Preventing Joint Pain as You Age',
-    subtitle: 'Expert advice on maintaining healthy joints and avoiding orthopedic problems through smart lifestyle choices.',
-    category: 'Orthopedics',
-    date: 'April 15, 2026',
-    image: 'https://images.unsplash.com/photo-1530026186672-2cd00ffc50fe?w=600',
-    content: `Joint pain and arthritis affect millions of people and significantly impact quality of life. The good news is that most orthopedic problems are either preventable or manageable with early intervention.\n\nMaintaining a healthy weight is the single most impactful step – every extra kilogram puts approximately 4x the load on your knee joints. Regular low-impact exercise like swimming, cycling and yoga keeps joints flexible and muscles strong.\n\nAt Divya Jyoti Hospital, our orthopedic team offers everything from conservative management to advanced joint replacement surgeries using the latest prosthetics and minimally invasive techniques.`,
-    points: ['Maintain a healthy body weight', 'Stay physically active with low-impact exercises', 'Avoid prolonged sitting or standing', 'Ensure adequate calcium and Vitamin D intake', 'Wear proper footwear and use ergonomic furniture'],
+    id: 8,
+    title: 'Best Urology Hospital in Jewar – Advanced Urology Care',
+    subtitle: 'Complete urinary and kidney care for kidney stones, prostate disorders, and urinary tract conditions in Jewar.',
+    category: 'Urology',
+    date: 'June 11, 2026',
+    image: '/images/BlogUrology.jpg.jpeg',
+    heroDesc: 'The health of your urinary system plays a vital role in your overall well-being. Problems related to the kidneys, bladder, urinary tract, or male reproductive system can affect your daily life and may become serious if left untreated. At Divya Jyoti Hospital, Jewar, we provide comprehensive urology services with modern diagnostics, advanced treatment options, and compassionate patient care.\n\nWhether you are experiencing kidney stones, urinary infections, prostate enlargement, or urinary incontinence, our experienced urology team is committed to offering accurate diagnosis and effective treatment. If you are looking for the Best Urology Hospital in Jewar, Divya Jyoti Hospital is dedicated to delivering quality healthcare with patient comfort as the top priority.',
+    sections: [
+      {
+        title: 'What is Urology?',
+        content: 'Urology is the branch of medicine that specializes in diagnosing and treating diseases related to the urinary tract in both men and women, as well as disorders of the male reproductive system. Early diagnosis by a qualified urologist helps prevent complications and ensures faster recovery.',
+      },
+      {
+        title: 'A Urologist Treats Conditions Affecting',
+        type: 'tags',
+        content: ['Kidneys', 'Ureters', 'Urinary bladder', 'Urethra', 'Prostate gland', 'Testicles', 'Male reproductive organs'],
+      },
+      {
+        title: 'Why is Urology Care Important?',
+        content: 'Ignoring urinary symptoms can lead to chronic infections, kidney damage, severe pain, and reduced quality of life. Many urological diseases are highly treatable when detected early.',
+      },
+      {
+        title: 'Proper Urology Care Helps',
+        content: ['Protect kidney function', 'Relieve urinary discomfort', 'Prevent recurrent infections', 'Remove kidney stones safely', 'Improve bladder control', 'Manage prostate disorders', 'Enhance men\'s reproductive health'],
+      },
+      {
+        title: 'Who Needs to Visit a Urologist?',
+        content: ['Frequent urination', 'Pain or burning while urinating', 'Blood in urine', 'Kidney stone pain', 'Difficulty passing urine', 'Urinary leakage', 'Recurrent urinary tract infections (UTIs)', 'Enlarged prostate symptoms', 'Male infertility concerns', 'Erectile dysfunction'],
+      },
+      {
+        title: 'When Should You Seek Immediate Medical Attention?',
+        content: ['Severe pain in the lower back or side', 'Complete inability to urinate', 'High fever with urinary infection', 'Heavy blood in urine', 'Sudden swelling of the testicles', 'Persistent vomiting with kidney stone pain'],
+      },
+      {
+        title: 'How Do We Treat Urological Disorders?',
+        content: 'Our treatment begins with a detailed medical history, physical examination, and advanced diagnostic tests including urine examination, blood investigations, ultrasound, digital X-ray, kidney function tests, prostate evaluation, imaging studies, and uroflowmetry (when required).',
+      },
+      {
+        title: 'Our Treatment Options',
+        type: 'cards',
+        content: [
+          { title: 'Kidney Stone Treatment', description: 'Comprehensive evaluation and treatment for kidney stones, helping patients recover quickly while minimizing discomfort.' },
+          { title: 'Urinary Tract Infection (UTI) Management', description: 'Accurate diagnosis and effective antibiotic treatment help eliminate infections and reduce recurrence.' },
+          { title: 'Enlarged Prostate Treatment', description: 'Medical and surgical management options for Benign Prostatic Hyperplasia (BPH), improving urinary flow and quality of life.' },
+          { title: 'Urinary Incontinence Care', description: 'We diagnose the underlying cause and provide individualized treatment plans to restore bladder control.' },
+          { title: 'Male Reproductive Health', description: 'Evaluation and treatment of male infertility, erectile dysfunction, and other reproductive health concerns with complete confidentiality.' },
+          { title: 'Bladder Disorders', description: 'Management of bladder infections, bladder stones, and functional bladder disorders using advanced medical care.' },
+        ],
+      },
+      {
+        title: 'Why Choose Divya Jyoti Hospital for Urology in Jewar?',
+        content: ['Experienced urology specialists', 'Advanced diagnostic facilities', 'Personalized treatment plans', 'Modern medical equipment', 'Affordable healthcare services', 'Compassionate patient care', 'Clean and comfortable hospital environment', 'Comprehensive follow-up support', 'Focus on patient safety and faster recovery'],
+      },
+      {
+        title: 'Tips for Maintaining Good Urinary Health',
+        content: ['Drink plenty of water daily.', 'Avoid holding urine for long periods.', 'Maintain good personal hygiene.', 'Eat a balanced diet rich in fruits and vegetables.', 'Reduce excess salt intake.', 'Stay physically active.', 'Control diabetes and blood pressure.', 'Schedule regular health check-ups.'],
+      },
+      {
+        title: 'Frequently Asked Questions',
+        type: 'faq',
+        content: [
+          { title: 'Is kidney stone treatment available at Divya Jyoti Hospital, Jewar?', description: 'Yes. We provide comprehensive diagnosis and treatment for kidney stones using modern medical approaches.' },
+          { title: 'Can women visit a urologist?', description: 'Absolutely. Urologists treat urinary tract disorders in both men and women.' },
+          { title: 'Do frequent urinary infections require specialist consultation?', description: 'Yes. Recurrent urinary infections should always be evaluated by a urologist to identify the underlying cause.' },
+          { title: 'Can enlarged prostate be treated without surgery?', description: 'Many prostate conditions can initially be managed with medication. Surgery is recommended only when medically necessary.' },
+          { title: 'When should I consult a urologist?', description: 'If urinary symptoms persist for more than a few days or become severe, you should consult a urology specialist promptly.' },
+        ],
+      },
+      {
+        title: 'Conclusion',
+        content: 'Healthy kidneys and a properly functioning urinary system are essential for a healthy life. Ignoring urinary symptoms may lead to serious complications, but early diagnosis and expert care can make all the difference.\n\nIf you are looking for the Best Urology Hospital in Jewar, Divya Jyoti Hospital is committed to providing advanced diagnosis, effective treatment, and compassionate care for every patient. Our experienced healthcare team is dedicated to helping you regain your health with confidence and comfort.',
+      },
+      {
+        title: 'Book Your Urology Consultation Today',
+        content: 'Don\'t ignore urinary discomfort or kidney-related symptoms. Visit Divya Jyoti Hospital, Jewar, and receive trusted, advanced urology care from experienced professionals dedicated to your well-being.',
+      },
+    ],
   },
 ];
-
 export const FAQS = [
   { q: 'How do I book an appointment at Divya Jyoti Hospital?', a: 'You can book an appointment online through our website, call our helpline at +91 8630877188 , or visit our registration counter in person.' },
   { q: 'Does Divya Jyoti Hospital offer IVF services?', a: 'Yes, we have a fully equipped IVF and fertility centre with experienced reproductive specialists offering IVF, IUI, and advanced fertility treatments.' },
