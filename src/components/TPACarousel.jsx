@@ -39,7 +39,6 @@ export default function TPACarousel() {
   const next = () => setStart(p => (p >= maxStart ? 0 : p + 1));
   const prev = () => setStart(p => (p <= 0 ? maxStart : p - 1));
 
-  // const visible = TPA_PARTNERS.slice(start, start + visibleCount);
 
   return (
   <div className={styles.wrapper}>

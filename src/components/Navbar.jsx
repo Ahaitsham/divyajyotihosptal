@@ -22,7 +22,6 @@ export default function Navbar() {
   const [status, setStatus] = useState('idle'); // idle | loading | success | error
   const location = useLocation();
 
-  // Lock body scroll when mobile menu is open
   useEffect(() => {
     if (menuOpen) {
       document.body.style.overflow = 'hidden';
@@ -32,7 +31,7 @@ export default function Navbar() {
     return () => { document.body.style.overflow = ''; };
   }, [menuOpen]);
 
-  // Close menu on route change
+  
   useEffect(() => {
     setMenuOpen(false);
   }, [location.pathname]);
@@ -64,7 +63,7 @@ export default function Navbar() {
       {/* TOP BAR — sticky */}
       <div className={styles.topbar}>
         <div className={styles.topbarInner}>
-          {/* LOGO PLACEHOLDER — replace <img> src with your own logo file */}
+       
           <Link to="/" className={styles.logo}>
             <img src="/logo.png" alt="Divya Jyoti Hospital" className={styles.logoImg} />
           </Link>
@@ -103,7 +102,7 @@ export default function Navbar() {
         </div>
       </nav>
 
-      {/* MOBILE DRAWER — fixed full-screen overlay, always visible on top */}
+     
       {menuOpen && (
         <div className={styles.mobileOverlay} onClick={() => setMenuOpen(false)}>
           <div className={styles.mobileDrawer} onClick={e => e.stopPropagation()}>

@@ -16,10 +16,10 @@ export default function BlogPage() {
 
   if (!blog) {
     return (
-      <div style={{padding:'80px',textAlign:'center'}}>
+      <div style={{ padding: '80px', textAlign: 'center' }}>
         <h2>Blog not found</h2>
 
-        <Link 
+        <Link
           to="/blogs"
           className="btn-primary"
         >
@@ -30,19 +30,19 @@ export default function BlogPage() {
   }
 
 
-  const renderContent = (data)=>{
+  const renderContent = (data) => {
 
-    if(Array.isArray(data)){
+    if (Array.isArray(data)) {
 
       return (
         <ul className={styles.list}>
-          {data.map((item,i)=>(
+          {data.map((item, i) => (
             <li key={i}>
-              <CheckCircle2 size={16}/>
+              <CheckCircle2 size={16} />
               <span>
                 {typeof item === "string"
-                ? item
-                : item.title}
+                  ? item
+                  : item.title}
               </span>
             </li>
           ))}
@@ -53,7 +53,7 @@ export default function BlogPage() {
 
     return data
       .split('\n\n')
-      .map((p,i)=>
+      .map((p, i) =>
         <p key={i}>{p}</p>
       );
 
@@ -70,11 +70,11 @@ export default function BlogPage() {
 
         <h1>Health Blog</h1>
 
-        <Link 
+        <Link
           to="/contact"
           className="btn-green"
         >
-          <CalendarDays size={15}/>
+          <CalendarDays size={15} />
           Book Appointment
         </Link>
 
@@ -95,7 +95,7 @@ export default function BlogPage() {
               to="/blogs"
               className={styles.backLink}
             >
-              <ArrowLeft size={16}/>
+              <ArrowLeft size={16} />
               Back to Blogs
             </Link>
 
@@ -124,7 +124,7 @@ export default function BlogPage() {
 
 
                 <div className={styles.meta}>
-                  <Clock size={14}/>
+                  <Clock size={14} />
                   {blog.date}
                 </div>
 
@@ -159,10 +159,10 @@ export default function BlogPage() {
 
 
                 {
-                  blog.sections?.map((section,index)=>(
+                  blog.sections?.map((section, index) => (
 
 
-                    <section 
+                    <section
                       className={styles.section}
                       key={index}
                     >
@@ -180,9 +180,9 @@ export default function BlogPage() {
                         <div className={styles.cards}>
 
                           {
-                            section.content.map((card,i)=>(
+                            section.content.map((card, i) => (
 
-                              <div 
+                              <div
                                 className={styles.card}
                                 key={i}
                               >
@@ -213,7 +213,7 @@ export default function BlogPage() {
                         <div className={styles.faq}>
 
                           {
-                            section.content.map((faq,i)=>(
+                            section.content.map((faq, i) => (
 
                               <div key={i}>
 
@@ -243,7 +243,7 @@ export default function BlogPage() {
                         <div className={styles.tags}>
 
                           {
-                            section.content.map((tag,i)=>(
+                            section.content.map((tag, i) => (
 
                               <span key={i}>
                                 {tag}
@@ -307,7 +307,7 @@ export default function BlogPage() {
                     className="btn-primary"
                   >
 
-                    <CalendarDays size={15}/>
+                    <CalendarDays size={15} />
                     Book Consultation
 
                   </Link>
@@ -326,7 +326,7 @@ export default function BlogPage() {
 
 
 
-          <AppointmentSidebar/>
+          <AppointmentSidebar />
 
 
         </div>

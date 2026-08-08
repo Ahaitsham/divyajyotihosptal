@@ -9,7 +9,6 @@ A full React.js hospital website built with Vite and React Router.
 - CSS Modules (styling)
 
 ## Getting Started
-
 ```bash
 npm install
 npm run dev      # development
@@ -17,7 +16,6 @@ npm run build    # production build
 ```
 
 ## Deploying to Vercel
-
 1. Push this folder to GitHub
 2. Import the repo in vercel.com
 3. Vercel auto-detects Vite — no extra settings needed
@@ -32,8 +30,6 @@ npm run build    # production build
    - `YOUR_TEMPLATE_ID`
    - `YOUR_PUBLIC_KEY`
 5. Install: `npm install @emailjs/browser`
-
-
 
 ## Updating Content
 All site content (doctors, services, blogs, etc.) is in:

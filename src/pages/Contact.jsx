@@ -3,29 +3,6 @@ import { Phone, Mail, MapPin, Clock, Send, CheckCircle2, MessageCircle } from 'l
 import { CONTACT } from '../data/siteData';
 import styles from './Contact.module.css';
 
-// ─── EMAILJS SETUP GUIDE ────────────────────────────────────────────────────
-//
-// The Gmail API error (412 insufficient scopes) happens when you connect
-// Gmail using "Gmail API" in EmailJS. Use PERSONAL EMAIL SERVICE instead:
-// 
-// CORRECT SETUP STEPS:
-// 1. Go to https://www.emailjs.com → Email Services → Add New Service
-// 2. Choose "Personal Email" (NOT Gmail API) OR "Gmail" via OAuth
-//    For Gmail OAuth: Click "Sign in with Google" → grant ALL requested scopes
-//    For other email: choose "Other" and enter your SMTP details
-// 3. Alternatively use SMTP directly:
-//    Host: smtp.gmail.com, Port: 587, User: your@gmail.com
-//    Password: a Gmail App Password (NOT your regular password)
-//    → Google Account → Security → 2FA enabled → App Passwords → generate one
-// 4. Create a Template with these variables (match exactly):
-//    {{from_name}}  {{from_phone}}  {{from_email}}  {{department}}  {{message}}
-// 5. Copy your Service ID, Template ID, and Public Key into the .env file:
-//    VITE_EMAILJS_SERVICE_ID=service_xxxxxxx
-//    VITE_EMAILJS_TEMPLATE_ID=template_xxxxxxx
-//    VITE_EMAILJS_PUBLIC_KEY=xxxxxxxxxxxxxxx
-//
-// Then uncomment the import and emailjs.send block below.
-// ────────────────────────────────────────────────────────────────────────────
 
 import emailjs from '@emailjs/browser'; // npm install @emailjs/browser
 
